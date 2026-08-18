@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dingle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand">dingle</span>
+  <nav>
+    <a href="index.html" class="active">Game</a>
+    <a href="lyrics.html">Lyric Finder</a>
+  </nav>
+</header>
+
+<main class="card">
+  <div class="attempts" id="attempts"></div>
+
+  <button id="playBtn" class="play-btn" aria-label="Play snippet">▶</button>
+
+  <div class="guess-row">
+    <div class="guess-field">
+      <input id="guessInput" type="text" placeholder="Guess the song…" autocomplete="off">
+      <ul id="suggestions" class="suggestions hidden"></ul>
+    </div>
+    <button id="skipBtn" class="secondary-btn">Skip</button>
+  </div>
+
+  <div id="feedback" class="feedback"></div>
+
+  <div id="reveal" class="reveal hidden">
+    <img id="revealCover" alt="">
+    <div>
+      <div id="revealTitle" class="reveal-title"></div>
+      <div id="revealArtist" class="reveal-artist"></div>
+    </div>
+  </div>
+
+  <button id="nextBtn" class="primary-btn hidden">Next song</button>
+</main>
+
+<audio id="player" preload="auto"></audio>
+<script src="app.js"></script>
+</body>
+</html>
