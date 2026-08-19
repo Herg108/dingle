@@ -65,6 +65,18 @@ def retry_song_video(song_id):
     return jsonify({"video_id": entry["video_id"]})
 
 
+@app.post("/api/songs/<song_id>/start-offset")
+def set_song_start_offset(song_id):
+    payload = request.get_json(force=True)
+    try:
+        entry = curation.set_start_offset(song_id, payload["offset"])
+    except KeyError:
+        return jsonify({"error": "song not found"}), 404
+    except (TypeError, ValueError):
+        return jsonify({"error": "invalid offset"}), 400
+    return jsonify({"start_offset": entry["start_offset"]})
+
+
 @app.get("/api/search-titles")
 def search_titles():
     query = request.args.get("q", "")

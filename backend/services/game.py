@@ -36,6 +36,7 @@ def start_round():
         "youtube_video_id": song["video_id"],
         "snippet_durations": SNIPPET_DURATIONS,
         "max_attempts": MAX_ATTEMPTS,
+        "start_offset": song.get("start_offset", 0.0),
     }
 
 

@@ -293,3 +293,53 @@ input[type="text"]:focus {
 
 .remove-btn:hover { background: #3a1f24; color: #ff8a8a; }
 .remove-btn:disabled { opacity: 0.5; cursor: default; }
+
+.offset-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.offset-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.offset-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.offset-label span {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.offset-controls {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.offset-btn {
+  padding: 0.35rem 0.55rem;
+  border-radius: 8px;
+  border: none;
+  background: var(--border);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.offset-btn:hover { background: #323744; }
+.offset-btn:active { transform: scale(0.95); }

@@ -9,6 +9,12 @@ const revealTitle = document.getElementById("revealTitle");
 const revealArtist = document.getElementById("revealArtist");
 const removeSongBtn = document.getElementById("removeSongBtn");
 const retryAudioBtn = document.getElementById("retryAudioBtn");
+const offsetValueEl = document.getElementById("offsetValue");
+const offsetMinusBigBtn = document.getElementById("offsetMinusBig");
+const offsetMinusBtn = document.getElementById("offsetMinus");
+const offsetPlusBtn = document.getElementById("offsetPlus");
+const offsetPlusBigBtn = document.getElementById("offsetPlusBig");
+const previewFirstHintBtn = document.getElementById("previewFirstHintBtn");
 const nextBtn = document.getElementById("nextBtn");
 const progressBarEl = document.getElementById("progressBar");
 const progressFill = document.getElementById("progressFill");
@@ -24,6 +30,7 @@ let currentSongId = null;
 let ytPlayer = null;
 let playerReady = false;
 let pendingVideoId = null;
+let previewTimer = null;
 
 const RESET_BLANK_MS = 120; // a deliberate blank beat so replays feel like a real reset
 
@@ -48,16 +55,19 @@ function updateProgressFill() {
     return;
   }
   const max = maxDuration();
-  const currentTime = ytPlayer ? ytPlayer.getCurrentTime() : 0;
+  const startOffset = state ? state.startOffset : 0;
+  const currentTime = ytPlayer ? Math.max(0, ytPlayer.getCurrentTime() - startOffset) : 0;
   const pct = max ? Math.min((currentTime / max) * 100, 100) : 0;
   progressFill.style.width = `${pct}%`;
   progressFill.classList.toggle("full", pct >= 100);
 }
 
 function enforceSnippetCutoff() {
-  if (isPlaying() && ytPlayer.getCurrentTime() >= snippetTarget) {
+  const startOffset = state ? state.startOffset : 0;
+  const cutoffAt = startOffset + snippetTarget;
+  if (isPlaying() && ytPlayer.getCurrentTime() >= cutoffAt) {
     ytPlayer.pauseVideo();
-    ytPlayer.seekTo(snippetTarget, true);
+    ytPlayer.seekTo(cutoffAt, true);
     return true;
   }
   return false;
@@ -141,6 +151,7 @@ async function startRound() {
     videoId: round.youtube_video_id,
     durations: round.snippet_durations,
     maxAttempts: round.max_attempts,
+    startOffset: round.start_offset || 0,
     attemptsUsed: 0,
     gameOver: false,
   };
@@ -188,7 +199,7 @@ async function playSnippet() {
   // Paused mid-clip (manually) vs. paused at the cutoff mean different things:
   // mid-clip should just continue; at the cutoff there's nothing left to
   // continue toward, so it's a fresh replay of the current hint from the top.
-  if (ytPlayer.getCurrentTime() < snippetTarget) {
+  if (ytPlayer.getCurrentTime() < state.startOffset + snippetTarget) {
     ytPlayer.playVideo();
     return;
   }
@@ -199,7 +210,7 @@ async function playSnippet() {
     snippetTarget = state.durations[Math.min(state.attemptsUsed, state.durations.length - 1)];
     updateTargetIndicator();
   }
-  ytPlayer.seekTo(0, true);
+  ytPlayer.seekTo(state.startOffset, true);
   revealAt = performance.now() + RESET_BLANK_MS;
   progressFill.classList.remove("smooth");
   progressFill.style.width = "0%";
@@ -266,13 +277,14 @@ async function submitGuess(guess) {
     revealCover.src = result.reveal.cover;
     revealTitle.textContent = result.reveal.title;
     revealArtist.textContent = result.reveal.artist;
+    offsetValueEl.textContent = `${state.startOffset.toFixed(1)}s`;
     revealSectionEl.classList.add("expanded");
     guessInput.disabled = true;
     skipBtn.disabled = true;
 
     snippetTarget = Infinity; // no more cutoff — let it keep playing through the reveal
     if (!isPlaying() && playerReady) {
-      ytPlayer.seekTo(0, true);
+      ytPlayer.seekTo(state.startOffset, true);
       revealAt = 0;
       ytPlayer.playVideo();
     }
@@ -303,6 +315,56 @@ nextBtn.addEventListener("click", async () => {
   await new Promise((r) => setTimeout(r, 360)); // let the collapse play before the round swap
   startRound();
 });
+
+// Some songs' YouTube audio has a beat of dead air before the track actually
+// starts, which wastes the whole 0.2s first hint. This lets the offset be
+// nudged and instantly previewed from the reveal screen, and persists per
+// song so every future round for that track starts in the right place.
+async function adjustStartOffset(delta) {
+  if (!currentSongId || !state) return;
+  const newOffset = Math.max(0, Math.round((state.startOffset + delta) * 10) / 10);
+  state.startOffset = newOffset;
+  offsetValueEl.textContent = `${newOffset.toFixed(1)}s`;
+
+  fetch(`/api/songs/${encodeURIComponent(currentSongId)}/start-offset`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ offset: newOffset }),
+  });
+
+  if (playerReady) {
+    clearTimeout(previewTimer);
+    ytPlayer.seekTo(newOffset, true);
+    ytPlayer.playVideo();
+    previewTimer = setTimeout(() => {
+      if (isPlaying()) ytPlayer.pauseVideo();
+    }, 1500);
+  }
+}
+
+offsetMinusBigBtn.addEventListener("click", () => adjustStartOffset(-0.5));
+offsetMinusBtn.addEventListener("click", () => adjustStartOffset(-0.1));
+offsetPlusBtn.addEventListener("click", () => adjustStartOffset(0.1));
+offsetPlusBigBtn.addEventListener("click", () => adjustStartOffset(0.5));
+
+// Plays exactly the real first-hint duration from the current offset, via
+// the same tick()/enforceSnippetCutoff() machinery a real round uses — so
+// this is a true preview of what a player would actually hear, not an
+// approximation. The longer nudge preview above is easy to hear regardless
+// of precision; this is the one that actually tells you if 0.2s lands right.
+async function previewFirstHint() {
+  if (!playerReady || !state) return;
+  await waitUntilCueable();
+  clearTimeout(previewTimer);
+  snippetTarget = state.durations[0];
+  updateTargetIndicator();
+  revealAt = 0;
+  progressFill.classList.remove("smooth");
+  ytPlayer.seekTo(state.startOffset, true);
+  ytPlayer.playVideo();
+}
+
+previewFirstHintBtn.addEventListener("click", previewFirstHint);
 
 removeSongBtn.addEventListener("click", async () => {
   if (!currentSongId) return;
