@@ -8,7 +8,7 @@ from flask import Flask, jsonify, request, send_from_directory
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
-from services import deezer, game, genius  # noqa: E402
+from services import curation, deezer, game, youtube  # noqa: E402
 
 FRONTEND_DIR = Path(__file__).resolve().parent.parent / "frontend"
 
@@ -27,7 +27,12 @@ def frontend_files(filename):
 
 @app.get("/api/round/new")
 def round_new():
-    return jsonify(game.start_round())
+    try:
+        return jsonify(game.start_round())
+    except game.NoPlayableTrackError:
+        return jsonify({"error": "no playable track found, try again"}), 502
+    except youtube.YouTubeError as e:
+        return jsonify({"error": str(e)}), 502
 
 
 @app.post("/api/round/guess")
@@ -40,23 +45,32 @@ def round_guess():
     return jsonify(result)
 
 
+@app.post("/api/songs/<song_id>/remove")
+def remove_song(song_id):
+    try:
+        curation.remove_song(song_id)
+    except KeyError:
+        return jsonify({"error": "song not found"}), 404
+    return jsonify({"ok": True})
+
+
+@app.post("/api/songs/<song_id>/retry-video")
+def retry_song_video(song_id):
+    try:
+        entry = curation.retry_video(song_id)
+    except KeyError:
+        return jsonify({"error": "song not found"}), 404
+    except youtube.YouTubeError as e:
+        return jsonify({"error": str(e)}), 502
+    return jsonify({"video_id": entry["video_id"]})
+
+
 @app.get("/api/search-titles")
 def search_titles():
     query = request.args.get("q", "")
     if not query:
         return jsonify([])
     return jsonify(deezer.search_titles(query))
-
-
-@app.get("/api/lyrics-search")
-def lyrics_search():
-    query = request.args.get("q", "")
-    if not query:
-        return jsonify([])
-    try:
-        return jsonify(genius.search_by_lyrics(query))
-    except genius.GeniusError as e:
-        return jsonify({"error": str(e)}), 502
 
 
 if __name__ == "__main__":

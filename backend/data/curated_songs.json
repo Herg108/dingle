@@ -1,0 +1,5492 @@
+{
+  "Queen::Bohemian Rhapsody": {
+    "id": "Queen::Bohemian Rhapsody",
+    "artist": "Queen",
+    "title": "Bohemian Rhapsody",
+    "decade": "1960s-70s",
+    "video_id": "XHrdsx8izBs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0b56f4eee05fa1ea753c5654b2cdb70c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Queen::We Will Rock You": {
+    "id": "Queen::We Will Rock You",
+    "artist": "Queen",
+    "title": "We Will Rock You",
+    "decade": "1960s-70s",
+    "video_id": "vDRVTnbuGec",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7a423dd31a478954f492c560ae90559d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Queen::We Are the Champions": {
+    "id": "Queen::We Are the Champions",
+    "artist": "Queen",
+    "title": "We Are the Champions",
+    "decade": "1960s-70s",
+    "video_id": "lxHuY6DgSJQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3856be3ba91c7009c6e469d9e57c7ea9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Led Zeppelin::Stairway to Heaven": {
+    "id": "Led Zeppelin::Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "title": "Stairway to Heaven",
+    "decade": "1960s-70s",
+    "video_id": "QkF3oxziUI4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/460a0edd96f743be03b7405eac38c633/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Eagles::Hotel California": {
+    "id": "Eagles::Hotel California",
+    "artist": "Eagles",
+    "title": "Hotel California",
+    "decade": "1960s-70s",
+    "video_id": "BciS5krYL80",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2d8ad0dfdf16395cf21cb153f806b094/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Fleetwood Mac::Dreams": {
+    "id": "Fleetwood Mac::Dreams",
+    "artist": "Fleetwood Mac",
+    "title": "Dreams",
+    "decade": "1960s-70s",
+    "video_id": "5oWyMakvQew",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/9732751ce91d786dcf30069853697078/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Fleetwood Mac::Go Your Own Way": {
+    "id": "Fleetwood Mac::Go Your Own Way",
+    "artist": "Fleetwood Mac",
+    "title": "Go Your Own Way",
+    "decade": "1960s-70s",
+    "video_id": "oiosqtFLBBA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/9732751ce91d786dcf30069853697078/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Stevie Wonder::Superstition": {
+    "id": "Stevie Wonder::Superstition",
+    "artist": "Stevie Wonder",
+    "title": "Superstition",
+    "decade": "1960s-70s",
+    "video_id": "ftdZ363R9kQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/dc11aaf0240dbaf1548639e1c5df8db8/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Elton John::Rocket Man": {
+    "id": "Elton John::Rocket Man",
+    "artist": "Elton John",
+    "title": "Rocket Man",
+    "decade": "1960s-70s",
+    "video_id": "GuyGoiQkWAo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/56121010d25e75058e2cc817037ad19b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Elton John::Your Song": {
+    "id": "Elton John::Your Song",
+    "artist": "Elton John",
+    "title": "Your Song",
+    "decade": "1960s-70s",
+    "video_id": "FT3D1Cu6g10",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/dba55570a13a8be5d20e457a75091dd5/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "David Bowie::Heroes": {
+    "id": "David Bowie::Heroes",
+    "artist": "David Bowie",
+    "title": "Heroes",
+    "decade": "1960s-70s",
+    "video_id": "44FId4BpMx0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5fb91018679f65199308256be3c584ab/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "David Bowie::Space Oddity": {
+    "id": "David Bowie::Space Oddity",
+    "artist": "David Bowie",
+    "title": "Space Oddity",
+    "decade": "1960s-70s",
+    "video_id": "tRNpjt29n6Y",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8bd4a046f3d8c8895d9aff00a3b7c2df/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "ABBA::Dancing Queen": {
+    "id": "ABBA::Dancing Queen",
+    "artist": "ABBA",
+    "title": "Dancing Queen",
+    "decade": "1960s-70s",
+    "video_id": "Do8oqR2TR1M",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b8b70d474b7a8f27799e0d665e9b737e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bee Gees::Stayin' Alive": {
+    "id": "Bee Gees::Stayin' Alive",
+    "artist": "Bee Gees",
+    "title": "Stayin' Alive",
+    "decade": "1960s-70s",
+    "video_id": "aZ5fQyiZgns",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/062e4071ebfc701e5f1ca935e69a0b5b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Earth, Wind & Fire::September": {
+    "id": "Earth, Wind & Fire::September",
+    "artist": "Earth, Wind & Fire",
+    "title": "September",
+    "decade": "1960s-70s",
+    "video_id": "AWXub7E5moM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/18f41ecd3781fb96bffa2b0b49955db5/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bill Withers::Ain't No Sunshine": {
+    "id": "Bill Withers::Ain't No Sunshine",
+    "artist": "Bill Withers",
+    "title": "Ain't No Sunshine",
+    "decade": "1960s-70s",
+    "video_id": "YuKfiH0Scao",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0a582ace7dda823714f8eaaa74ab9505/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bill Withers::Lean on Me": {
+    "id": "Bill Withers::Lean on Me",
+    "artist": "Bill Withers",
+    "title": "Lean on Me",
+    "decade": "1960s-70s",
+    "video_id": "fOZ-MySzAac",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8aa831db8c4edee0e7139a37ed94b771/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Billy Joel::Piano Man": {
+    "id": "Billy Joel::Piano Man",
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "decade": "1960s-70s",
+    "video_id": "QwVjTlTdIDQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f61883eed26156899dc5086ce8e25885/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Jackson 5::I Want You Back": {
+    "id": "The Jackson 5::I Want You Back",
+    "artist": "The Jackson 5",
+    "title": "I Want You Back",
+    "decade": "1960s-70s",
+    "video_id": "UvynvnxZJ3Q",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6097a6304e58084181a2419595d88945/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Donna Summer::I Feel Love": {
+    "id": "Donna Summer::I Feel Love",
+    "artist": "Donna Summer",
+    "title": "I Feel Love",
+    "decade": "1960s-70s",
+    "video_id": "nTNcCKq6V2c",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ea1606754d544698a6a711301e0c7082/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "KC and the Sunshine Band::Get Down Tonight": {
+    "id": "KC and the Sunshine Band::Get Down Tonight",
+    "artist": "KC and the Sunshine Band",
+    "title": "Get Down Tonight",
+    "decade": "1960s-70s",
+    "video_id": "BXIBEW5MLuU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/df873988552764e7d52883cf932d3f8c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Beatles::Hey Jude": {
+    "id": "The Beatles::Hey Jude",
+    "artist": "The Beatles",
+    "title": "Hey Jude",
+    "decade": "1960s-70s",
+    "video_id": "mQER0A0ej0M",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c65b3bd84e81056e060be144381c06c8/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Beatles::Let It Be": {
+    "id": "The Beatles::Let It Be",
+    "artist": "The Beatles",
+    "title": "Let It Be",
+    "decade": "1960s-70s",
+    "video_id": "QDYfEBY9NM4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fcf05300b7c17ec77a6d01028a4bef61/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Beatles::Here Comes the Sun": {
+    "id": "The Beatles::Here Comes the Sun",
+    "artist": "The Beatles",
+    "title": "Here Comes the Sun",
+    "decade": "1960s-70s",
+    "video_id": "GKdl-GCsNJ0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/aa94ab293730bb7845d2aa8c672b2c29/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Rolling Stones::(I Can't Get No) Satisfaction": {
+    "id": "The Rolling Stones::(I Can't Get No) Satisfaction",
+    "artist": "The Rolling Stones",
+    "title": "(I Can't Get No) Satisfaction",
+    "decade": "1960s-70s",
+    "video_id": "eUpb-ALfUzc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0d3be6936cd5a5e81db72f04ed75e4fb/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Beach Boys::Good Vibrations": {
+    "id": "The Beach Boys::Good Vibrations",
+    "artist": "The Beach Boys",
+    "title": "Good Vibrations",
+    "decade": "1960s-70s",
+    "video_id": "jkPyB-g3asI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ab113555b056cb808b050dff43a9590a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Aretha Franklin::Respect": {
+    "id": "Aretha Franklin::Respect",
+    "artist": "Aretha Franklin",
+    "title": "Respect",
+    "decade": "1960s-70s",
+    "video_id": "9iayJ8u4Qew",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f57fe49a9f12ce5b3978d3d51df0ad63/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Otis Redding::(Sittin' On) The Dock of the Bay": {
+    "id": "Otis Redding::(Sittin' On) The Dock of the Bay",
+    "artist": "Otis Redding",
+    "title": "(Sittin' On) The Dock of the Bay",
+    "decade": "1960s-70s",
+    "video_id": "7C-VscEQugk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/539e2e0041a338e69e2aa4b3469470f7/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Supremes::You Can't Hurry Love": {
+    "id": "The Supremes::You Can't Hurry Love",
+    "artist": "The Supremes",
+    "title": "You Can't Hurry Love",
+    "decade": "1960s-70s",
+    "video_id": "nq_TX5ZR0rU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1963e8f3263eb87429af101a5d92d9f6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Marvin Gaye::I Heard It Through the Grapevine": {
+    "id": "Marvin Gaye::I Heard It Through the Grapevine",
+    "artist": "Marvin Gaye",
+    "title": "I Heard It Through the Grapevine",
+    "decade": "1960s-70s",
+    "video_id": "VWG3npfEoHo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a2094551d4f7c96332664c9b520501e1/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Simon & Garfunkel::The Sound of Silence": {
+    "id": "Simon & Garfunkel::The Sound of Silence",
+    "artist": "Simon & Garfunkel",
+    "title": "The Sound of Silence",
+    "decade": "1960s-70s",
+    "video_id": "9O9DaZUS_EU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ee280bc8e2b755de6e3560a3c4527592/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bob Dylan::Like a Rolling Stone": {
+    "id": "Bob Dylan::Like a Rolling Stone",
+    "artist": "Bob Dylan",
+    "title": "Like a Rolling Stone",
+    "decade": "1960s-70s",
+    "video_id": "IwOfCgkyEj0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/96193f14db0501c035bd43ab93960317/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Elvis Presley::Jailhouse Rock": {
+    "id": "Elvis Presley::Jailhouse Rock",
+    "artist": "Elvis Presley",
+    "title": "Jailhouse Rock",
+    "decade": "1960s-70s",
+    "video_id": "PpsUOOfb-vE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f4f40fc6242913c12064a9f594992522/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Chuck Berry::Johnny B. Goode": {
+    "id": "Chuck Berry::Johnny B. Goode",
+    "artist": "Chuck Berry",
+    "title": "Johnny B. Goode",
+    "decade": "1960s-70s",
+    "video_id": "Y-9Y4CCIWnM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8e490d3a7992288d830395717a38a128/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Michael Jackson::Billie Jean": {
+    "id": "Michael Jackson::Billie Jean",
+    "artist": "Michael Jackson",
+    "title": "Billie Jean",
+    "decade": "1980s",
+    "video_id": "Kr4EQDVETuA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a0ad67d1beb761f2cb9f8b60e5bcf07a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Michael Jackson::Thriller": {
+    "id": "Michael Jackson::Thriller",
+    "artist": "Michael Jackson",
+    "title": "Thriller",
+    "decade": "1980s",
+    "video_id": "sO4vI8P88NM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/92a024220a9532489c75c9d994835697/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Michael Jackson::Beat It": {
+    "id": "Michael Jackson::Beat It",
+    "artist": "Michael Jackson",
+    "title": "Beat It",
+    "decade": "1980s",
+    "video_id": "kOn-HdEg6AQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a0ad67d1beb761f2cb9f8b60e5bcf07a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Whitney Houston::I Wanna Dance with Somebody": {
+    "id": "Whitney Houston::I Wanna Dance with Somebody",
+    "artist": "Whitney Houston",
+    "title": "I Wanna Dance with Somebody",
+    "decade": "1980s",
+    "video_id": "2dzf4T3RbEc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/26b5030b971a5fd363f82cad8cff7453/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Whitney Houston::How Will I Know": {
+    "id": "Whitney Houston::How Will I Know",
+    "artist": "Whitney Houston",
+    "title": "How Will I Know",
+    "decade": "1980s",
+    "video_id": "GaHGs455wcI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ac85bc3f01075fd854ff04f4446a7d6e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Madonna::Like a Virgin": {
+    "id": "Madonna::Like a Virgin",
+    "artist": "Madonna",
+    "title": "Like a Virgin",
+    "decade": "1980s",
+    "video_id": "NIML4qW8-D0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3836708e2d450cdaa61341112b972228/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Madonna::Material Girl": {
+    "id": "Madonna::Material Girl",
+    "artist": "Madonna",
+    "title": "Material Girl",
+    "decade": "1980s",
+    "video_id": "UZton86SuOg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/329c772be6103678d4c53c43d293cd51/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Prince::Purple Rain": {
+    "id": "Prince::Purple Rain",
+    "artist": "Prince",
+    "title": "Purple Rain",
+    "decade": "1980s",
+    "video_id": "iSBVeZrDfGY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8cc37398de3ee92bd31d286f30e7972d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Prince::When Doves Cry": {
+    "id": "Prince::When Doves Cry",
+    "artist": "Prince",
+    "title": "When Doves Cry",
+    "decade": "1980s",
+    "video_id": "Izx6DQUrsag",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/526d2d27a16da94b6f46fa4e786a34c9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "a-ha::Take On Me": {
+    "id": "a-ha::Take On Me",
+    "artist": "a-ha",
+    "title": "Take On Me",
+    "decade": "1980s",
+    "video_id": "NaQ083rNUwc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1a28cc1fde787f09921e900ac60c84bf/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Journey::Don't Stop Believin'": {
+    "id": "Journey::Don't Stop Believin'",
+    "artist": "Journey",
+    "title": "Don't Stop Believin'",
+    "decade": "1980s",
+    "video_id": "1k8craCGpgs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b4ec4a1a920d792dd7d8d15dc29f0a39/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Guns N' Roses::Sweet Child O' Mine": {
+    "id": "Guns N' Roses::Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "title": "Sweet Child O' Mine",
+    "decade": "1980s",
+    "video_id": "aEMool3DlIU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8bfe7b3b0985d9ff0751090fb2b6f73f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bon Jovi::Livin' on a Prayer": {
+    "id": "Bon Jovi::Livin' on a Prayer",
+    "artist": "Bon Jovi",
+    "title": "Livin' on a Prayer",
+    "decade": "1980s",
+    "video_id": "_JUVyWslDnk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1f0365311a9d03c267f175e0ef79f40c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Cyndi Lauper::Girls Just Want to Have Fun": {
+    "id": "Cyndi Lauper::Girls Just Want to Have Fun",
+    "artist": "Cyndi Lauper",
+    "title": "Girls Just Want to Have Fun",
+    "decade": "1980s",
+    "video_id": "jRr5EasAq84",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/48bcf7415317ec8dc1181ee55b4b0aeb/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Tears for Fears::Everybody Wants to Rule the World": {
+    "id": "Tears for Fears::Everybody Wants to Rule the World",
+    "artist": "Tears for Fears",
+    "title": "Everybody Wants to Rule the World",
+    "decade": "1980s",
+    "video_id": "cbMBdOIHplw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/25f0dfa34a57c6299ce3b134b257ee89/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Duran Duran::Hungry Like the Wolf": {
+    "id": "Duran Duran::Hungry Like the Wolf",
+    "artist": "Duran Duran",
+    "title": "Hungry Like the Wolf",
+    "decade": "1980s",
+    "video_id": "yLrF5j7up9Q",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3ed10ab812e802c87e423db20800f678/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Police::Every Breath You Take": {
+    "id": "The Police::Every Breath You Take",
+    "artist": "The Police",
+    "title": "Every Breath You Take",
+    "decade": "1980s",
+    "video_id": "6cucosmPj-A",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/316afdaed93c4a18cf730389648d03d6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Toto::Africa": {
+    "id": "Toto::Africa",
+    "artist": "Toto",
+    "title": "Africa",
+    "decade": "1980s",
+    "video_id": "aCFLgavufaY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/153332e88a14255a8c3d5959a5a21882/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Eurythmics::Sweet Dreams (Are Made of This)": {
+    "id": "Eurythmics::Sweet Dreams (Are Made of This)",
+    "artist": "Eurythmics",
+    "title": "Sweet Dreams (Are Made of This)",
+    "decade": "1980s",
+    "video_id": "ozSe_W2C86g",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/364f0d4ea4b5452b59e6664b9e5480f0/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Van Halen::Jump": {
+    "id": "Van Halen::Jump",
+    "artist": "Van Halen",
+    "title": "Jump",
+    "decade": "1980s",
+    "video_id": "ggJI9dKBk48",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0649448bcdeeeb48c25edc0e83653711/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Def Leppard::Pour Some Sugar on Me": {
+    "id": "Def Leppard::Pour Some Sugar on Me",
+    "artist": "Def Leppard",
+    "title": "Pour Some Sugar on Me",
+    "decade": "1980s",
+    "video_id": "Rqs4cMyMLnY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/86d5af2077f5b6ef18fd0ca158a91134/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "INXS::Never Tear Us Apart": {
+    "id": "INXS::Never Tear Us Apart",
+    "artist": "INXS",
+    "title": "Never Tear Us Apart",
+    "decade": "1980s",
+    "video_id": "qlG16vQw0tc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2e5d78c5666d60054036a913a702677f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "George Michael::Faith": {
+    "id": "George Michael::Faith",
+    "artist": "George Michael",
+    "title": "Faith",
+    "decade": "1980s",
+    "video_id": "N61LHFFfiik",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f24a4351040ae09175cbd775607aafe6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Wham!::Wake Me Up Before You Go-Go": {
+    "id": "Wham!::Wake Me Up Before You Go-Go",
+    "artist": "Wham!",
+    "title": "Wake Me Up Before You Go-Go",
+    "decade": "1980s",
+    "video_id": "c5DGcQoBC9k",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3c1858a4aa5d732a60c8cfcf424f24ef/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Phil Collins::In the Air Tonight": {
+    "id": "Phil Collins::In the Air Tonight",
+    "artist": "Phil Collins",
+    "title": "In the Air Tonight",
+    "decade": "1980s",
+    "video_id": "CFDFX4Ao-UY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/73e6481676a8ab3e93f0f7b79a9cff68/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Nirvana::Smells Like Teen Spirit": {
+    "id": "Nirvana::Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "title": "Smells Like Teen Spirit",
+    "decade": "1990s",
+    "video_id": "XRCKP_2LGl0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/10e6b28ed3ec7c157844b3187d0ac2f4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Whitney Houston::I Will Always Love You": {
+    "id": "Whitney Houston::I Will Always Love You",
+    "artist": "Whitney Houston",
+    "title": "I Will Always Love You",
+    "decade": "1990s",
+    "video_id": "tP0zj220CbQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d071ab8d81111be6434c2f2cf372ab13/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Mariah Carey::All I Want for Christmas Is You": {
+    "id": "Mariah Carey::All I Want for Christmas Is You",
+    "artist": "Mariah Carey",
+    "title": "All I Want for Christmas Is You",
+    "decade": "1990s",
+    "video_id": "ueLKoC0wFJo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/60d8f7635ead9b3c5e571aec47a8c73e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "TLC::No Scrubs": {
+    "id": "TLC::No Scrubs",
+    "artist": "TLC",
+    "title": "No Scrubs",
+    "decade": "1990s",
+    "video_id": "18SwG-kep7s",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6dd5f40e7688ba155a5ef557977e95d3/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "TLC::Waterfalls": {
+    "id": "TLC::Waterfalls",
+    "artist": "TLC",
+    "title": "Waterfalls",
+    "decade": "1990s",
+    "video_id": "R09S7CNPhFs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3134fd3fba883b4e6c8df8dc1487dbef/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Backstreet Boys::I Want It That Way": {
+    "id": "Backstreet Boys::I Want It That Way",
+    "artist": "Backstreet Boys",
+    "title": "I Want It That Way",
+    "decade": "1990s",
+    "video_id": "z6Wq59qrdB0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d61eaad8f321ea876a5f5c7219aae892/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "*NSYNC::Bye Bye Bye": {
+    "id": "*NSYNC::Bye Bye Bye",
+    "artist": "*NSYNC",
+    "title": "Bye Bye Bye",
+    "decade": "1990s",
+    "video_id": "C27NShgTQE4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d21873bd05cc426a9b502ab7eb184120/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Britney Spears::...Baby One More Time": {
+    "id": "Britney Spears::...Baby One More Time",
+    "artist": "Britney Spears",
+    "title": "...Baby One More Time",
+    "decade": "1990s",
+    "video_id": "fEfvTTJNeAY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f685d32254a59b6162be0d1082ff8805/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Spice Girls::Wannabe": {
+    "id": "Spice Girls::Wannabe",
+    "artist": "Spice Girls",
+    "title": "Wannabe",
+    "decade": "1990s",
+    "video_id": "SZDbNmM3gqo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f30c9be6c185600e93ba4057d72264f9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Alanis Morissette::Ironic": {
+    "id": "Alanis Morissette::Ironic",
+    "artist": "Alanis Morissette",
+    "title": "Ironic",
+    "decade": "1990s",
+    "video_id": "AakBK5leleE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/191593fa5b96cd100998796195095c8f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Oasis::Wonderwall": {
+    "id": "Oasis::Wonderwall",
+    "artist": "Oasis",
+    "title": "Wonderwall",
+    "decade": "1990s",
+    "video_id": "FVdjZYfDuLE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ddb062c517401ee74d8a4df6f895d75e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Radiohead::Creep": {
+    "id": "Radiohead::Creep",
+    "artist": "Radiohead",
+    "title": "Creep",
+    "decade": "1990s",
+    "video_id": "4BX5xpB2DBM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1dd56fd8824492e1a5106c99a00a85ec/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Green Day::Basket Case": {
+    "id": "Green Day::Basket Case",
+    "artist": "Green Day",
+    "title": "Basket Case",
+    "decade": "1990s",
+    "video_id": "AJDiYxKSAqQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1e17054b7bfa6576f64ea867b71ef479/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Red Hot Chili Peppers::Under the Bridge": {
+    "id": "Red Hot Chili Peppers::Under the Bridge",
+    "artist": "Red Hot Chili Peppers",
+    "title": "Under the Bridge",
+    "decade": "1990s",
+    "video_id": "GLvohMXgcBo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e3f1bee87b1d5d1313641762f375a3fb/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "R.E.M.::Losing My Religion": {
+    "id": "R.E.M.::Losing My Religion",
+    "artist": "R.E.M.",
+    "title": "Losing My Religion",
+    "decade": "1990s",
+    "video_id": "japBNRP47-8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a968ed3814acb2ef8f3929b1bebcb42d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Toni Braxton::Un-Break My Heart": {
+    "id": "Toni Braxton::Un-Break My Heart",
+    "artist": "Toni Braxton",
+    "title": "Un-Break My Heart",
+    "decade": "1990s",
+    "video_id": "8ggLv1kWOxY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/cb185c2e379f6539745512a323622ff9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Boyz II Men::End of the Road": {
+    "id": "Boyz II Men::End of the Road",
+    "artist": "Boyz II Men",
+    "title": "End of the Road",
+    "decade": "1990s",
+    "video_id": "IrcwyrjXsBI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5b0ff3a0b5738c0c163758e2829f9f54/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Celine Dion::My Heart Will Go On": {
+    "id": "Celine Dion::My Heart Will Go On",
+    "artist": "Celine Dion",
+    "title": "My Heart Will Go On",
+    "decade": "1990s",
+    "video_id": "mNsm2P0l_7Y",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1a0c750fc722793ff079a87c3d878203/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Shania Twain::Man! I Feel Like a Woman!": {
+    "id": "Shania Twain::Man! I Feel Like a Woman!",
+    "artist": "Shania Twain",
+    "title": "Man! I Feel Like a Woman!",
+    "decade": "1990s",
+    "video_id": "o9OUSh_ADJ0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/74246a0cb90313ed6e81552b616e81eb/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Notorious B.I.G.::Juicy": {
+    "id": "The Notorious B.I.G.::Juicy",
+    "artist": "The Notorious B.I.G.",
+    "title": "Juicy",
+    "decade": "1990s",
+    "video_id": "7Y8VPQcPHhY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7143c2cd04a78c9c969d230c69465a03/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "2Pac::California Love": {
+    "id": "2Pac::California Love",
+    "artist": "2Pac",
+    "title": "California Love",
+    "decade": "1990s",
+    "video_id": "J7_bMdYfSws",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/924830874f01bb19bfa6153f0e428e15/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Dr. Dre::Nuthin' but a 'G' Thang": {
+    "id": "Dr. Dre::Nuthin' but a 'G' Thang",
+    "artist": "Dr. Dre",
+    "title": "Nuthin' but a 'G' Thang",
+    "decade": "1990s",
+    "video_id": "i4B5VcoaS9s",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/36cffacf94fdcc49921affe8a865f6f1/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Coolio::Gangsta's Paradise": {
+    "id": "Coolio::Gangsta's Paradise",
+    "artist": "Coolio",
+    "title": "Gangsta's Paradise",
+    "decade": "1990s",
+    "video_id": "7DXlY8LhWnI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a123b2c32996a8c8664a82cb4219ce0c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Beastie Boys::Sabotage": {
+    "id": "Beastie Boys::Sabotage",
+    "artist": "Beastie Boys",
+    "title": "Sabotage",
+    "decade": "1990s",
+    "video_id": "2WHFTRArC44",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fa78eb123d50cb183e6089746364a66b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "No Doubt::Don't Speak": {
+    "id": "No Doubt::Don't Speak",
+    "artist": "No Doubt",
+    "title": "Don't Speak",
+    "decade": "1990s",
+    "video_id": "TR3Vdo5etCQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/97b81fddd1fa280adb7ebc41c5a255e6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sublime::Santeria": {
+    "id": "Sublime::Santeria",
+    "artist": "Sublime",
+    "title": "Santeria",
+    "decade": "1990s",
+    "video_id": "upoEYQ7dcEk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e59ad92844acb32752d14e0f16bff6b2/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Smash Mouth::All Star": {
+    "id": "Smash Mouth::All Star",
+    "artist": "Smash Mouth",
+    "title": "All Star",
+    "decade": "1990s",
+    "video_id": "w2vtypzmZls",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/34a4542cb4e8a54639674ed6aab1bd65/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Run-D.M.C.::Walk This Way": {
+    "id": "Run-D.M.C.::Walk This Way",
+    "artist": "Run-D.M.C.",
+    "title": "Walk This Way",
+    "decade": "1990s",
+    "video_id": "xUScFNXAq0w",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6d818c116450680a05bf66d5cc146e6f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Salt-N-Pepa::Push It": {
+    "id": "Salt-N-Pepa::Push It",
+    "artist": "Salt-N-Pepa",
+    "title": "Push It",
+    "decade": "1990s",
+    "video_id": "k4onJ7Z2MLI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2e411497621e7463b9b6d28447b010f6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Beyonc\u00e9::Crazy in Love": {
+    "id": "Beyonc\u00e9::Crazy in Love",
+    "artist": "Beyonc\u00e9",
+    "title": "Crazy in Love",
+    "decade": "2000s",
+    "video_id": "JxMZPdZLehs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1ea1a631aa5235bbd0063643beb96fa8/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Beyonc\u00e9::Single Ladies (Put a Ring on It)": {
+    "id": "Beyonc\u00e9::Single Ladies (Put a Ring on It)",
+    "artist": "Beyonc\u00e9",
+    "title": "Single Ladies (Put a Ring on It)",
+    "decade": "2000s",
+    "video_id": "CQpTT64uFcA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1f0450a010b5a825194d7ca00b3067ab/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Outkast::Hey Ya!": {
+    "id": "Outkast::Hey Ya!",
+    "artist": "Outkast",
+    "title": "Hey Ya!",
+    "decade": "2000s",
+    "video_id": "RqIRp4QE-1k",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f81783b6cc6030733cd475f820855562/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Usher::Yeah!": {
+    "id": "Usher::Yeah!",
+    "artist": "Usher",
+    "title": "Yeah!",
+    "decade": "2000s",
+    "video_id": "iCL04cxeMOE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b89c20012cccb051c8a4e04d98386f95/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Eminem::Lose Yourself": {
+    "id": "Eminem::Lose Yourself",
+    "artist": "Eminem",
+    "title": "Lose Yourself",
+    "decade": "2000s",
+    "video_id": "tR1ECf4sEpw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e2b36a9fda865cb2e9ed1476b6291a7d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Eminem::Without Me": {
+    "id": "Eminem::Without Me",
+    "artist": "Eminem",
+    "title": "Without Me",
+    "decade": "2000s",
+    "video_id": "N9KSvSBfFYA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kelly Clarkson::Since U Been Gone": {
+    "id": "Kelly Clarkson::Since U Been Gone",
+    "artist": "Kelly Clarkson",
+    "title": "Since U Been Gone",
+    "decade": "2000s",
+    "video_id": "yxIqnnIleqs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/28e22f7237d847cf00f8aae9a4efd723/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Avril Lavigne::Complicated": {
+    "id": "Avril Lavigne::Complicated",
+    "artist": "Avril Lavigne",
+    "title": "Complicated",
+    "decade": "2000s",
+    "video_id": "5eGbnVlRcRg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1130d6301d5e87976279ea2f706fcc26/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Christina Aguilera::Beautiful": {
+    "id": "Christina Aguilera::Beautiful",
+    "artist": "Christina Aguilera",
+    "title": "Beautiful",
+    "decade": "2000s",
+    "video_id": "hyaoUgVKLr0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ddfba44fe751639d7d8606cbdbec47dc/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Justin Timberlake::Cry Me a River": {
+    "id": "Justin Timberlake::Cry Me a River",
+    "artist": "Justin Timberlake",
+    "title": "Cry Me a River",
+    "decade": "2000s",
+    "video_id": "zpgMbWkTnPU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7cba368fa8466d72d149264577cb19d7/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Rihanna::Umbrella": {
+    "id": "Rihanna::Umbrella",
+    "artist": "Rihanna",
+    "title": "Umbrella",
+    "decade": "2000s",
+    "video_id": "EPtrQpx9VDw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/91276466fbc876d96be9e6926060af60/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Amy Winehouse::Rehab": {
+    "id": "Amy Winehouse::Rehab",
+    "artist": "Amy Winehouse",
+    "title": "Rehab",
+    "decade": "2000s",
+    "video_id": "PdxH9DkUIjM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5772b495f0dcdf660d0fc88c4c38a3fa/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Coldplay::Yellow": {
+    "id": "Coldplay::Yellow",
+    "artist": "Coldplay",
+    "title": "Yellow",
+    "decade": "2000s",
+    "video_id": "q7mlB-adMBc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/970dce98eeea6729244c0ae71707a83d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Coldplay::Clocks": {
+    "id": "Coldplay::Clocks",
+    "artist": "Coldplay",
+    "title": "Clocks",
+    "decade": "2000s",
+    "video_id": "PFW2uSCZ0uE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5ba1787e1ec36dbbca38ff01fea8fb21/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Green Day::Boulevard of Broken Dreams": {
+    "id": "Green Day::Boulevard of Broken Dreams",
+    "artist": "Green Day",
+    "title": "Boulevard of Broken Dreams",
+    "decade": "2000s",
+    "video_id": "hBvJyi3fbtA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4a2497e819405074b107b3bce1d95cf9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Linkin Park::In the End": {
+    "id": "Linkin Park::In the End",
+    "artist": "Linkin Park",
+    "title": "In the End",
+    "decade": "2000s",
+    "video_id": "gB9P0kpc1O4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/033a271b5ec10842c287827c39244fb5/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Evanescence::Bring Me to Life": {
+    "id": "Evanescence::Bring Me to Life",
+    "artist": "Evanescence",
+    "title": "Bring Me to Life",
+    "decade": "2000s",
+    "video_id": "Yhwal9i1uyw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/56c02d3764f5a078ceecd27b64b7d789/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Fall Out Boy::Sugar, We're Goin Down": {
+    "id": "Fall Out Boy::Sugar, We're Goin Down",
+    "artist": "Fall Out Boy",
+    "title": "Sugar, We're Goin Down",
+    "decade": "2000s",
+    "video_id": "EIzpJuLhZa0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c11ee620979e5e6f99bfd08470876ecd/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Panic! At The Disco::I Write Sins Not Tragedies": {
+    "id": "Panic! At The Disco::I Write Sins Not Tragedies",
+    "artist": "Panic! At The Disco",
+    "title": "I Write Sins Not Tragedies",
+    "decade": "2000s",
+    "video_id": "V3soG5njoNw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4e00058240264b881e0eb972d2d6d05f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kanye West::Stronger": {
+    "id": "Kanye West::Stronger",
+    "artist": "Kanye West",
+    "title": "Stronger",
+    "decade": "2000s",
+    "video_id": "3mwiO5st-us",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/57c45bec895bf84a0aaca62dad7c63ff/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Black Eyed Peas::I Gotta Feeling": {
+    "id": "Black Eyed Peas::I Gotta Feeling",
+    "artist": "Black Eyed Peas",
+    "title": "I Gotta Feeling",
+    "decade": "2000s",
+    "video_id": "l8Ii9K7SFqU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7c374acf98dc3a46ad38e8212350a05a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lady Gaga::Poker Face": {
+    "id": "Lady Gaga::Poker Face",
+    "artist": "Lady Gaga",
+    "title": "Poker Face",
+    "decade": "2000s",
+    "video_id": "u9ARYzXyp08",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/23de8786d9e7feb8acd26a14ec436571/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lady Gaga::Bad Romance": {
+    "id": "Lady Gaga::Bad Romance",
+    "artist": "Lady Gaga",
+    "title": "Bad Romance",
+    "decade": "2000s",
+    "video_id": "NlK9u6a69Dg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/113b8636fb6571bd9d6a50a5fe9b37ff/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Katy Perry::Firework": {
+    "id": "Katy Perry::Firework",
+    "artist": "Katy Perry",
+    "title": "Firework",
+    "decade": "2000s",
+    "video_id": "KSbwHzlcgs8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/53e4937e369f87b92d23d588632f81f9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Katy Perry::Teenage Dream": {
+    "id": "Katy Perry::Teenage Dream",
+    "artist": "Katy Perry",
+    "title": "Teenage Dream",
+    "decade": "2000s",
+    "video_id": "OE7IhVLrrNw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/99578b0bb8c838383c414a5b62b5e15d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Love Story": {
+    "id": "Taylor Swift::Love Story",
+    "artist": "Taylor Swift",
+    "title": "Love Story",
+    "decade": "2000s",
+    "video_id": "aXzVF3XeS8M",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/cce4e99be496acc9dc2e4365c5b288fc/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Adele::Rolling in the Deep": {
+    "id": "Adele::Rolling in the Deep",
+    "artist": "Adele",
+    "title": "Rolling in the Deep",
+    "decade": "2000s",
+    "video_id": "1CigMPtm4FM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0a9716b84148dbad7033db6e3a9e30a4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Missy Elliott::Get Ur Freak On": {
+    "id": "Missy Elliott::Get Ur Freak On",
+    "artist": "Missy Elliott",
+    "title": "Get Ur Freak On",
+    "decade": "2000s",
+    "video_id": "bJe-Gz5Meno",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d506a6d8b28483240daee6f379fd866c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Destiny's Child::Say My Name": {
+    "id": "Destiny's Child::Say My Name",
+    "artist": "Destiny's Child",
+    "title": "Say My Name",
+    "decade": "2000s",
+    "video_id": "JHed3iCPesM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/73da200f9335f752d2f7cb5ed8933cef/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Alicia Keys::No One": {
+    "id": "Alicia Keys::No One",
+    "artist": "Alicia Keys",
+    "title": "No One",
+    "decade": "2000s",
+    "video_id": "eHlBrYz-PQc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b9f3ff7c0514902ec94751360154f25b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "John Legend::All of Me": {
+    "id": "John Legend::All of Me",
+    "artist": "John Legend",
+    "title": "All of Me",
+    "decade": "2000s",
+    "video_id": "QfgJQUiQFes",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e9a170ca0ae06918f9baa6cb109fb321/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Adele::Someone Like You": {
+    "id": "Adele::Someone Like You",
+    "artist": "Adele",
+    "title": "Someone Like You",
+    "decade": "2010s",
+    "video_id": "raiQjmyZMC0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a39a78496ec569ed92d8e17d7ee224a4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Adele::Hello": {
+    "id": "Adele::Hello",
+    "artist": "Adele",
+    "title": "Hello",
+    "decade": "2010s",
+    "video_id": "T1tl66trXTQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d32a6fd648afc584be78d86dd66ed57b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bruno Mars::Uptown Funk": {
+    "id": "Bruno Mars::Uptown Funk",
+    "artist": "Bruno Mars",
+    "title": "Uptown Funk",
+    "decade": "2010s",
+    "video_id": "W8FUmkw3a4U",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3734366a73152d0367a83a4b09fd163f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bruno Mars::Just the Way You Are": {
+    "id": "Bruno Mars::Just the Way You Are",
+    "artist": "Bruno Mars",
+    "title": "Just the Way You Are",
+    "decade": "2010s",
+    "video_id": "u7XjPmN-tHw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0f2b868260f5577ce85c6b7d0afb25e4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bruno Mars::24K Magic": {
+    "id": "Bruno Mars::24K Magic",
+    "artist": "Bruno Mars",
+    "title": "24K Magic",
+    "decade": "2010s",
+    "video_id": "DPc7g7BR1Pg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/012b27906b430a37ec1d8f793d5c4fa6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ed Sheeran::Shape of You": {
+    "id": "Ed Sheeran::Shape of You",
+    "artist": "Ed Sheeran",
+    "title": "Shape of You",
+    "decade": "2010s",
+    "video_id": "liTfD88dbCo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/107c2b43f10c249077c1f7618563bb63/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ed Sheeran::Perfect": {
+    "id": "Ed Sheeran::Perfect",
+    "artist": "Ed Sheeran",
+    "title": "Perfect",
+    "decade": "2010s",
+    "video_id": "kPhpHvnnn0Q",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/000a9228cecfcc7c2093d9cd7bb66447/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ed Sheeran::Thinking Out Loud": {
+    "id": "Ed Sheeran::Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "title": "Thinking Out Loud",
+    "decade": "2010s",
+    "video_id": "XMPgVZtADtQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b1d763da698c38bde6a526c8220ca0ea/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ed Sheeran::Bad Habits": {
+    "id": "Ed Sheeran::Bad Habits",
+    "artist": "Ed Sheeran",
+    "title": "Bad Habits",
+    "decade": "2010s",
+    "video_id": "HeOpRzcqKrE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/63af28b4e046c59293eaf313be13f8f7/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Shake It Off": {
+    "id": "Taylor Swift::Shake It Off",
+    "artist": "Taylor Swift",
+    "title": "Shake It Off",
+    "decade": "2010s",
+    "video_id": "H59xVMF4zxE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5aad85c12f4c5370d3bbb2e3549d07d9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Blank Space": {
+    "id": "Taylor Swift::Blank Space",
+    "artist": "Taylor Swift",
+    "title": "Blank Space",
+    "decade": "2010s",
+    "video_id": "PqlwecUBrYs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5aad85c12f4c5370d3bbb2e3549d07d9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Katy Perry::Roar": {
+    "id": "Katy Perry::Roar",
+    "artist": "Katy Perry",
+    "title": "Roar",
+    "decade": "2010s",
+    "video_id": "mwL1cohnHNE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fe781ecd9879a82beed80f6d3e80745b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Pharrell Williams::Happy": {
+    "id": "Pharrell Williams::Happy",
+    "artist": "Pharrell Williams",
+    "title": "Happy",
+    "decade": "2010s",
+    "video_id": "jv-pYB0Qw9A",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a1939a9a40dc97ed404cc4597c6a32bc/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Daft Punk::Get Lucky": {
+    "id": "Daft Punk::Get Lucky",
+    "artist": "Daft Punk",
+    "title": "Get Lucky",
+    "decade": "2010s",
+    "video_id": "5NV6Rdv1a3I",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/bc49adb87758e0c8c4e508a9c5cce85d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Imagine Dragons::Radioactive": {
+    "id": "Imagine Dragons::Radioactive",
+    "artist": "Imagine Dragons",
+    "title": "Radioactive",
+    "decade": "2010s",
+    "video_id": "w3viBe2Q0P8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5a9b455a74efc743c79e1b50030f0440/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Imagine Dragons::Believer": {
+    "id": "Imagine Dragons::Believer",
+    "artist": "Imagine Dragons",
+    "title": "Believer",
+    "decade": "2010s",
+    "video_id": "W0DM5lcj6mw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/247b228179aea3b083eef43522b78b45/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Weeknd::Can't Feel My Face": {
+    "id": "The Weeknd::Can't Feel My Face",
+    "artist": "The Weeknd",
+    "title": "Can't Feel My Face",
+    "decade": "2010s",
+    "video_id": "dqt8Z1k0oWQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/eea9f7fc913300e40307a0ff70dc73cf/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Weeknd::Blinding Lights": {
+    "id": "The Weeknd::Blinding Lights",
+    "artist": "The Weeknd",
+    "title": "Blinding Lights",
+    "decade": "2010s",
+    "video_id": "fHI8X4OXluQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fd00ebd6d30d7253f813dba3bb1c66a9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sia::Chandelier": {
+    "id": "Sia::Chandelier",
+    "artist": "Sia",
+    "title": "Chandelier",
+    "decade": "2010s",
+    "video_id": "joxBujMflPk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8dd70cbed260cb5a4feabdcd6726756d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Rihanna::Diamonds": {
+    "id": "Rihanna::Diamonds",
+    "artist": "Rihanna",
+    "title": "Diamonds",
+    "decade": "2010s",
+    "video_id": "SZGgjpjnzOs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a1b2457fcd12bb9ed5488e4bbd01ec25/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Rihanna::Work": {
+    "id": "Rihanna::Work",
+    "artist": "Rihanna",
+    "title": "Work",
+    "decade": "2010s",
+    "video_id": "puxjq3p-fU0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4fc5f387624c25de0ec96b4719e3a36d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Rihanna::Needed Me": {
+    "id": "Rihanna::Needed Me",
+    "artist": "Rihanna",
+    "title": "Needed Me",
+    "decade": "2010s",
+    "video_id": "kaoYLN4mOxg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4fc5f387624c25de0ec96b4719e3a36d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sam Smith::Stay With Me": {
+    "id": "Sam Smith::Stay With Me",
+    "artist": "Sam Smith",
+    "title": "Stay With Me",
+    "decade": "2010s",
+    "video_id": "-hJgdaAO28Q",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/231c66c0ed260c708163eff3bb8458da/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lorde::Royals": {
+    "id": "Lorde::Royals",
+    "artist": "Lorde",
+    "title": "Royals",
+    "decade": "2010s",
+    "video_id": "ETtKliQVr2k",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7bb0b356418fbb275c0c3db7259128d7/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Meghan Trainor::All About That Bass": {
+    "id": "Meghan Trainor::All About That Bass",
+    "artist": "Meghan Trainor",
+    "title": "All About That Bass",
+    "decade": "2010s",
+    "video_id": "M6w_4k62uHc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/14f6b5d6ab06d3bc46b15c67c15305f1/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Justin Bieber::Sorry": {
+    "id": "Justin Bieber::Sorry",
+    "artist": "Justin Bieber",
+    "title": "Sorry",
+    "decade": "2010s",
+    "video_id": "8ELbX5CMomE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/340283aafac320864b207c420124ee46/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Justin Bieber::Baby": {
+    "id": "Justin Bieber::Baby",
+    "artist": "Justin Bieber",
+    "title": "Baby",
+    "decade": "2010s",
+    "video_id": "vGkn3dBU3FQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/39aa26b45fa69cd89b8ef1a46f106c43/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Justin Bieber::Love Yourself": {
+    "id": "Justin Bieber::Love Yourself",
+    "artist": "Justin Bieber",
+    "title": "Love Yourself",
+    "decade": "2010s",
+    "video_id": "IiPEs8WpwEo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/340283aafac320864b207c420124ee46/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Miley Cyrus::Wrecking Ball": {
+    "id": "Miley Cyrus::Wrecking Ball",
+    "artist": "Miley Cyrus",
+    "title": "Wrecking Ball",
+    "decade": "2010s",
+    "video_id": "AHtYLZu3ZQk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0e43d6341c659c4cd71e676fb13282e6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "One Direction::What Makes You Beautiful": {
+    "id": "One Direction::What Makes You Beautiful",
+    "artist": "One Direction",
+    "title": "What Makes You Beautiful",
+    "decade": "2010s",
+    "video_id": "mfavkCY52MI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/95f254f5a4b63ed50250e64386343ec8/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Carly Rae Jepsen::Call Me Maybe": {
+    "id": "Carly Rae Jepsen::Call Me Maybe",
+    "artist": "Carly Rae Jepsen",
+    "title": "Call Me Maybe",
+    "decade": "2010s",
+    "video_id": "47EG91_XHic",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/380d3d9730b4a6dce7dbd2a2ae940588/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Psy::Gangnam Style": {
+    "id": "Psy::Gangnam Style",
+    "artist": "Psy",
+    "title": "Gangnam Style",
+    "decade": "2010s",
+    "video_id": "CVxMTl6cUSE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/45e4493fcc15997085491debddcf049e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Robin Thicke::Blurred Lines": {
+    "id": "Robin Thicke::Blurred Lines",
+    "artist": "Robin Thicke",
+    "title": "Blurred Lines",
+    "decade": "2010s",
+    "video_id": "UYV9yabvYGs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3479d5d0a070eae22f7b67ddb715f49e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Drake::Hotline Bling": {
+    "id": "Drake::Hotline Bling",
+    "artist": "Drake",
+    "title": "Hotline Bling",
+    "decade": "2010s",
+    "video_id": "zt6aRKpf9T4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/56bdb7a86a27fadb96332c0c8f1b8e81/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Drake::God's Plan": {
+    "id": "Drake::God's Plan",
+    "artist": "Drake",
+    "title": "God's Plan",
+    "decade": "2010s",
+    "video_id": "m1a_GqJf02M",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b69d3bcbd130ad4cc9259de543889e30/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Post Malone::Circles": {
+    "id": "Post Malone::Circles",
+    "artist": "Post Malone",
+    "title": "Circles",
+    "decade": "2010s",
+    "video_id": "WnLIGgTaBM0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6fb46005a49df7aeba49f1ca117f3710/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Post Malone::Sunflower": {
+    "id": "Post Malone::Sunflower",
+    "artist": "Post Malone",
+    "title": "Sunflower",
+    "decade": "2010s",
+    "video_id": "Dghmoi7XZmc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1aa3dfe91b3e5d3bc71eca6b6e9c8d39/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Post Malone::rockstar": {
+    "id": "Post Malone::rockstar",
+    "artist": "Post Malone",
+    "title": "rockstar",
+    "decade": "2010s",
+    "video_id": "4GFAZBKZVJY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c000a4d39f31f3716bf3f11aa5fab080/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Dua Lipa::New Rules": {
+    "id": "Dua Lipa::New Rules",
+    "artist": "Dua Lipa",
+    "title": "New Rules",
+    "decade": "2010s",
+    "video_id": "Qs0VniZIs_o",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0ce25be244d0f09009da83b66b080bc4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Dua Lipa::Don't Start Now": {
+    "id": "Dua Lipa::Don't Start Now",
+    "artist": "Dua Lipa",
+    "title": "Don't Start Now",
+    "decade": "2010s",
+    "video_id": "8CLkVWB_Lj8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f8364f090ba04f1b19b381ec0390f3e4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Camila Cabello::Havana": {
+    "id": "Camila Cabello::Havana",
+    "artist": "Camila Cabello",
+    "title": "Havana",
+    "decade": "2010s",
+    "video_id": "egtD5GfAh58",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/824145a71e397185d8a1abe57842430c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Billie Eilish::Bad Guy": {
+    "id": "Billie Eilish::Bad Guy",
+    "artist": "Billie Eilish",
+    "title": "Bad Guy",
+    "decade": "2010s",
+    "video_id": "4-TbQnONe_w",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6630083f454d48eadb6a9b53f035d734/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Billie Eilish::Ocean Eyes": {
+    "id": "Billie Eilish::Ocean Eyes",
+    "artist": "Billie Eilish",
+    "title": "Ocean Eyes",
+    "decade": "2010s",
+    "video_id": "HQitbbtPZz8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d85200712419ae036b277deffeea5181/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ariana Grande::Thank U, Next": {
+    "id": "Ariana Grande::Thank U, Next",
+    "artist": "Ariana Grande",
+    "title": "Thank U, Next",
+    "decade": "2010s",
+    "video_id": "EEhZAHZQyf4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/49e86e935da829b44cb5ffae16826e55/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ariana Grande::7 Rings": {
+    "id": "Ariana Grande::7 Rings",
+    "artist": "Ariana Grande",
+    "title": "7 Rings",
+    "decade": "2010s",
+    "video_id": "uDAjINEp8H8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/49e86e935da829b44cb5ffae16826e55/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ariana Grande::Problem": {
+    "id": "Ariana Grande::Problem",
+    "artist": "Ariana Grande",
+    "title": "Problem",
+    "decade": "2010s",
+    "video_id": "SoJ8s90NLc4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c156bcf9317635e44f3c328fb99bf1a3/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ariana Grande::Into You": {
+    "id": "Ariana Grande::Into You",
+    "artist": "Ariana Grande",
+    "title": "Into You",
+    "decade": "2010s",
+    "video_id": "jA1hQi9nTdo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1a8f399e9ddbb8ec2530232c0dfd953f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Shawn Mendes::Stitches": {
+    "id": "Shawn Mendes::Stitches",
+    "artist": "Shawn Mendes",
+    "title": "Stitches",
+    "decade": "2010s",
+    "video_id": "UYCg6NBiXMI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/46fab8006e0da286831fe157ccc4f31c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Charlie Puth::Attention": {
+    "id": "Charlie Puth::Attention",
+    "artist": "Charlie Puth",
+    "title": "Attention",
+    "decade": "2010s",
+    "video_id": "6QYcd7RggNU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/da7eb4c99604b2fda5f123aba3897850/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Maroon 5::Sugar": {
+    "id": "Maroon 5::Sugar",
+    "artist": "Maroon 5",
+    "title": "Sugar",
+    "decade": "2010s",
+    "video_id": "Y-pEoGvuWKk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f0a1d4442389bcd7919a7054f8c0b785/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Maroon 5::Girls Like You": {
+    "id": "Maroon 5::Girls Like You",
+    "artist": "Maroon 5",
+    "title": "Girls Like You",
+    "decade": "2010s",
+    "video_id": "GjiEdJoqZkM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6b4d59645e2d1cf7a692782983cee963/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Chainsmokers::Closer": {
+    "id": "The Chainsmokers::Closer",
+    "artist": "The Chainsmokers",
+    "title": "Closer",
+    "decade": "2010s",
+    "video_id": "PT2_F-1esPk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0a7b86a0e2f2bd3e41515adb83e3322b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Zedd::The Middle": {
+    "id": "Zedd::The Middle",
+    "artist": "Zedd",
+    "title": "The Middle",
+    "decade": "2010s",
+    "video_id": "Lj6Y6JCu-l4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/332ddd083bf04f856dcd8775fa3a3dd1/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Marshmello::Happier": {
+    "id": "Marshmello::Happier",
+    "artist": "Marshmello",
+    "title": "Happier",
+    "decade": "2010s",
+    "video_id": "-H4umqfVoHk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/28d79ed4bdb8a267f6eb83b18414043a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Halsey::Without Me": {
+    "id": "Halsey::Without Me",
+    "artist": "Halsey",
+    "title": "Without Me",
+    "decade": "2010s",
+    "video_id": "ub_xtyP0C-U",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/aa16ed08357784d8b760541e79d4fee8/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Khalid::Location": {
+    "id": "Khalid::Location",
+    "artist": "Khalid",
+    "title": "Location",
+    "decade": "2010s",
+    "video_id": "QHpzBKT7DJc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7fa1597e86f5b4283ea316f2ddb54008/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Cardi B::Bodak Yellow": {
+    "id": "Cardi B::Bodak Yellow",
+    "artist": "Cardi B",
+    "title": "Bodak Yellow",
+    "decade": "2010s",
+    "video_id": "o1dZkg6-eOw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d6aa47f4232363381dd4fc76fc4e65b0/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lizzo::Truth Hurts": {
+    "id": "Lizzo::Truth Hurts",
+    "artist": "Lizzo",
+    "title": "Truth Hurts",
+    "decade": "2010s",
+    "video_id": "k50WMM9g-0Q",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2172cee52a7029ad8dd5669c7e235d29/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Walk the Moon::Shut Up and Dance": {
+    "id": "Walk the Moon::Shut Up and Dance",
+    "artist": "Walk the Moon",
+    "title": "Shut Up and Dance",
+    "decade": "2010s",
+    "video_id": "Qpwf--1Q0u4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4fd07406ef0cfa6dab31fd68d71eb2b7/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Fifth Harmony::Work from Home": {
+    "id": "Fifth Harmony::Work from Home",
+    "artist": "Fifth Harmony",
+    "title": "Work from Home",
+    "decade": "2010s",
+    "video_id": "GJf28veNWHE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4529a3c8ec16c3e21de17a6294a6b3e1/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Zayn::Pillowtalk": {
+    "id": "Zayn::Pillowtalk",
+    "artist": "Zayn",
+    "title": "Pillowtalk",
+    "decade": "2010s",
+    "video_id": "H5-qGFO138E",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1884f804fed656229c6848c85fea9950/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Shawn Mendes::Se\u00f1orita": {
+    "id": "Shawn Mendes::Se\u00f1orita",
+    "artist": "Shawn Mendes",
+    "title": "Se\u00f1orita",
+    "decade": "2010s",
+    "video_id": "dFp_b5DPIIo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4426e8a06d8d0cd96263094c6178bbf9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Jonas Brothers::Sucker": {
+    "id": "Jonas Brothers::Sucker",
+    "artist": "Jonas Brothers",
+    "title": "Sucker",
+    "decade": "2010s",
+    "video_id": "tdKmewyZPXE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/89834d35dd6320600b90f044e9bbf467/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "24kGoldn::Mood": {
+    "id": "24kGoldn::Mood",
+    "artist": "24kGoldn",
+    "title": "Mood",
+    "decade": "2010s",
+    "video_id": "0jSpCxmb2VQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2bc3ee63eaf3e5515a100a4a13a64d1d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Jack Harlow::First Class": {
+    "id": "Jack Harlow::First Class",
+    "artist": "Jack Harlow",
+    "title": "First Class",
+    "decade": "2010s",
+    "video_id": "5CVrij8tcP8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8aa3f894894c7c7dfcce5df9eccababd/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lil Baby::Drip Too Hard": {
+    "id": "Lil Baby::Drip Too Hard",
+    "artist": "Lil Baby",
+    "title": "Drip Too Hard",
+    "decade": "2010s",
+    "video_id": "THcVOf1kNh0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3d845a35fd7849630324107baf07657b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Roddy Ricch::The Box": {
+    "id": "Roddy Ricch::The Box",
+    "artist": "Roddy Ricch",
+    "title": "The Box",
+    "decade": "2010s",
+    "video_id": "uLHqpjW3aDs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4cecb47ae25837b9dd022004b5cacbdc/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Olivia Rodrigo::Drivers License": {
+    "id": "Olivia Rodrigo::Drivers License",
+    "artist": "Olivia Rodrigo",
+    "title": "Drivers License",
+    "decade": "2020s",
+    "video_id": "tNJhkrpLGT8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e68da86fd7976135c2d2d1715afaef7c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Olivia Rodrigo::Good 4 U": {
+    "id": "Olivia Rodrigo::Good 4 U",
+    "artist": "Olivia Rodrigo",
+    "title": "Good 4 U",
+    "decade": "2020s",
+    "video_id": "aeDdS9aIpck",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e68da86fd7976135c2d2d1715afaef7c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Harry Styles::Watermelon Sugar": {
+    "id": "Harry Styles::Watermelon Sugar",
+    "artist": "Harry Styles",
+    "title": "Watermelon Sugar",
+    "decade": "2020s",
+    "video_id": "7-x3uD5z1bQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Harry Styles::As It Was": {
+    "id": "Harry Styles::As It Was",
+    "artist": "Harry Styles",
+    "title": "As It Was",
+    "decade": "2020s",
+    "video_id": "CjIUVRei27g",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b0e936124f59e669ddba02ebe5893f95/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Kid LAROI::Stay": {
+    "id": "The Kid LAROI::Stay",
+    "artist": "The Kid LAROI",
+    "title": "Stay",
+    "decade": "2020s",
+    "video_id": "yWHrYNP6j4k",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/dd6fe7fa9267185c4b835bd4f155d1d2/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Kid LAROI::Without You": {
+    "id": "The Kid LAROI::Without You",
+    "artist": "The Kid LAROI",
+    "title": "Without You",
+    "decade": "2020s",
+    "video_id": "JLViYST58cc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e306d320822388a809c1c6ce4708d353/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lil Nas X::Old Town Road": {
+    "id": "Lil Nas X::Old Town Road",
+    "artist": "Lil Nas X",
+    "title": "Old Town Road",
+    "decade": "2020s",
+    "video_id": "7UGOIMoJtB4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3cfd6900fd2b342ec0e478faf300f6a2/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lil Nas X::Montero": {
+    "id": "Lil Nas X::Montero",
+    "artist": "Lil Nas X",
+    "title": "Montero",
+    "decade": "2020s",
+    "video_id": "nsXwi67WgOo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fc939e4030254f80bd90b616f2a1d0a6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Doja Cat::Say So": {
+    "id": "Doja Cat::Say So",
+    "artist": "Doja Cat",
+    "title": "Say So",
+    "decade": "2020s",
+    "video_id": "uAYG46w1SCA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1e0d4359a328f8b0ea3563e8623a09aa/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Doja Cat::Kiss Me More": {
+    "id": "Doja Cat::Kiss Me More",
+    "artist": "Doja Cat",
+    "title": "Kiss Me More",
+    "decade": "2020s",
+    "video_id": "Ab6E2BsuLJ0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1e012b5bba83edac911b09ca1ab29e1e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Doja Cat::Woman": {
+    "id": "Doja Cat::Woman",
+    "artist": "Doja Cat",
+    "title": "Woman",
+    "decade": "2020s",
+    "video_id": "g7X9X6TlrUo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1e012b5bba83edac911b09ca1ab29e1e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Glass Animals::Heat Waves": {
+    "id": "Glass Animals::Heat Waves",
+    "artist": "Glass Animals",
+    "title": "Heat Waves",
+    "decade": "2020s",
+    "video_id": "KT7F15T9VBI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3d52a97863dd2f498255a45ff3c7e08c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Dua Lipa::Levitating": {
+    "id": "Dua Lipa::Levitating",
+    "artist": "Dua Lipa",
+    "title": "Levitating",
+    "decade": "2020s",
+    "video_id": "WHuBW3qKm9g",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f8364f090ba04f1b19b381ec0390f3e4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "SZA::Kill Bill": {
+    "id": "SZA::Kill Bill",
+    "artist": "SZA",
+    "title": "Kill Bill",
+    "decade": "2020s",
+    "video_id": "SQnc1QibapQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a3c3b409f0d5bd781821ec0fd79d5b15/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Miley Cyrus::Flowers": {
+    "id": "Miley Cyrus::Flowers",
+    "artist": "Miley Cyrus",
+    "title": "Flowers",
+    "decade": "2020s",
+    "video_id": "iawgB2CDCrw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/98610629a40996b61b3d24bd5ab8c2e1/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Anti-Hero": {
+    "id": "Taylor Swift::Anti-Hero",
+    "artist": "Taylor Swift",
+    "title": "Anti-Hero",
+    "decade": "2020s",
+    "video_id": "XqN2qFvY64U",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f571cb780b339ec087201b1cea53c3d9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Cruel Summer": {
+    "id": "Taylor Swift::Cruel Summer",
+    "artist": "Taylor Swift",
+    "title": "Cruel Summer",
+    "decade": "2020s",
+    "video_id": "ic8j13piAhQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6111c5ab9729c8eac47883e4e50e9cf8/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Chappell Roan::Good Luck, Babe!": {
+    "id": "Chappell Roan::Good Luck, Babe!",
+    "artist": "Chappell Roan",
+    "title": "Good Luck, Babe!",
+    "decade": "2020s",
+    "video_id": "1RKqOmSkGgM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/377470fb0413c43587769a7dea37f691/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sabrina Carpenter::Espresso": {
+    "id": "Sabrina Carpenter::Espresso",
+    "artist": "Sabrina Carpenter",
+    "title": "Espresso",
+    "decade": "2020s",
+    "video_id": "51zjlMhdSTE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e3221287a77eb262944e6528766eeba4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Benson Boone::Beautiful Things": {
+    "id": "Benson Boone::Beautiful Things",
+    "artist": "Benson Boone",
+    "title": "Beautiful Things",
+    "decade": "2020s",
+    "video_id": "Gq-ekgeVGaA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/71ca8c4c88fdb45381c4291bd4233ff6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Adele::Easy On Me": {
+    "id": "Adele::Easy On Me",
+    "artist": "Adele",
+    "title": "Easy On Me",
+    "decade": "2020s",
+    "video_id": "X-yIEMduRXk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a87ee7c212c7b0f9ae687c378f260324/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ariana Grande::Positions": {
+    "id": "Ariana Grande::Positions",
+    "artist": "Ariana Grande",
+    "title": "Positions",
+    "decade": "2020s",
+    "video_id": "xuOOAQoDKN0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/82043641a4e2852b1794110b74a302e8/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Megan Thee Stallion::Savage": {
+    "id": "Megan Thee Stallion::Savage",
+    "artist": "Megan Thee Stallion",
+    "title": "Savage",
+    "decade": "2020s",
+    "video_id": "EOxj2ROIxok",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a0f53e2a38f98a61301b56eed079b1b9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Travis Scott::Sicko Mode": {
+    "id": "Travis Scott::Sicko Mode",
+    "artist": "Travis Scott",
+    "title": "Sicko Mode",
+    "decade": "2020s",
+    "video_id": "f2YWfeFRZO0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7df7ac6028591a5622f24cf32a555510/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kendrick Lamar::HUMBLE.": {
+    "id": "Kendrick Lamar::HUMBLE.",
+    "artist": "Kendrick Lamar",
+    "title": "HUMBLE.",
+    "decade": "2020s",
+    "video_id": "ov4WobPqoSA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7ce6b8452fae425557067db6e6a1cad5/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kendrick Lamar::Not Like Us": {
+    "id": "Kendrick Lamar::Not Like Us",
+    "artist": "Kendrick Lamar",
+    "title": "Not Like Us",
+    "decade": "2020s",
+    "video_id": "3wkNLqetX0M",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/84345d29bc2ed8e713112425f8417e97/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Tate McRae::Greedy": {
+    "id": "Tate McRae::Greedy",
+    "artist": "Tate McRae",
+    "title": "Greedy",
+    "decade": "2020s",
+    "video_id": "UTmZqY_arzk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ef25b6bec265332a059879f45d33cd7e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ice Spice::Munch": {
+    "id": "Ice Spice::Munch",
+    "artist": "Ice Spice",
+    "title": "Munch",
+    "decade": "2020s",
+    "video_id": "YleOpBLlbOw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/152e31237c1f89e5887198a56b837551/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Gracie Abrams::That's So True": {
+    "id": "Gracie Abrams::That's So True",
+    "artist": "Gracie Abrams",
+    "title": "That's So True",
+    "decade": "2020s",
+    "video_id": "W_YOJWZIjxo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/967769c4612d74e8f5c7da8798b28e13/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Teddy Swims::Lose Control": {
+    "id": "Teddy Swims::Lose Control",
+    "artist": "Teddy Swims",
+    "title": "Lose Control",
+    "decade": "2020s",
+    "video_id": "XpDEdMu_6O8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fb2f549900acdfaefeee8c718e42037b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Noah Kahan::Stick Season": {
+    "id": "Noah Kahan::Stick Season",
+    "artist": "Noah Kahan",
+    "title": "Stick Season",
+    "decade": "2020s",
+    "video_id": "iWG6apzIWAk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1cf9edd5673e4f9a070054fbd6166134/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Djo::End of Beginning": {
+    "id": "Djo::End of Beginning",
+    "artist": "Djo",
+    "title": "End of Beginning",
+    "decade": "2020s",
+    "video_id": "B3Z4XGAxJB0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f13749b2a226afa7f5f866ce2f4d3015/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Billie Eilish::Happier Than Ever": {
+    "id": "Billie Eilish::Happier Than Ever",
+    "artist": "Billie Eilish",
+    "title": "Happier Than Ever",
+    "decade": "2020s",
+    "video_id": "DG8o24dFq7w",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/bb2880548dd3bc71fb97def2eedec130/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Billie Eilish::Birds of a Feather": {
+    "id": "Billie Eilish::Birds of a Feather",
+    "artist": "Billie Eilish",
+    "title": "Birds of a Feather",
+    "decade": "2020s",
+    "video_id": "d5gf9dXbPi0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5d284b31cb9ddeb1a0c79aede5a94e1c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Billie Eilish::What Was I Made For?": {
+    "id": "Billie Eilish::What Was I Made For?",
+    "artist": "Billie Eilish",
+    "title": "What Was I Made For?",
+    "decade": "2020s",
+    "video_id": "ZcQszUj4Nhc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2562b8d68b75635bb2d4b92dc7ed9ab5/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Weeknd::Save Your Tears": {
+    "id": "The Weeknd::Save Your Tears",
+    "artist": "The Weeknd",
+    "title": "Save Your Tears",
+    "decade": "2020s",
+    "video_id": "u6lihZAcy4s",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fd00ebd6d30d7253f813dba3bb1c66a9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Dua Lipa::Houdini": {
+    "id": "Dua Lipa::Houdini",
+    "artist": "Dua Lipa",
+    "title": "Houdini",
+    "decade": "2020s",
+    "video_id": "BHIpvqhydLo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/12c05200e9097af48e0ad4fc259cee25/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sabrina Carpenter::Please Please Please": {
+    "id": "Sabrina Carpenter::Please Please Please",
+    "artist": "Sabrina Carpenter",
+    "title": "Please Please Please",
+    "decade": "2020s",
+    "video_id": "Yl_thbk40A0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0fd6e3b346b959a8781ccfa89b63607a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sabrina Carpenter::Feather": {
+    "id": "Sabrina Carpenter::Feather",
+    "artist": "Sabrina Carpenter",
+    "title": "Feather",
+    "decade": "2020s",
+    "video_id": "asew9BF1wdw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7aaba890ad0aa01f1e809578ad926322/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sabrina Carpenter::Taste": {
+    "id": "Sabrina Carpenter::Taste",
+    "artist": "Sabrina Carpenter",
+    "title": "Taste",
+    "decade": "2020s",
+    "video_id": "z9Q9OzL_wI8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0fd6e3b346b959a8781ccfa89b63607a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sabrina Carpenter::Manchild": {
+    "id": "Sabrina Carpenter::Manchild",
+    "artist": "Sabrina Carpenter",
+    "title": "Manchild",
+    "decade": "2020s",
+    "video_id": "TAZkHYyio-M",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/272cc67ce5d91682cc7281f171241f6c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Lavender Haze": {
+    "id": "Taylor Swift::Lavender Haze",
+    "artist": "Taylor Swift",
+    "title": "Lavender Haze",
+    "decade": "2020s",
+    "video_id": "mkR_Qwix4Ho",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f571cb780b339ec087201b1cea53c3d9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Karma": {
+    "id": "Taylor Swift::Karma",
+    "artist": "Taylor Swift",
+    "title": "Karma",
+    "decade": "2020s",
+    "video_id": "rg18Kf4en2o",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f6a05e003277bf4533df863476c1413e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Fortnight": {
+    "id": "Taylor Swift::Fortnight",
+    "artist": "Taylor Swift",
+    "title": "Fortnight",
+    "decade": "2020s",
+    "video_id": "V-iZOohyftg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/bfabb6f70db5842a2c42d0d431ab65ef/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::August": {
+    "id": "Taylor Swift::August",
+    "artist": "Taylor Swift",
+    "title": "August",
+    "decade": "2020s",
+    "video_id": "nn_0zPAfyo8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/290abe93bdda84bb8b170f30a4998c4c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Olivia Rodrigo::Vampire": {
+    "id": "Olivia Rodrigo::Vampire",
+    "artist": "Olivia Rodrigo",
+    "title": "Vampire",
+    "decade": "2020s",
+    "video_id": "iJ9Ho-3oH5Y",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4bb79214365c0049e031f5e2caae4752/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Olivia Rodrigo::Bad Idea Right?": {
+    "id": "Olivia Rodrigo::Bad Idea Right?",
+    "artist": "Olivia Rodrigo",
+    "title": "Bad Idea Right?",
+    "decade": "2020s",
+    "video_id": "zla_eLVFiDU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4bb79214365c0049e031f5e2caae4752/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ariana Grande::We Can't Be Friends": {
+    "id": "Ariana Grande::We Can't Be Friends",
+    "artist": "Ariana Grande",
+    "title": "We Can't Be Friends",
+    "decade": "2020s",
+    "video_id": "UdRAXWNvjzE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/9349b2fcb4bd060060a33f054a619e83/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ariana Grande::Yes, And?": {
+    "id": "Ariana Grande::Yes, And?",
+    "artist": "Ariana Grande",
+    "title": "Yes, And?",
+    "decade": "2020s",
+    "video_id": "RSSUa2qW4tc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/eca6766746c9ad358c208df95fc3ec2c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Beyonc\u00e9::Texas Hold 'Em": {
+    "id": "Beyonc\u00e9::Texas Hold 'Em",
+    "artist": "Beyonc\u00e9",
+    "title": "Texas Hold 'Em",
+    "decade": "2020s",
+    "video_id": "jCOX8dT9q8M",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e50407841497a26457036110eab49f1b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Beyonc\u00e9::Break My Soul": {
+    "id": "Beyonc\u00e9::Break My Soul",
+    "artist": "Beyonc\u00e9",
+    "title": "Break My Soul",
+    "decade": "2020s",
+    "video_id": "-jjF7mmvuwI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c3e2a951678a28a3f541a69c866583d4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lady Gaga::Die With A Smile": {
+    "id": "Lady Gaga::Die With A Smile",
+    "artist": "Lady Gaga",
+    "title": "Die With A Smile",
+    "decade": "2020s",
+    "video_id": "zgaCZOQCpp8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0eac10f8441c4652b7fd50e228ae9c8c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "SZA::Snooze": {
+    "id": "SZA::Snooze",
+    "artist": "SZA",
+    "title": "Snooze",
+    "decade": "2020s",
+    "video_id": "CBx6e9cZlBQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a3c3b409f0d5bd781821ec0fd79d5b15/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "SZA::Good Days": {
+    "id": "SZA::Good Days",
+    "artist": "SZA",
+    "title": "Good Days",
+    "decade": "2020s",
+    "video_id": "8WnxCTZNnmg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8aafccd5fc82acdebc88372bd1bef371/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Doja Cat::Paint The Town Red": {
+    "id": "Doja Cat::Paint The Town Red",
+    "artist": "Doja Cat",
+    "title": "Paint The Town Red",
+    "decade": "2020s",
+    "video_id": "EiAMmYbr3vA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ad4bfc2a374741218dd6498d04e323cc/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Doja Cat::Agora Hills": {
+    "id": "Doja Cat::Agora Hills",
+    "artist": "Doja Cat",
+    "title": "Agora Hills",
+    "decade": "2020s",
+    "video_id": "YHH4giJHWB8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/aea5d295972a673a994d88a82fb8e83c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ice Spice::Boy's a Liar Pt. 2": {
+    "id": "Ice Spice::Boy's a Liar Pt. 2",
+    "artist": "Ice Spice",
+    "title": "Boy's a Liar Pt. 2",
+    "decade": "2020s",
+    "video_id": "0BBK85ilscA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7479aef13a2a7c404824a4700f1ccf58/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Charli XCX::Von Dutch": {
+    "id": "Charli XCX::Von Dutch",
+    "artist": "Charli XCX",
+    "title": "Von Dutch",
+    "decade": "2020s",
+    "video_id": "RaiRdSlwsks",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/de9e79511cda59914de9add50946e43c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Charli XCX::Apple": {
+    "id": "Charli XCX::Apple",
+    "artist": "Charli XCX",
+    "title": "Apple",
+    "decade": "2020s",
+    "video_id": "CPWxExGk7PM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/de9e79511cda59914de9add50946e43c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Charli XCX::360": {
+    "id": "Charli XCX::360",
+    "artist": "Charli XCX",
+    "title": "360",
+    "decade": "2020s",
+    "video_id": "O_HoOpJ60C0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/de9e79511cda59914de9add50946e43c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Gracie Abrams::I Love You, I'm Sorry": {
+    "id": "Gracie Abrams::I Love You, I'm Sorry",
+    "artist": "Gracie Abrams",
+    "title": "I Love You, I'm Sorry",
+    "decade": "2020s",
+    "video_id": "82_CsoY1AgE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/bad43fd5d83235591fbcb0132c5f1a35/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Benson Boone::Slow It Down": {
+    "id": "Benson Boone::Slow It Down",
+    "artist": "Benson Boone",
+    "title": "Slow It Down",
+    "decade": "2020s",
+    "video_id": "-vs4ZGXVRJk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e8947b2a3e00fde8763011ebee2a02fd/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Zach Bryan::I Remember Everything": {
+    "id": "Zach Bryan::I Remember Everything",
+    "artist": "Zach Bryan",
+    "title": "I Remember Everything",
+    "decade": "2020s",
+    "video_id": "74s32sUoESo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6c6a9089cda16da7f524b9ef1f965270/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Morgan Wallen::Last Night": {
+    "id": "Morgan Wallen::Last Night",
+    "artist": "Morgan Wallen",
+    "title": "Last Night",
+    "decade": "2020s",
+    "video_id": "GwXVMhVjjCI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/db22e72b0989df03db05897b8eec25ef/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Morgan Wallen::You Proof": {
+    "id": "Morgan Wallen::You Proof",
+    "artist": "Morgan Wallen",
+    "title": "You Proof",
+    "decade": "2020s",
+    "video_id": "oSBh6a0QJg8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/30d7a963a83c00653d1fd56fe3c430b0/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Shaboozey::A Bar Song (Tipsy)": {
+    "id": "Shaboozey::A Bar Song (Tipsy)",
+    "artist": "Shaboozey",
+    "title": "A Bar Song (Tipsy)",
+    "decade": "2020s",
+    "video_id": "VQ0Sn4_LUcc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d4f0d9289d6f68204dee8a22fe777c70/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Jelly Roll::Need a Favor": {
+    "id": "Jelly Roll::Need a Favor",
+    "artist": "Jelly Roll",
+    "title": "Need a Favor",
+    "decade": "2020s",
+    "video_id": "VB6VrrXPCi0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ff3bc0af0fe10c3d6399e9f345c66bde/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Tyla::Water": {
+    "id": "Tyla::Water",
+    "artist": "Tyla",
+    "title": "Water",
+    "decade": "2020s",
+    "video_id": "wlmUnWLaeog",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b246276eba02e22c9e08605924395480/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Rema::Calm Down": {
+    "id": "Rema::Calm Down",
+    "artist": "Rema",
+    "title": "Calm Down",
+    "decade": "2020s",
+    "video_id": "G-D80U_u3sk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3071378af24d789b8fc69e95162041e4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Peso Pluma::Ella Baila Sola": {
+    "id": "Peso Pluma::Ella Baila Sola",
+    "artist": "Peso Pluma",
+    "title": "Ella Baila Sola",
+    "decade": "2020s",
+    "video_id": "bjhTOVvwMcI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7e9c5a183da1d4c1dfbd1e3493bae8fe/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Karol G::TQG": {
+    "id": "Karol G::TQG",
+    "artist": "Karol G",
+    "title": "TQG",
+    "decade": "2020s",
+    "video_id": "YwJAHTXQJjQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/608e6114bb1e0a7f3a512538d7bd9248/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Shakira::Bzrp Music Sessions, Vol. 53": {
+    "id": "Shakira::Bzrp Music Sessions, Vol. 53",
+    "artist": "Shakira",
+    "title": "Bzrp Music Sessions, Vol. 53",
+    "decade": "2020s",
+    "video_id": "N11zzBlHFzA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b94f207cc1841c72ad3bc0207e24b359/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Miley Cyrus::Used To Be Young": {
+    "id": "Miley Cyrus::Used To Be Young",
+    "artist": "Miley Cyrus",
+    "title": "Used To Be Young",
+    "decade": "2020s",
+    "video_id": "oSSRolEAUMs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c024f2683137c5e81f2b2040acc6ad83/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lana Del Rey::A&W": {
+    "id": "Lana Del Rey::A&W",
+    "artist": "Lana Del Rey",
+    "title": "A&W",
+    "decade": "2020s",
+    "video_id": "7NyPEtPUTRg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0ae53c84250981214bcb7ca39f8c2195/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Rene\u00e9 Rapp::Snow Angel": {
+    "id": "Rene\u00e9 Rapp::Snow Angel",
+    "artist": "Rene\u00e9 Rapp",
+    "title": "Snow Angel",
+    "decade": "2020s",
+    "video_id": "kGIHjzwAt6g",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e2728454168a221597bd74042eb4bea9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Hozier::Too Sweet": {
+    "id": "Hozier::Too Sweet",
+    "artist": "Hozier",
+    "title": "Too Sweet",
+    "decade": "2020s",
+    "video_id": "HKtryoXkNs4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e7696e1af95a486ad171c00fba29f378/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Chappell Roan::Pink Pony Club": {
+    "id": "Chappell Roan::Pink Pony Club",
+    "artist": "Chappell Roan",
+    "title": "Pink Pony Club",
+    "decade": "2020s",
+    "video_id": "k-cUlvsMXaE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/71486ce8b24f612c4887efa0f79a9f66/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Chappell Roan::Hot To Go!": {
+    "id": "Chappell Roan::Hot To Go!",
+    "artist": "Chappell Roan",
+    "title": "Hot To Go!",
+    "decade": "2020s",
+    "video_id": "bR5YYDAbMtI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/71486ce8b24f612c4887efa0f79a9f66/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Chappell Roan::Red Wine Supernova": {
+    "id": "Chappell Roan::Red Wine Supernova",
+    "artist": "Chappell Roan",
+    "title": "Red Wine Supernova",
+    "decade": "2020s",
+    "video_id": "y9Wxl9Q9lUQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/71486ce8b24f612c4887efa0f79a9f66/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sombr::Back to Friends": {
+    "id": "Sombr::Back to Friends",
+    "artist": "Sombr",
+    "title": "Back to Friends",
+    "decade": "2020s",
+    "video_id": "fOQ_-gZsnYQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/37a20b62f754b7ff5a9a29a8f2fe9d27/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Alex Warren::Ordinary": {
+    "id": "Alex Warren::Ordinary",
+    "artist": "Alex Warren",
+    "title": "Ordinary",
+    "decade": "2020s",
+    "video_id": "byxFUKxhT3s",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f4246416b5e3e71a35adf1e2cbe98bfb/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Post Malone::I Had Some Help": {
+    "id": "Post Malone::I Had Some Help",
+    "artist": "Post Malone",
+    "title": "I Had Some Help",
+    "decade": "2020s",
+    "video_id": "11T6kF66dKY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b9c8cc4fd597a9bc516445e6573501cf/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Role Model::Sally, When The Wine Runs Out": {
+    "id": "Role Model::Sally, When The Wine Runs Out",
+    "artist": "Role Model",
+    "title": "Sally, When The Wine Runs Out",
+    "decade": "2020s",
+    "video_id": "WBEfPsp_TAA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d49414f88d1e39f133a21797a016549f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Myles Smith::Stargazing": {
+    "id": "Myles Smith::Stargazing",
+    "artist": "Myles Smith",
+    "title": "Stargazing",
+    "decade": "2020s",
+    "video_id": "tKml80alH3Y",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/eaf89238495473e9d78eb75e7a181322/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Artemas::i like the way you kiss me": {
+    "id": "Artemas::i like the way you kiss me",
+    "artist": "Artemas",
+    "title": "i like the way you kiss me",
+    "decade": "2020s",
+    "video_id": "ODDRRXMi22E",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2562796f05053f0470c464d127707f7b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kendrick Lamar::Luther": {
+    "id": "Kendrick Lamar::Luther",
+    "artist": "Kendrick Lamar",
+    "title": "Luther",
+    "decade": "2020s",
+    "video_id": "l0wJqJT3gh8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/da5256ff8cacfe9ad90521f6e3792259/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Addison Rae::Diet Pepsi": {
+    "id": "Addison Rae::Diet Pepsi",
+    "artist": "Addison Rae",
+    "title": "Diet Pepsi",
+    "decade": "2020s",
+    "video_id": "XgSobzBJFtg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ee890cf16d00c684be76b0087c7108c4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::You Belong With Me": {
+    "id": "Taylor Swift::You Belong With Me",
+    "artist": "Taylor Swift",
+    "title": "You Belong With Me",
+    "decade": "2010s",
+    "video_id": "yA3jAcbIzHM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/cce4e99be496acc9dc2e4365c5b288fc/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::22": {
+    "id": "Taylor Swift::22",
+    "artist": "Taylor Swift",
+    "title": "22",
+    "decade": "2010s",
+    "video_id": "JDIos5cPtMI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a98df7a584f8a3f50d4bb312bdbc44ff/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Bad Blood": {
+    "id": "Taylor Swift::Bad Blood",
+    "artist": "Taylor Swift",
+    "title": "Bad Blood",
+    "decade": "2010s",
+    "video_id": "6GiQIh8CfTE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/de7addba2b3b6effb8ea517fe5edff02/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Look What You Made Me Do": {
+    "id": "Taylor Swift::Look What You Made Me Do",
+    "artist": "Taylor Swift",
+    "title": "Look What You Made Me Do",
+    "decade": "2010s",
+    "video_id": "3K0RzZGpyds",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e6f3afd8a5c3d8ea797f458694166e47/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Delicate": {
+    "id": "Taylor Swift::Delicate",
+    "artist": "Taylor Swift",
+    "title": "Delicate",
+    "decade": "2010s",
+    "video_id": "ulvQpd3di_w",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e6f3afd8a5c3d8ea797f458694166e47/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Style": {
+    "id": "Taylor Swift::Style",
+    "artist": "Taylor Swift",
+    "title": "Style",
+    "decade": "2010s",
+    "video_id": "2JgvVfOfoWI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5aad85c12f4c5370d3bbb2e3549d07d9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::Wildest Dreams": {
+    "id": "Taylor Swift::Wildest Dreams",
+    "artist": "Taylor Swift",
+    "title": "Wildest Dreams",
+    "decade": "2010s",
+    "video_id": "nkmNsAyqi1I",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5aad85c12f4c5370d3bbb2e3549d07d9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Taylor Swift::I Knew You Were Trouble": {
+    "id": "Taylor Swift::I Knew You Were Trouble",
+    "artist": "Taylor Swift",
+    "title": "I Knew You Were Trouble",
+    "decade": "2010s",
+    "video_id": "9eakEQSBR8o",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a98df7a584f8a3f50d4bb312bdbc44ff/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ariana Grande::No Tears Left To Cry": {
+    "id": "Ariana Grande::No Tears Left To Cry",
+    "artist": "Ariana Grande",
+    "title": "No Tears Left To Cry",
+    "decade": "2010s",
+    "video_id": "fFuQfcAbCIA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8a5d4fa5c1b97100bf128909d766f06f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ariana Grande::God Is a Woman": {
+    "id": "Ariana Grande::God Is a Woman",
+    "artist": "Ariana Grande",
+    "title": "God Is a Woman",
+    "decade": "2010s",
+    "video_id": "RQTgJRwMdKQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8a5d4fa5c1b97100bf128909d766f06f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ariana Grande::Side To Side": {
+    "id": "Ariana Grande::Side To Side",
+    "artist": "Ariana Grande",
+    "title": "Side To Side",
+    "decade": "2010s",
+    "video_id": "xVXB9Kw5Fkk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e5bf0368c12f211bdafe91deba06cdda/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ariana Grande::Dangerous Woman": {
+    "id": "Ariana Grande::Dangerous Woman",
+    "artist": "Ariana Grande",
+    "title": "Dangerous Woman",
+    "decade": "2010s",
+    "video_id": "TFrMDGfW_Sg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1a8f399e9ddbb8ec2530232c0dfd953f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ariana Grande::Break Free": {
+    "id": "Ariana Grande::Break Free",
+    "artist": "Ariana Grande",
+    "title": "Break Free",
+    "decade": "2010s",
+    "video_id": "X57vg66ETyM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5765c82f04c194addfe8b5650807f624/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Katy Perry::Dark Horse": {
+    "id": "Katy Perry::Dark Horse",
+    "artist": "Katy Perry",
+    "title": "Dark Horse",
+    "decade": "2010s",
+    "video_id": "GSHPm2JkbUw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fe781ecd9879a82beed80f6d3e80745b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Katy Perry::California Gurls": {
+    "id": "Katy Perry::California Gurls",
+    "artist": "Katy Perry",
+    "title": "California Gurls",
+    "decade": "2010s",
+    "video_id": "iCzbrrnmSFo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/99578b0bb8c838383c414a5b62b5e15d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Katy Perry::Wide Awake": {
+    "id": "Katy Perry::Wide Awake",
+    "artist": "Katy Perry",
+    "title": "Wide Awake",
+    "decade": "2010s",
+    "video_id": "FhLmxSK0DLA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/99578b0bb8c838383c414a5b62b5e15d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Katy Perry::Part Of Me": {
+    "id": "Katy Perry::Part Of Me",
+    "artist": "Katy Perry",
+    "title": "Part Of Me",
+    "decade": "2010s",
+    "video_id": "2Fko7_SV3Lc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/99578b0bb8c838383c414a5b62b5e15d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Selena Gomez::Come & Get It": {
+    "id": "Selena Gomez::Come & Get It",
+    "artist": "Selena Gomez",
+    "title": "Come & Get It",
+    "decade": "2010s",
+    "video_id": "6ksHyN0kTiE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a5859340c44432bb59958b147d2aad1d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Selena Gomez::Same Old Love": {
+    "id": "Selena Gomez::Same Old Love",
+    "artist": "Selena Gomez",
+    "title": "Same Old Love",
+    "decade": "2010s",
+    "video_id": "_CjluVOzkbM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1c5a2481d476f2fc60280cdebf3adcbb/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Selena Gomez::Bad Liar": {
+    "id": "Selena Gomez::Bad Liar",
+    "artist": "Selena Gomez",
+    "title": "Bad Liar",
+    "decade": "2010s",
+    "video_id": "wcB4K2bjVW0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a2ecffe63ad4434d6158ab1cee72ccf3/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Selena Gomez::Wolves": {
+    "id": "Selena Gomez::Wolves",
+    "artist": "Selena Gomez",
+    "title": "Wolves",
+    "decade": "2010s",
+    "video_id": "6KIdQe2UG5o",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/018f19bb66c83e0c843dddaa6d97e544/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Camila Cabello::Never Be the Same": {
+    "id": "Camila Cabello::Never Be the Same",
+    "artist": "Camila Cabello",
+    "title": "Never Be the Same",
+    "decade": "2010s",
+    "video_id": "j3io8857Rro",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/824145a71e397185d8a1abe57842430c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Shawn Mendes::Treat You Better": {
+    "id": "Shawn Mendes::Treat You Better",
+    "artist": "Shawn Mendes",
+    "title": "Treat You Better",
+    "decade": "2010s",
+    "video_id": "0xgaqhe5QiM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/13257668a9231947a74dcbd41c6e3933/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Shawn Mendes::There's Nothing Holdin' Me Back": {
+    "id": "Shawn Mendes::There's Nothing Holdin' Me Back",
+    "artist": "Shawn Mendes",
+    "title": "There's Nothing Holdin' Me Back",
+    "decade": "2010s",
+    "video_id": "Bt6TmXqRCb4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/35d5f7dd0b398bb37287b3454f0b05b9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Shawn Mendes::In My Blood": {
+    "id": "Shawn Mendes::In My Blood",
+    "artist": "Shawn Mendes",
+    "title": "In My Blood",
+    "decade": "2010s",
+    "video_id": "XEyhoB-hUrE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1a7bbe4434bb38821b20c96cfa1c35d7/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Shawn Mendes::Mercy": {
+    "id": "Shawn Mendes::Mercy",
+    "artist": "Shawn Mendes",
+    "title": "Mercy",
+    "decade": "2010s",
+    "video_id": "TZhuCTXjGHY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/13257668a9231947a74dcbd41c6e3933/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Halsey::Bad At Love": {
+    "id": "Halsey::Bad At Love",
+    "artist": "Halsey",
+    "title": "Bad At Love",
+    "decade": "2010s",
+    "video_id": "egaSvyy1XY8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d0a6a23eddef45b14563ffbab8f7717b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Halsey::Him & I": {
+    "id": "Halsey::Him & I",
+    "artist": "Halsey",
+    "title": "Him & I",
+    "decade": "2010s",
+    "video_id": "iTjdfI4It-Y",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6f1a92db4d24a9d04f913f3ed9660168/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Halsey::Colors": {
+    "id": "Halsey::Colors",
+    "artist": "Halsey",
+    "title": "Colors",
+    "decade": "2010s",
+    "video_id": "H35TAXUIFLU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/47165475d4e74cd6fa98f8b83bd90b68/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Halsey::Now or Never": {
+    "id": "Halsey::Now or Never",
+    "artist": "Halsey",
+    "title": "Now or Never",
+    "decade": "2010s",
+    "video_id": "8WJCJTgwCP0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d0a6a23eddef45b14563ffbab8f7717b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Demi Lovato::Sorry Not Sorry": {
+    "id": "Demi Lovato::Sorry Not Sorry",
+    "artist": "Demi Lovato",
+    "title": "Sorry Not Sorry",
+    "decade": "2010s",
+    "video_id": "0mHPrkhE_Tg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e1385d64b8f3fa5b3abae2e889b23edf/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Demi Lovato::Confident": {
+    "id": "Demi Lovato::Confident",
+    "artist": "Demi Lovato",
+    "title": "Confident",
+    "decade": "2010s",
+    "video_id": "kiic3NEXHgw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7e559086c775eece3bd9db9175db553d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Demi Lovato::Skyscraper": {
+    "id": "Demi Lovato::Skyscraper",
+    "artist": "Demi Lovato",
+    "title": "Skyscraper",
+    "decade": "2010s",
+    "video_id": "9fqwgenoJgg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/55598e74dcac1290921859cec3c36a7f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Demi Lovato::Heart Attack": {
+    "id": "Demi Lovato::Heart Attack",
+    "artist": "Demi Lovato",
+    "title": "Heart Attack",
+    "decade": "2010s",
+    "video_id": "40cxXdKxE5M",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/da96fc0fcad01a573790d1eca9945d39/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kesha::Tik Tok": {
+    "id": "Kesha::Tik Tok",
+    "artist": "Kesha",
+    "title": "Tik Tok",
+    "decade": "2010s",
+    "video_id": "OF04pKp-r9o",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6b4c12d69aafd210b11bd74836ce3311/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kesha::Die Young": {
+    "id": "Kesha::Die Young",
+    "artist": "Kesha",
+    "title": "Die Young",
+    "decade": "2010s",
+    "video_id": "VKmyYEozgac",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d745ba167f81585bf9ccaa88457a15ed/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kesha::Praying": {
+    "id": "Kesha::Praying",
+    "artist": "Kesha",
+    "title": "Praying",
+    "decade": "2010s",
+    "video_id": "zC0u0L915q4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/57962240bd7f9b44ecaac660a696544d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Pitbull::Timber": {
+    "id": "Pitbull::Timber",
+    "artist": "Pitbull",
+    "title": "Timber",
+    "decade": "2010s",
+    "video_id": "Lq_1cfgUxO8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c70750fc7943ae13d3e6ccad60c3c0af/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Pitbull::Give Me Everything": {
+    "id": "Pitbull::Give Me Everything",
+    "artist": "Pitbull",
+    "title": "Give Me Everything",
+    "decade": "2010s",
+    "video_id": "3MqUW5txLjs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fd70283d1b58db97d678f0ca0977e046/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Pitbull::International Love": {
+    "id": "Pitbull::International Love",
+    "artist": "Pitbull",
+    "title": "International Love",
+    "decade": "2010s",
+    "video_id": "m7qM_KG3eyc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/507351fd7b00a3bafb8b1a9d64793b4c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Flo Rida::Whistle": {
+    "id": "Flo Rida::Whistle",
+    "artist": "Flo Rida",
+    "title": "Whistle",
+    "decade": "2010s",
+    "video_id": "Y9jqh3ihgi8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/9e003815f5a64adb2d54f2018a26150c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Flo Rida::Good Feeling": {
+    "id": "Flo Rida::Good Feeling",
+    "artist": "Flo Rida",
+    "title": "Good Feeling",
+    "decade": "2010s",
+    "video_id": "EO6ZFcBd3hg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7833d3bd55cd66c11528908dd7fe96a1/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Flo Rida::Low": {
+    "id": "Flo Rida::Low",
+    "artist": "Flo Rida",
+    "title": "Low",
+    "decade": "2010s",
+    "video_id": "CxPc1Q3-0zc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/349a8664caf2437f1bc5f46880d43f5e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Britney Spears::Till the World Ends": {
+    "id": "Britney Spears::Till the World Ends",
+    "artist": "Britney Spears",
+    "title": "Till the World Ends",
+    "decade": "2010s",
+    "video_id": "JWj8aaD1utA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/be502f78a0b035b5a8f366d2f26d080c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Britney Spears::Hold It Against Me": {
+    "id": "Britney Spears::Hold It Against Me",
+    "artist": "Britney Spears",
+    "title": "Hold It Against Me",
+    "decade": "2010s",
+    "video_id": "GJSm_QMO6zA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/be502f78a0b035b5a8f366d2f26d080c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sia::Cheap Thrills": {
+    "id": "Sia::Cheap Thrills",
+    "artist": "Sia",
+    "title": "Cheap Thrills",
+    "decade": "2010s",
+    "video_id": "nYh-n7EOtMA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2378d42e77860170c814bb1db400f949/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sia::Elastic Heart": {
+    "id": "Sia::Elastic Heart",
+    "artist": "Sia",
+    "title": "Elastic Heart",
+    "decade": "2010s",
+    "video_id": "noHygl5CGEY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8dd70cbed260cb5a4feabdcd6726756d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sia::Titanium": {
+    "id": "Sia::Titanium",
+    "artist": "Sia",
+    "title": "Titanium",
+    "decade": "2010s",
+    "video_id": "KxnpFKZowcs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/52330286cb5008805253fd77c7111d3f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sam Smith::I'm Not the Only One": {
+    "id": "Sam Smith::I'm Not the Only One",
+    "artist": "Sam Smith",
+    "title": "I'm Not the Only One",
+    "decade": "2010s",
+    "video_id": "J_BId2d5zB4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/231c66c0ed260c708163eff3bb8458da/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sam Smith::Too Good at Goodbyes": {
+    "id": "Sam Smith::Too Good at Goodbyes",
+    "artist": "Sam Smith",
+    "title": "Too Good at Goodbyes",
+    "decade": "2010s",
+    "video_id": "v3qOmgTfscg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d159abf10c91611bd3c3b2789c96535f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Adele::Set Fire to the Rain": {
+    "id": "Adele::Set Fire to the Rain",
+    "artist": "Adele",
+    "title": "Set Fire to the Rain",
+    "decade": "2010s",
+    "video_id": "uJdu4Lfy8aI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/53e4937e369f87b92d23d588632f81f9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ed Sheeran::Photograph": {
+    "id": "Ed Sheeran::Photograph",
+    "artist": "Ed Sheeran",
+    "title": "Photograph",
+    "decade": "2010s",
+    "video_id": "KKQl-pIRQMY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b1d763da698c38bde6a526c8220ca0ea/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ed Sheeran::Castle on the Hill": {
+    "id": "Ed Sheeran::Castle on the Hill",
+    "artist": "Ed Sheeran",
+    "title": "Castle on the Hill",
+    "decade": "2010s",
+    "video_id": "7Qp5vcuMIlk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/000a9228cecfcc7c2093d9cd7bb66447/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ed Sheeran::Galway Girl": {
+    "id": "Ed Sheeran::Galway Girl",
+    "artist": "Ed Sheeran",
+    "title": "Galway Girl",
+    "decade": "2010s",
+    "video_id": "XjHr-6Zl5P8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/000a9228cecfcc7c2093d9cd7bb66447/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Justin Bieber::What Do You Mean?": {
+    "id": "Justin Bieber::What Do You Mean?",
+    "artist": "Justin Bieber",
+    "title": "What Do You Mean?",
+    "decade": "2010s",
+    "video_id": "LJjSyVe9LAs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/340283aafac320864b207c420124ee46/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Justin Bieber::Company": {
+    "id": "Justin Bieber::Company",
+    "artist": "Justin Bieber",
+    "title": "Company",
+    "decade": "2010s",
+    "video_id": "DsoDYUMz6QY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/340283aafac320864b207c420124ee46/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Charlie Puth::See You Again": {
+    "id": "Charlie Puth::See You Again",
+    "artist": "Charlie Puth",
+    "title": "See You Again",
+    "decade": "2010s",
+    "video_id": "NDEWXnMRq3c",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/9411ab46dfc749311f7bbfd7398b7251/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Charlie Puth::We Don't Talk Anymore": {
+    "id": "Charlie Puth::We Don't Talk Anymore",
+    "artist": "Charlie Puth",
+    "title": "We Don't Talk Anymore",
+    "decade": "2010s",
+    "video_id": "A3TKxux17ZA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/21a1daf84ded54329d0560052e985c02/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Zedd::Clarity": {
+    "id": "Zedd::Clarity",
+    "artist": "Zedd",
+    "title": "Clarity",
+    "decade": "2010s",
+    "video_id": "u6MvE6nypdA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6b8a51cd4d5e2a277c8a1c4f88d59489/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Marshmello::Alone": {
+    "id": "Marshmello::Alone",
+    "artist": "Marshmello",
+    "title": "Alone",
+    "decade": "2010s",
+    "video_id": "nR5l-1lmkkI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/77a8c32224ca500eca79ba7692555970/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Calvin Harris::Summer": {
+    "id": "Calvin Harris::Summer",
+    "artist": "Calvin Harris",
+    "title": "Summer",
+    "decade": "2010s",
+    "video_id": "ZaAyTrhjK28",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a72e5db10e9168cd6f5065fbe750cdbb/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Calvin Harris::This Is What You Came For": {
+    "id": "Calvin Harris::This Is What You Came For",
+    "artist": "Calvin Harris",
+    "title": "This Is What You Came For",
+    "decade": "2010s",
+    "video_id": "ipLRRzJ9sWg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b8af7ff13a47e2775307299843da9b36/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Calvin Harris::Feel So Close": {
+    "id": "Calvin Harris::Feel So Close",
+    "artist": "Calvin Harris",
+    "title": "Feel So Close",
+    "decade": "2010s",
+    "video_id": "Tt7KcLSvjBU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d45400b10f16a8433f85b5ddef3bfafb/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Calvin Harris::Outside": {
+    "id": "Calvin Harris::Outside",
+    "artist": "Calvin Harris",
+    "title": "Outside",
+    "decade": "2010s",
+    "video_id": "incSa-8gLHo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a72e5db10e9168cd6f5065fbe750cdbb/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "David Guetta::Play Hard": {
+    "id": "David Guetta::Play Hard",
+    "artist": "David Guetta",
+    "title": "Play Hard",
+    "decade": "2010s",
+    "video_id": "GPzpKZz7r0w",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/52330286cb5008805253fd77c7111d3f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Avicii::Wake Me Up": {
+    "id": "Avicii::Wake Me Up",
+    "artist": "Avicii",
+    "title": "Wake Me Up",
+    "decade": "2010s",
+    "video_id": "5y_KJAg8bHI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ec97306735b46ec334e0ce562290775b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Avicii::Levels": {
+    "id": "Avicii::Levels",
+    "artist": "Avicii",
+    "title": "Levels",
+    "decade": "2010s",
+    "video_id": "C3Ti0nZjtp8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/30bc3d8c348ddddb00c44f28d3120ac5/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Avicii::Hey Brother": {
+    "id": "Avicii::Hey Brother",
+    "artist": "Avicii",
+    "title": "Hey Brother",
+    "decade": "2010s",
+    "video_id": "YxIiPLVR6NA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ec97306735b46ec334e0ce562290775b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Martin Garrix::Animals": {
+    "id": "Martin Garrix::Animals",
+    "artist": "Martin Garrix",
+    "title": "Animals",
+    "decade": "2010s",
+    "video_id": "2kpAzC2Mja8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/97c1918368d8ed3b0bea34d0785d4db0/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Martin Garrix::In the Name of Love": {
+    "id": "Martin Garrix::In the Name of Love",
+    "artist": "Martin Garrix",
+    "title": "In the Name of Love",
+    "decade": "2010s",
+    "video_id": "AeGfss2vsZg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/eed47f7aa8765df6c4e8891a4a70d298/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Major Lazer::Lean On": {
+    "id": "Major Lazer::Lean On",
+    "artist": "Major Lazer",
+    "title": "Lean On",
+    "decade": "2010s",
+    "video_id": "rn9AQoI7mYU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fad0d75863847010961faf48dc54dcff/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "DJ Snake::Turn Down for What": {
+    "id": "DJ Snake::Turn Down for What",
+    "artist": "DJ Snake",
+    "title": "Turn Down for What",
+    "decade": "2010s",
+    "video_id": "9U1VuzkvJYc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/82c139e154a40073542914dfed468474/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Chainsmokers::Don't Let Me Down": {
+    "id": "The Chainsmokers::Don't Let Me Down",
+    "artist": "The Chainsmokers",
+    "title": "Don't Let Me Down",
+    "decade": "2010s",
+    "video_id": "sY8aL17tusg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/900c088fb241de8000b5ed849eba8536/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Chainsmokers::Something Just Like This": {
+    "id": "The Chainsmokers::Something Just Like This",
+    "artist": "The Chainsmokers",
+    "title": "Something Just Like This",
+    "decade": "2010s",
+    "video_id": "FM7MFYoylVs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2ae6c01a51296a7ec6d89c96a4fac32c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Chainsmokers::Paris": {
+    "id": "The Chainsmokers::Paris",
+    "artist": "The Chainsmokers",
+    "title": "Paris",
+    "decade": "2010s",
+    "video_id": "RhU9MZ98jxo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ef7a93f1b3eebb35adf73d805cbe9911/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Drake::One Dance": {
+    "id": "Drake::One Dance",
+    "artist": "Drake",
+    "title": "One Dance",
+    "decade": "2010s",
+    "video_id": "ki0Ocze98U8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/56bdb7a86a27fadb96332c0c8f1b8e81/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Drake::In My Feelings": {
+    "id": "Drake::In My Feelings",
+    "artist": "Drake",
+    "title": "In My Feelings",
+    "decade": "2010s",
+    "video_id": "SD1tkI5-3dI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b69d3bcbd130ad4cc9259de543889e30/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Drake::Started From the Bottom": {
+    "id": "Drake::Started From the Bottom",
+    "artist": "Drake",
+    "title": "Started From the Bottom",
+    "decade": "2010s",
+    "video_id": "6p4Jj9kWZDI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/64ec37a4cf512c7810c40ba0d318ff1e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Drake::Hold On, We're Going Home": {
+    "id": "Drake::Hold On, We're Going Home",
+    "artist": "Drake",
+    "title": "Hold On, We're Going Home",
+    "decade": "2010s",
+    "video_id": "i2BqFCDF66Q",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/64ec37a4cf512c7810c40ba0d318ff1e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kendrick Lamar::Alright": {
+    "id": "Kendrick Lamar::Alright",
+    "artist": "Kendrick Lamar",
+    "title": "Alright",
+    "decade": "2010s",
+    "video_id": "JocAXINz-YE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/00dd0da365a94b1829302d6b7fec70e6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kendrick Lamar::Swimming Pools": {
+    "id": "Kendrick Lamar::Swimming Pools",
+    "artist": "Kendrick Lamar",
+    "title": "Swimming Pools",
+    "decade": "2010s",
+    "video_id": "X0sVhnP15z8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4620d1f18a1e403b560efbf38a837c83/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kendrick Lamar::King Kunta": {
+    "id": "Kendrick Lamar::King Kunta",
+    "artist": "Kendrick Lamar",
+    "title": "King Kunta",
+    "decade": "2010s",
+    "video_id": "CqL0I0CcNuI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/00dd0da365a94b1829302d6b7fec70e6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Travis Scott::Goosebumps": {
+    "id": "Travis Scott::Goosebumps",
+    "artist": "Travis Scott",
+    "title": "Goosebumps",
+    "decade": "2010s",
+    "video_id": "_9XaXHD3680",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6b149002c49dbb6a6056512dbfcb5e95/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Travis Scott::Antidote": {
+    "id": "Travis Scott::Antidote",
+    "artist": "Travis Scott",
+    "title": "Antidote",
+    "decade": "2010s",
+    "video_id": "cxswFBNPV6U",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c6fe182fb0f3485428906c7b21873046/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Future::Mask Off": {
+    "id": "Future::Mask Off",
+    "artist": "Future",
+    "title": "Mask Off",
+    "decade": "2010s",
+    "video_id": "aWb8z-KhZdo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5186078c5bd5623ebec9b2753d8aaebe/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Cardi B::I Like It": {
+    "id": "Cardi B::I Like It",
+    "artist": "Cardi B",
+    "title": "I Like It",
+    "decade": "2010s",
+    "video_id": "U4fErC9skHE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/9617334140532d2a13584042f38e67fa/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Cardi B::Money": {
+    "id": "Cardi B::Money",
+    "artist": "Cardi B",
+    "title": "Money",
+    "decade": "2010s",
+    "video_id": "Zj2cK8wymIA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7d62977651869558d036422f0089608f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Megan Thee Stallion::Hot Girl Summer": {
+    "id": "Megan Thee Stallion::Hot Girl Summer",
+    "artist": "Megan Thee Stallion",
+    "title": "Hot Girl Summer",
+    "decade": "2010s",
+    "video_id": "4V--p5APMg0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fc456b76e9ce22a1ec5ec1cdb3f25721/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Nicki Minaj::Anaconda": {
+    "id": "Nicki Minaj::Anaconda",
+    "artist": "Nicki Minaj",
+    "title": "Anaconda",
+    "decade": "2010s",
+    "video_id": "2ArN3HfSebw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ebbcc26be4391b139475aed5ce6a6c3e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Nicki Minaj::Super Bass": {
+    "id": "Nicki Minaj::Super Bass",
+    "artist": "Nicki Minaj",
+    "title": "Super Bass",
+    "decade": "2010s",
+    "video_id": "yuRaxvv6wpM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f3f28eaf22f4aa1382b1fe83c6723961/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Migos::Bad and Boujee": {
+    "id": "Migos::Bad and Boujee",
+    "artist": "Migos",
+    "title": "Bad and Boujee",
+    "decade": "2010s",
+    "video_id": "mQp5bkQrtWE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f5331113a173b70b4394381ff0c6c0f4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "J. Cole::No Role Modelz": {
+    "id": "J. Cole::No Role Modelz",
+    "artist": "J. Cole",
+    "title": "No Role Modelz",
+    "decade": "2010s",
+    "video_id": "0EnRK5YvBwU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f45c8916970597d390313833a9db0c61/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lizzo::Good as Hell": {
+    "id": "Lizzo::Good as Hell",
+    "artist": "Lizzo",
+    "title": "Good as Hell",
+    "decade": "2010s",
+    "video_id": "4WmgQekz4RQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/419a4cfd05a8d4b9bcb088369b85e591/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "SZA::Love Galore": {
+    "id": "SZA::Love Galore",
+    "artist": "SZA",
+    "title": "Love Galore",
+    "decade": "2010s",
+    "video_id": "YJV-4IyNUfA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a1a3326c5d9176c763fc3fd847b86681/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "SZA::The Weekend": {
+    "id": "SZA::The Weekend",
+    "artist": "SZA",
+    "title": "The Weekend",
+    "decade": "2010s",
+    "video_id": "PALMMqZLAQk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a1a3326c5d9176c763fc3fd847b86681/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Khalid::Young Dumb & Broke": {
+    "id": "Khalid::Young Dumb & Broke",
+    "artist": "Khalid",
+    "title": "Young Dumb & Broke",
+    "decade": "2010s",
+    "video_id": "zA6LMc7OmsU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7fa1597e86f5b4283ea316f2ddb54008/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Khalid::Talk": {
+    "id": "Khalid::Talk",
+    "artist": "Khalid",
+    "title": "Talk",
+    "decade": "2010s",
+    "video_id": "qjL_-OFbk8I",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f350b1fd2563c5f582d10914f8cbbe42/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Weeknd::Starboy": {
+    "id": "The Weeknd::Starboy",
+    "artist": "The Weeknd",
+    "title": "Starboy",
+    "decade": "2010s",
+    "video_id": "xizN47Box_Y",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/134778e4c4f19ea71c82408300925a9a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Weeknd::The Hills": {
+    "id": "The Weeknd::The Hills",
+    "artist": "The Weeknd",
+    "title": "The Hills",
+    "decade": "2010s",
+    "video_id": "zxdSHfZFKkY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/eea9f7fc913300e40307a0ff70dc73cf/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Weeknd::Earned It": {
+    "id": "The Weeknd::Earned It",
+    "artist": "The Weeknd",
+    "title": "Earned It",
+    "decade": "2010s",
+    "video_id": "xe_iCkFsQKE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7c5999407b612875c906d7ded6358664/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Frank Ocean::Thinking Bout You": {
+    "id": "Frank Ocean::Thinking Bout You",
+    "artist": "Frank Ocean",
+    "title": "Thinking Bout You",
+    "decade": "2010s",
+    "video_id": "6JHu3b-pbh8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e545e4c96ae929e8cce56808afd7756f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Frank Ocean::Pink + White": {
+    "id": "Frank Ocean::Pink + White",
+    "artist": "Frank Ocean",
+    "title": "Pink + White",
+    "decade": "2010s",
+    "video_id": "9cHbvRUALrc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f798a866107715dd6dc1049e498ce21f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bruno Mars::Locked Out of Heaven": {
+    "id": "Bruno Mars::Locked Out of Heaven",
+    "artist": "Bruno Mars",
+    "title": "Locked Out of Heaven",
+    "decade": "2010s",
+    "video_id": "WzsYtW8zyXU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2ae8e9f1714cc6cc9393f7873008f45c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bruno Mars::Grenade": {
+    "id": "Bruno Mars::Grenade",
+    "artist": "Bruno Mars",
+    "title": "Grenade",
+    "decade": "2010s",
+    "video_id": "4YrzJ9RZ9qY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/12ac2e58b173d8704718b48a0e91b349/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bruno Mars::Treasure": {
+    "id": "Bruno Mars::Treasure",
+    "artist": "Bruno Mars",
+    "title": "Treasure",
+    "decade": "2010s",
+    "video_id": "jz7C2W4m26U",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2ae8e9f1714cc6cc9393f7873008f45c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Daniel Caesar::Best Part": {
+    "id": "Daniel Caesar::Best Part",
+    "artist": "Daniel Caesar",
+    "title": "Best Part",
+    "decade": "2010s",
+    "video_id": "75-Com9Bo_s",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4dff56488d13d0b5e96d93d895c9624b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Luke Combs::Hurricane": {
+    "id": "Luke Combs::Hurricane",
+    "artist": "Luke Combs",
+    "title": "Hurricane",
+    "decade": "2010s",
+    "video_id": "PoZWTEXRgKo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/604a0c257b0c9257baea25999eed142f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Luke Combs::Beautiful Crazy": {
+    "id": "Luke Combs::Beautiful Crazy",
+    "artist": "Luke Combs",
+    "title": "Beautiful Crazy",
+    "decade": "2010s",
+    "video_id": "euUm3-jFOls",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/024c71d279f694c84f0305b50d0bc6ee/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kane Brown::Heaven": {
+    "id": "Kane Brown::Heaven",
+    "artist": "Kane Brown",
+    "title": "Heaven",
+    "decade": "2010s",
+    "video_id": "vZi_0jiWfUI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e35c4309ed0012ae3e7d954f66d37bf3/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Chris Stapleton::Tennessee Whiskey": {
+    "id": "Chris Stapleton::Tennessee Whiskey",
+    "artist": "Chris Stapleton",
+    "title": "Tennessee Whiskey",
+    "decade": "2010s",
+    "video_id": "4zAThXFOy2c",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1dd028fd513eefb5993cf8fb5c46d576/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kacey Musgraves::Follow Your Arrow": {
+    "id": "Kacey Musgraves::Follow Your Arrow",
+    "artist": "Kacey Musgraves",
+    "title": "Follow Your Arrow",
+    "decade": "2010s",
+    "video_id": "E_VbiGA0CCU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0597795cd40eaff3b1b39b6e77f44aab/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Florida Georgia Line::Cruise": {
+    "id": "Florida Georgia Line::Cruise",
+    "artist": "Florida Georgia Line",
+    "title": "Cruise",
+    "decade": "2010s",
+    "video_id": "zAND37zOC9g",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f566c4c0a81527eb128f5976eec475b2/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Florida Georgia Line::H.O.L.Y.": {
+    "id": "Florida Georgia Line::H.O.L.Y.",
+    "artist": "Florida Georgia Line",
+    "title": "H.O.L.Y.",
+    "decade": "2010s",
+    "video_id": "N8tiPeC5Oiw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1988f45f8e79bf7d528c6b17bf076413/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sam Hunt::Body Like a Back Road": {
+    "id": "Sam Hunt::Body Like a Back Road",
+    "artist": "Sam Hunt",
+    "title": "Body Like a Back Road",
+    "decade": "2010s",
+    "video_id": "Mdh2p03cRfw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e0a0ab394c08c481008f0f7286a05c9c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Luis Fonsi::Despacito": {
+    "id": "Luis Fonsi::Despacito",
+    "artist": "Luis Fonsi",
+    "title": "Despacito",
+    "decade": "2010s",
+    "video_id": "gm3-m2CFVWM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7985ef4ccd9e66af2fc3c18d629689aa/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "J Balvin::Mi Gente": {
+    "id": "J Balvin::Mi Gente",
+    "artist": "J Balvin",
+    "title": "Mi Gente",
+    "decade": "2010s",
+    "video_id": "A8uxUYq6Etg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/235e6dc887463bdd0657fe8e6ce1265a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "J Balvin::Ginza": {
+    "id": "J Balvin::Ginza",
+    "artist": "J Balvin",
+    "title": "Ginza",
+    "decade": "2010s",
+    "video_id": "JSDB2PBtNvk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fbd2bc7d9384674fb682e0df4c24d6ac/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bad Bunny::Callaita": {
+    "id": "Bad Bunny::Callaita",
+    "artist": "Bad Bunny",
+    "title": "Callaita",
+    "decade": "2010s",
+    "video_id": "RFE6v8FpfWs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/53812cc43e108be37113c41a0ebdafaf/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Shakira::Waka Waka (This Time for Africa)": {
+    "id": "Shakira::Waka Waka (This Time for Africa)",
+    "artist": "Shakira",
+    "title": "Waka Waka (This Time for Africa)",
+    "decade": "2010s",
+    "video_id": "czWcyZRAMtk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e5f3faf34a31ae0a4552e7f86c819170/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "BTS::Boy With Luv": {
+    "id": "BTS::Boy With Luv",
+    "artist": "BTS",
+    "title": "Boy With Luv",
+    "decade": "2010s",
+    "video_id": "OEnvXsyGZmU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ba01e3de4d64a272543c427914c49e8b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "BLACKPINK::Kill This Love": {
+    "id": "BLACKPINK::Kill This Love",
+    "artist": "BLACKPINK",
+    "title": "Kill This Love",
+    "decade": "2010s",
+    "video_id": "OkmVcYtCqjw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/46c199d0998f340c38c31f40e11478df/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "BLACKPINK::DDU-DU DDU-DU": {
+    "id": "BLACKPINK::DDU-DU DDU-DU",
+    "artist": "BLACKPINK",
+    "title": "DDU-DU DDU-DU",
+    "decade": "2010s",
+    "video_id": "RMc9qFrCqno",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/023a060134d8e8896a3d9dd298e1e07c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Imagine Dragons::Thunder": {
+    "id": "Imagine Dragons::Thunder",
+    "artist": "Imagine Dragons",
+    "title": "Thunder",
+    "decade": "2010s",
+    "video_id": "GtEvysh1654",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/247b228179aea3b083eef43522b78b45/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Imagine Dragons::Demons": {
+    "id": "Imagine Dragons::Demons",
+    "artist": "Imagine Dragons",
+    "title": "Demons",
+    "decade": "2010s",
+    "video_id": "pvrkfb1C4tE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/cc0dc7fbcbba2e64edeb091c7e339505/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Imagine Dragons::Whatever It Takes": {
+    "id": "Imagine Dragons::Whatever It Takes",
+    "artist": "Imagine Dragons",
+    "title": "Whatever It Takes",
+    "decade": "2010s",
+    "video_id": "UsuF4jJ4sgA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/247b228179aea3b083eef43522b78b45/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Twenty One Pilots::Stressed Out": {
+    "id": "Twenty One Pilots::Stressed Out",
+    "artist": "Twenty One Pilots",
+    "title": "Stressed Out",
+    "decade": "2010s",
+    "video_id": "XZe_pV2rXuk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/dbbde1014cda9b101412a8e27add0ad2/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Twenty One Pilots::Ride": {
+    "id": "Twenty One Pilots::Ride",
+    "artist": "Twenty One Pilots",
+    "title": "Ride",
+    "decade": "2010s",
+    "video_id": "hyzGXmPQzEg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/dbbde1014cda9b101412a8e27add0ad2/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Twenty One Pilots::Heathens": {
+    "id": "Twenty One Pilots::Heathens",
+    "artist": "Twenty One Pilots",
+    "title": "Heathens",
+    "decade": "2010s",
+    "video_id": "zq2pagG8_ok",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3dfc8c9e406cf1bba8ce0695a44a9b7e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Panic! At The Disco::High Hopes": {
+    "id": "Panic! At The Disco::High Hopes",
+    "artist": "Panic! At The Disco",
+    "title": "High Hopes",
+    "decade": "2010s",
+    "video_id": "fH_OnJk6QqU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/61a2e3b5a084305f503ea641e2841ecb/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Fall Out Boy::Centuries": {
+    "id": "Fall Out Boy::Centuries",
+    "artist": "Fall Out Boy",
+    "title": "Centuries",
+    "decade": "2010s",
+    "video_id": "oPA0z4W-kcU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c0a1d1281570ad3becbb6146c6d54c0c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Fall Out Boy::My Songs Know What You Did in the Dark": {
+    "id": "Fall Out Boy::My Songs Know What You Did in the Dark",
+    "artist": "Fall Out Boy",
+    "title": "My Songs Know What You Did in the Dark",
+    "decade": "2010s",
+    "video_id": "JQ0lE7e3yfk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/265ba23705271a65f0633cd7a7444bed/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Cage The Elephant::Cigarette Daydreams": {
+    "id": "Cage The Elephant::Cigarette Daydreams",
+    "artist": "Cage The Elephant",
+    "title": "Cigarette Daydreams",
+    "decade": "2010s",
+    "video_id": "j31r0WSWrSU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/41aaf2f8f75a0e18916542129e46d41e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Foster The People::Pumped Up Kicks": {
+    "id": "Foster The People::Pumped Up Kicks",
+    "artist": "Foster The People",
+    "title": "Pumped Up Kicks",
+    "decade": "2010s",
+    "video_id": "0DOv0-2yyfE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fc73624907c40d356ca26152754cef43/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "MGMT::Electric Feel": {
+    "id": "MGMT::Electric Feel",
+    "artist": "MGMT",
+    "title": "Electric Feel",
+    "decade": "2010s",
+    "video_id": "KFHOVVRnxGk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/751372bcbd63a38e6ec6ef8bd448d687/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "MGMT::Kids": {
+    "id": "MGMT::Kids",
+    "artist": "MGMT",
+    "title": "Kids",
+    "decade": "2010s",
+    "video_id": "rdKfuwy6LUM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/751372bcbd63a38e6ec6ef8bd448d687/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Vance Joy::Riptide": {
+    "id": "Vance Joy::Riptide",
+    "artist": "Vance Joy",
+    "title": "Riptide",
+    "decade": "2010s",
+    "video_id": "lYoWuaw5nSk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d3f67e81d134e4036fd2e68a062210c4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Lumineers::Ho Hey": {
+    "id": "The Lumineers::Ho Hey",
+    "artist": "The Lumineers",
+    "title": "Ho Hey",
+    "decade": "2010s",
+    "video_id": "LPyZYmPb3sM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5feedc5f17581c7553a777bbb220fe02/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Mumford & Sons::I Will Wait": {
+    "id": "Mumford & Sons::I Will Wait",
+    "artist": "Mumford & Sons",
+    "title": "I Will Wait",
+    "decade": "2010s",
+    "video_id": "DWD7CNFlsOc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c5db3b23db0b7277863a0a5714043325/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Mumford & Sons::Little Lion Man": {
+    "id": "Mumford & Sons::Little Lion Man",
+    "artist": "Mumford & Sons",
+    "title": "Little Lion Man",
+    "decade": "2010s",
+    "video_id": "5qDusitZ9EU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c5db3b23db0b7277863a0a5714043325/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bastille::Pompeii": {
+    "id": "Bastille::Pompeii",
+    "artist": "Bastille",
+    "title": "Pompeii",
+    "decade": "2010s",
+    "video_id": "ilLEuwH4hws",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2d5984bac3f7865ea5a92a30221d5386/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Arctic Monkeys::Do I Wanna Know?": {
+    "id": "Arctic Monkeys::Do I Wanna Know?",
+    "artist": "Arctic Monkeys",
+    "title": "Do I Wanna Know?",
+    "decade": "2010s",
+    "video_id": "PUL2mVdt3xo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Arctic Monkeys::R U Mine?": {
+    "id": "Arctic Monkeys::R U Mine?",
+    "artist": "Arctic Monkeys",
+    "title": "R U Mine?",
+    "decade": "2010s",
+    "video_id": "voH0S0e01vs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The 1975::Chocolate": {
+    "id": "The 1975::Chocolate",
+    "artist": "The 1975",
+    "title": "Chocolate",
+    "decade": "2010s",
+    "video_id": "1GgAxw6hQRk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b60ba959b2358eaeb29bedac5675faf7/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The 1975::Somebody Else": {
+    "id": "The 1975::Somebody Else",
+    "artist": "The 1975",
+    "title": "Somebody Else",
+    "decade": "2010s",
+    "video_id": "VNsd8Yo5zvc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ed20ecb9d5df25ff97dd2132e8a4739f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Hozier::Take Me to Church": {
+    "id": "Hozier::Take Me to Church",
+    "artist": "Hozier",
+    "title": "Take Me to Church",
+    "decade": "2010s",
+    "video_id": "SND2LY0s8FE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/cb0765162a497d07e13a22dfa22f1dfa/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Florence + The Machine::Dog Days Are Over": {
+    "id": "Florence + The Machine::Dog Days Are Over",
+    "artist": "Florence + The Machine",
+    "title": "Dog Days Are Over",
+    "decade": "2010s",
+    "video_id": "vDHr85LiwUM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e4975860d7e182195ec9fb1464676b94/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Florence + The Machine::Shake It Out": {
+    "id": "Florence + The Machine::Shake It Out",
+    "artist": "Florence + The Machine",
+    "title": "Shake It Out",
+    "decade": "2010s",
+    "video_id": "RCWnVznnWcs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/08e4b234492f0e0ac681660fc553a2d8/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "OneRepublic::Counting Stars": {
+    "id": "OneRepublic::Counting Stars",
+    "artist": "OneRepublic",
+    "title": "Counting Stars",
+    "decade": "2010s",
+    "video_id": "mgT0N3tMP74",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/016f3117546e2bcc4229142c7268fb04/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Maroon 5::Payphone": {
+    "id": "Maroon 5::Payphone",
+    "artist": "Maroon 5",
+    "title": "Payphone",
+    "decade": "2010s",
+    "video_id": "bbdsIR4UHDg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/44f3324a7951ac6ebd2962caf60e9cd0/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Maroon 5::One More Night": {
+    "id": "Maroon 5::One More Night",
+    "artist": "Maroon 5",
+    "title": "One More Night",
+    "decade": "2010s",
+    "video_id": "7CPYoGtI75Q",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/809235f53f2eacd1c5cba6d0002f903b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Train::Hey, Soul Sister": {
+    "id": "Train::Hey, Soul Sister",
+    "artist": "Train",
+    "title": "Hey, Soul Sister",
+    "decade": "2010s",
+    "video_id": "Iurs-gVL48Y",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/90989ab8998af9d5957b43bae748788d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "fun.::We Are Young": {
+    "id": "fun.::We Are Young",
+    "artist": "fun.",
+    "title": "We Are Young",
+    "decade": "2010s",
+    "video_id": "s71olxc-Hs8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5f7bd91e2d91ce2d308ee754d6821ff7/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "fun.::Some Nights": {
+    "id": "fun.::Some Nights",
+    "artist": "fun.",
+    "title": "Some Nights",
+    "decade": "2010s",
+    "video_id": "QxTBtHsh408",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5f7bd91e2d91ce2d308ee754d6821ff7/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ellie Goulding::Love Me Like You Do": {
+    "id": "Ellie Goulding::Love Me Like You Do",
+    "artist": "Ellie Goulding",
+    "title": "Love Me Like You Do",
+    "decade": "2010s",
+    "video_id": "725WlG1idPc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/be641fbcd5f0bcc3db02a52335e15e04/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Ellie Goulding::Lights": {
+    "id": "Ellie Goulding::Lights",
+    "artist": "Ellie Goulding",
+    "title": "Lights",
+    "decade": "2010s",
+    "video_id": "V9RbUwvqc2U",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/cb4a76e1fb185d26eb52758588cc0266/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Jessie J::Price Tag": {
+    "id": "Jessie J::Price Tag",
+    "artist": "Jessie J",
+    "title": "Price Tag",
+    "decade": "2010s",
+    "video_id": "Rtsdt3EB8aA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2e830d5ee10ad8654e0d8ab70a18e54a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Jessie J::Domino": {
+    "id": "Jessie J::Domino",
+    "artist": "Jessie J",
+    "title": "Domino",
+    "decade": "2010s",
+    "video_id": "0U9beJc6jnM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c06c1f78fc1a9ddab06583643c82ce0c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Little Mix::Black Magic": {
+    "id": "Little Mix::Black Magic",
+    "artist": "Little Mix",
+    "title": "Black Magic",
+    "decade": "2010s",
+    "video_id": "SMjFOjmMXac",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b9a40dd83b9458409a6eb047a5b6cc55/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "P!nk::Just Give Me a Reason": {
+    "id": "P!nk::Just Give Me a Reason",
+    "artist": "P!nk",
+    "title": "Just Give Me a Reason",
+    "decade": "2010s",
+    "video_id": "D1CpWYU3DvA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a43e104f2ff2872df2e1bf4207b6b5e6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "P!nk::Try": {
+    "id": "P!nk::Try",
+    "artist": "P!nk",
+    "title": "Try",
+    "decade": "2010s",
+    "video_id": "pPtlSF4TlJE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a43e104f2ff2872df2e1bf4207b6b5e6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Christina Perri::Jar of Hearts": {
+    "id": "Christina Perri::Jar of Hearts",
+    "artist": "Christina Perri",
+    "title": "Jar of Hearts",
+    "decade": "2010s",
+    "video_id": "5mvfc3nWRj0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2cf468fd0556a7e87d10640ebb270587/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Gotye::Somebody That I Used to Know": {
+    "id": "Gotye::Somebody That I Used to Know",
+    "artist": "Gotye",
+    "title": "Somebody That I Used to Know",
+    "decade": "2010s",
+    "video_id": "hhyi3rrVB6E",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/043d27d9f4ca2a7c28b3e30b57a4cd18/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Clean Bandit::Rather Be": {
+    "id": "Clean Bandit::Rather Be",
+    "artist": "Clean Bandit",
+    "title": "Rather Be",
+    "decade": "2010s",
+    "video_id": "jUjDcqdvCrk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3193132d50c74a62d1cd419fa170139a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "AWOLNATION::Sail": {
+    "id": "AWOLNATION::Sail",
+    "artist": "AWOLNATION",
+    "title": "Sail",
+    "decade": "2010s",
+    "video_id": "H52UQx7PV_8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/858363862b8caef2d22cbd3302a5db66/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "American Authors::Best Day of My Life": {
+    "id": "American Authors::Best Day of My Life",
+    "artist": "American Authors",
+    "title": "Best Day of My Life",
+    "decade": "2010s",
+    "video_id": "vJ9KFEJVISo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b965a1aa1b44e52fa89ab7b393a80eeb/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "X Ambassadors::Renegades": {
+    "id": "X Ambassadors::Renegades",
+    "artist": "X Ambassadors",
+    "title": "Renegades",
+    "decade": "2010s",
+    "video_id": "8j741TUIET0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e9c6ac5bf2a809dcd10c9928c85442b0/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Alessia Cara::Here": {
+    "id": "Alessia Cara::Here",
+    "artist": "Alessia Cara",
+    "title": "Here",
+    "decade": "2010s",
+    "video_id": "_Q_onQIhBW0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c2c09bb30073e88323ddcdb6e3311e49/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Alessia Cara::Scars to Your Beautiful": {
+    "id": "Alessia Cara::Scars to Your Beautiful",
+    "artist": "Alessia Cara",
+    "title": "Scars to Your Beautiful",
+    "decade": "2010s",
+    "video_id": "Em7vc8NWUNY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c2c09bb30073e88323ddcdb6e3311e49/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Rachel Platten::Fight Song": {
+    "id": "Rachel Platten::Fight Song",
+    "artist": "Rachel Platten",
+    "title": "Fight Song",
+    "decade": "2010s",
+    "video_id": "XbxNtPiCBK8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1474e2802a6983f4e0fc74ebe104b2c2/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Meghan Trainor::Lips Are Movin": {
+    "id": "Meghan Trainor::Lips Are Movin",
+    "artist": "Meghan Trainor",
+    "title": "Lips Are Movin",
+    "decade": "2010s",
+    "video_id": "yOIu78gsGOQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/14f6b5d6ab06d3bc46b15c67c15305f1/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Silento::Watch Me (Whip/Nae Nae)": {
+    "id": "Silento::Watch Me (Whip/Nae Nae)",
+    "artist": "Silento",
+    "title": "Watch Me (Whip/Nae Nae)",
+    "decade": "2010s",
+    "video_id": "TdWiRv9exGc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/294810837e79077c74039a2bde044dfe/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "OMI::Cheerleader": {
+    "id": "OMI::Cheerleader",
+    "artist": "OMI",
+    "title": "Cheerleader",
+    "decade": "2010s",
+    "video_id": "rXF9ziZ3AU4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/df670d656c8cb219a1c613bd8a7a533f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "MAGIC!::Rude": {
+    "id": "MAGIC!::Rude",
+    "artist": "MAGIC!",
+    "title": "Rude",
+    "decade": "2010s",
+    "video_id": "NoEMIVx4J78",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a393ea2d5dafca17cb80c3258a47a9ee/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Iggy Azalea::Fancy": {
+    "id": "Iggy Azalea::Fancy",
+    "artist": "Iggy Azalea",
+    "title": "Fancy",
+    "decade": "2010s",
+    "video_id": "H6FfQyvnBuk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ee4fdb5bf3d7e7810fdb4d79cb997252/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Jason Derulo::Talk Dirty": {
+    "id": "Jason Derulo::Talk Dirty",
+    "artist": "Jason Derulo",
+    "title": "Talk Dirty",
+    "decade": "2010s",
+    "video_id": "vYt87CNb4Og",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/9d7c0b052fdd421ed69deaf9c2dcb7d5/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Jason Derulo::Want to Want Me": {
+    "id": "Jason Derulo::Want to Want Me",
+    "artist": "Jason Derulo",
+    "title": "Want to Want Me",
+    "decade": "2010s",
+    "video_id": "X_mxDuaOOjI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4e438c2f2ad8cde2ff67009ce311df06/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Nick Jonas::Jealous": {
+    "id": "Nick Jonas::Jealous",
+    "artist": "Nick Jonas",
+    "title": "Jealous",
+    "decade": "2010s",
+    "video_id": "c7qU28_tYVU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c6f0005f397386ba5ccc976455db640c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Fetty Wap::Trap Queen": {
+    "id": "Fetty Wap::Trap Queen",
+    "artist": "Fetty Wap",
+    "title": "Trap Queen",
+    "decade": "2010s",
+    "video_id": "-JryD7YPNI8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/abfda6fd095630d1c07adde0c664c2ef/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Portugal. The Man::Feel It Still": {
+    "id": "Portugal. The Man::Feel It Still",
+    "artist": "Portugal. The Man",
+    "title": "Feel It Still",
+    "decade": "2010s",
+    "video_id": "_WeAbbw8y08",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c088a8e43543bd7995f40cde3c174ab3/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lauv::I Like Me Better": {
+    "id": "Lauv::I Like Me Better",
+    "artist": "Lauv",
+    "title": "I Like Me Better",
+    "decade": "2010s",
+    "video_id": "a7fzkqLozwA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3db7eca4ee1a2effa0d353289b4b2bba/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Julia Michaels::Issues": {
+    "id": "Julia Michaels::Issues",
+    "artist": "Julia Michaels",
+    "title": "Issues",
+    "decade": "2010s",
+    "video_id": "A0GRsWKyaeo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3e93a6b190ae3ff17368fdd255a59961/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Niall Horan::Slow Hands": {
+    "id": "Niall Horan::Slow Hands",
+    "artist": "Niall Horan",
+    "title": "Slow Hands",
+    "decade": "2010s",
+    "video_id": "nBmNcLBaPUE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/280f054262ce5c2b534150d79f694350/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Anne-Marie::2002": {
+    "id": "Anne-Marie::2002",
+    "artist": "Anne-Marie",
+    "title": "2002",
+    "decade": "2010s",
+    "video_id": "qxCCGcMC1Jk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/05324f09b36811d11f160b72eb5fb354/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "James Bay::Let It Go": {
+    "id": "James Bay::Let It Go",
+    "artist": "James Bay",
+    "title": "Let It Go",
+    "decade": "2010s",
+    "video_id": "PqFP_4uzBkw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a4dfb143710409b9afeedecdf4a8c1b0/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "George Ezra::Shotgun": {
+    "id": "George Ezra::Shotgun",
+    "artist": "George Ezra",
+    "title": "Shotgun",
+    "decade": "2010s",
+    "video_id": "v_B3qkp4nO4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/34b2fe66c53c7d4fc1b79a8dcb5eb797/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "George Ezra::Budapest": {
+    "id": "George Ezra::Budapest",
+    "artist": "George Ezra",
+    "title": "Budapest",
+    "decade": "2010s",
+    "video_id": "4YCkAVokE84",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8cb7398a61585a1b3ded2557b029e8a6/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Rag'n'Bone Man::Human": {
+    "id": "Rag'n'Bone Man::Human",
+    "artist": "Rag'n'Bone Man",
+    "title": "Human",
+    "decade": "2010s",
+    "video_id": "AR0E8p2kYHE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/44037061fb79c73d1039c400662434a5/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Milky Chance::Stolen Dance": {
+    "id": "Milky Chance::Stolen Dance",
+    "artist": "Milky Chance",
+    "title": "Stolen Dance",
+    "decade": "2010s",
+    "video_id": "5kFdNzc0E4c",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/addb9bec62269eed82d35c2bebfb1c03/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Passenger::Let Her Go": {
+    "id": "Passenger::Let Her Go",
+    "artist": "Passenger",
+    "title": "Let Her Go",
+    "decade": "2010s",
+    "video_id": "JLdjXD_QfU0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e2572836fe2d7ce6283349014dca01c8/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kodaline::All I Want": {
+    "id": "Kodaline::All I Want",
+    "artist": "Kodaline",
+    "title": "All I Want",
+    "decade": "2010s",
+    "video_id": "NRhmmqsZIpw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ed819d905960bc72b131299b84d58e5e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Of Monsters and Men::Little Talks": {
+    "id": "Of Monsters and Men::Little Talks",
+    "artist": "Of Monsters and Men",
+    "title": "Little Talks",
+    "decade": "2010s",
+    "video_id": "CF-l73qCrgU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fd269461cb1125e4d74abfc21ba39e6e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lewis Capaldi::Someone You Loved": {
+    "id": "Lewis Capaldi::Someone You Loved",
+    "artist": "Lewis Capaldi",
+    "title": "Someone You Loved",
+    "decade": "2010s",
+    "video_id": "FGGo8LFmbjs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/9a49265adb09ef5c1ae4920f8420e5ae/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Justin Bieber::Yummy": {
+    "id": "Justin Bieber::Yummy",
+    "artist": "Justin Bieber",
+    "title": "Yummy",
+    "decade": "2020s",
+    "video_id": "0pAkIrJfwao",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/03c1486d3a4d7b3b99b21024a5530162/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Justin Bieber::Peaches": {
+    "id": "Justin Bieber::Peaches",
+    "artist": "Justin Bieber",
+    "title": "Peaches",
+    "decade": "2020s",
+    "video_id": "AwYQGtwoF68",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/87468622c8e7ac9dce7b541be136aa4c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Justin Bieber::Ghost": {
+    "id": "Justin Bieber::Ghost",
+    "artist": "Justin Bieber",
+    "title": "Ghost",
+    "decade": "2020s",
+    "video_id": "be3hbNjjDaY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/87468622c8e7ac9dce7b541be136aa4c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Dua Lipa::Physical": {
+    "id": "Dua Lipa::Physical",
+    "artist": "Dua Lipa",
+    "title": "Physical",
+    "decade": "2020s",
+    "video_id": "SECICUOWPRc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2e908f6f4b873056daa652253750aadf/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Dua Lipa::Break My Heart": {
+    "id": "Dua Lipa::Break My Heart",
+    "artist": "Dua Lipa",
+    "title": "Break My Heart",
+    "decade": "2020s",
+    "video_id": "lwyVHMBZYVE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e7957c650782f233d56a769869c86224/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Miley Cyrus::Midnight Sky": {
+    "id": "Miley Cyrus::Midnight Sky",
+    "artist": "Miley Cyrus",
+    "title": "Midnight Sky",
+    "decade": "2020s",
+    "video_id": "O4Bjvg--_mw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3f5dd91b74257de4190a92893347bdf8/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Doja Cat::Streets": {
+    "id": "Doja Cat::Streets",
+    "artist": "Doja Cat",
+    "title": "Streets",
+    "decade": "2020s",
+    "video_id": "oqv35UZepIM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1e0d4359a328f8b0ea3563e8623a09aa/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Doja Cat::Vegas": {
+    "id": "Doja Cat::Vegas",
+    "artist": "Doja Cat",
+    "title": "Vegas",
+    "decade": "2020s",
+    "video_id": "7jBfKHD5sm8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ad53860ee3ef4e28aa48bbe4132a54e5/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Weeknd::Heartless": {
+    "id": "The Weeknd::Heartless",
+    "artist": "The Weeknd",
+    "title": "Heartless",
+    "decade": "2020s",
+    "video_id": "RwnE0xR50ms",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f520bf0be2e3cfc476824e75d20a164a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Weeknd::Take My Breath": {
+    "id": "The Weeknd::Take My Breath",
+    "artist": "The Weeknd",
+    "title": "Take My Breath",
+    "decade": "2020s",
+    "video_id": "-ZuS0p2qRYo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/198af52fb6801a5881180232cb649f61/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Weeknd::In Your Eyes": {
+    "id": "The Weeknd::In Your Eyes",
+    "artist": "The Weeknd",
+    "title": "In Your Eyes",
+    "decade": "2020s",
+    "video_id": "E3QiD99jPAg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/fd00ebd6d30d7253f813dba3bb1c66a9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bad Bunny::Titi Me Pregunto": {
+    "id": "Bad Bunny::Titi Me Pregunto",
+    "artist": "Bad Bunny",
+    "title": "Titi Me Pregunto",
+    "decade": "2020s",
+    "video_id": "qBUKfQRbzuk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b29d1070377b784384c2456093f96a66/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bad Bunny::Me Porto Bonito": {
+    "id": "Bad Bunny::Me Porto Bonito",
+    "artist": "Bad Bunny",
+    "title": "Me Porto Bonito",
+    "decade": "2020s",
+    "video_id": "9TXHHWIsFhg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b29d1070377b784384c2456093f96a66/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bad Bunny::Un Verano Sin Ti": {
+    "id": "Bad Bunny::Un Verano Sin Ti",
+    "artist": "Bad Bunny",
+    "title": "Un Verano Sin Ti",
+    "decade": "2020s",
+    "video_id": "REyv4cblksI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b29d1070377b784384c2456093f96a66/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bad Bunny::Monaco": {
+    "id": "Bad Bunny::Monaco",
+    "artist": "Bad Bunny",
+    "title": "Monaco",
+    "decade": "2020s",
+    "video_id": "QxPeRC82Uo0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f840891b70f6e240b8ecaec49346bd6a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Rosal\u00eda::Despech\u00e1": {
+    "id": "Rosal\u00eda::Despech\u00e1",
+    "artist": "Rosal\u00eda",
+    "title": "Despech\u00e1",
+    "decade": "2020s",
+    "video_id": "Mq7gC2gLPLI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b805ed7967bdc65386883cc3790459e7/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Rosal\u00eda::Con Altura": {
+    "id": "Rosal\u00eda::Con Altura",
+    "artist": "Rosal\u00eda",
+    "title": "Con Altura",
+    "decade": "2020s",
+    "video_id": "FELWPcA2q5s",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0a6b457530fcf0bfa2eff233cb584e29/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Karol G::Provenza": {
+    "id": "Karol G::Provenza",
+    "artist": "Karol G",
+    "title": "Provenza",
+    "decade": "2020s",
+    "video_id": "nLSY81D-m3A",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6468d5adca0eb6d157f42a309b6e6b2e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Karol G::Mi Ex Ten\u00eda Raz\u00f3n": {
+    "id": "Karol G::Mi Ex Ten\u00eda Raz\u00f3n",
+    "artist": "Karol G",
+    "title": "Mi Ex Ten\u00eda Raz\u00f3n",
+    "decade": "2020s",
+    "video_id": "MUicgHmrNfw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/eacb2df2f49b1e67266ed70c8debd8d3/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Peso Pluma::PRC": {
+    "id": "Peso Pluma::PRC",
+    "artist": "Peso Pluma",
+    "title": "PRC",
+    "decade": "2020s",
+    "video_id": "6iwX2Jl1XDM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6a02daf3cbb9ce7ee3bf1fbbb2a9e45b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Harry Styles::Golden": {
+    "id": "Harry Styles::Golden",
+    "artist": "Harry Styles",
+    "title": "Golden",
+    "decade": "2020s",
+    "video_id": "enuYFtMHgfU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Harry Styles::Adore You": {
+    "id": "Harry Styles::Adore You",
+    "artist": "Harry Styles",
+    "title": "Adore You",
+    "decade": "2020s",
+    "video_id": "xzNliaWxdjM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Harry Styles::Late Night Talking": {
+    "id": "Harry Styles::Late Night Talking",
+    "artist": "Harry Styles",
+    "title": "Late Night Talking",
+    "decade": "2020s",
+    "video_id": "AieJfzI_s_U",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/b0e936124f59e669ddba02ebe5893f95/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Olivia Rodrigo::Deja Vu": {
+    "id": "Olivia Rodrigo::Deja Vu",
+    "artist": "Olivia Rodrigo",
+    "title": "Deja Vu",
+    "decade": "2020s",
+    "video_id": "KAHPqG9TMng",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e68da86fd7976135c2d2d1715afaef7c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Olivia Rodrigo::Get Him Back!": {
+    "id": "Olivia Rodrigo::Get Him Back!",
+    "artist": "Olivia Rodrigo",
+    "title": "Get Him Back!",
+    "decade": "2020s",
+    "video_id": "vkAezOlnwtk",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4bb79214365c0049e031f5e2caae4752/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sabrina Carpenter::Nonsense": {
+    "id": "Sabrina Carpenter::Nonsense",
+    "artist": "Sabrina Carpenter",
+    "title": "Nonsense",
+    "decade": "2020s",
+    "video_id": "jH6IkvSW3ek",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ae372ba023cac79e74c1e3e8b6f7a50b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Sabrina Carpenter::Bed Chem": {
+    "id": "Sabrina Carpenter::Bed Chem",
+    "artist": "Sabrina Carpenter",
+    "title": "Bed Chem",
+    "decade": "2020s",
+    "video_id": "x8VkB8ap_FQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0fd6e3b346b959a8781ccfa89b63607a/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Gracie Abrams::Us.": {
+    "id": "Gracie Abrams::Us.",
+    "artist": "Gracie Abrams",
+    "title": "Us.",
+    "decade": "2020s",
+    "video_id": "zqnD_sk0gt8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/bad43fd5d83235591fbcb0132c5f1a35/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Noah Kahan::Dial Drunk": {
+    "id": "Noah Kahan::Dial Drunk",
+    "artist": "Noah Kahan",
+    "title": "Dial Drunk",
+    "decade": "2020s",
+    "video_id": "m9Kev73C2cc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/47efed6feec7cc7fee90eb739f5176a0/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Zach Bryan::Something in the Orange": {
+    "id": "Zach Bryan::Something in the Orange",
+    "artist": "Zach Bryan",
+    "title": "Something in the Orange",
+    "decade": "2020s",
+    "video_id": "sDOxeU02NUM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/69a7dad07b7b9323cf635c0862f916fe/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Morgan Wallen::Whiskey Glasses": {
+    "id": "Morgan Wallen::Whiskey Glasses",
+    "artist": "Morgan Wallen",
+    "title": "Whiskey Glasses",
+    "decade": "2020s",
+    "video_id": "GvPTenaI5Fo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7870978e898194b06db90ac30f1a7d4d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Morgan Wallen::Wasted On You": {
+    "id": "Morgan Wallen::Wasted On You",
+    "artist": "Morgan Wallen",
+    "title": "Wasted On You",
+    "decade": "2020s",
+    "video_id": "yI4WX3fR2NM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/ae3bc77672fbdd0ab53a6b3e1c24051c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Morgan Wallen::Cowgirls": {
+    "id": "Morgan Wallen::Cowgirls",
+    "artist": "Morgan Wallen",
+    "title": "Cowgirls",
+    "decade": "2020s",
+    "video_id": "UpYu9FgcxKo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0db17ea377d8659c60cee8a747e2c77c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lainey Wilson::Watermelon Moonshine": {
+    "id": "Lainey Wilson::Watermelon Moonshine",
+    "artist": "Lainey Wilson",
+    "title": "Watermelon Moonshine",
+    "decade": "2020s",
+    "video_id": "h-RKvr-QWKM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5189e46b51a640d9655afe11b7699c89/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lainey Wilson::Heart Like a Truck": {
+    "id": "Lainey Wilson::Heart Like a Truck",
+    "artist": "Lainey Wilson",
+    "title": "Heart Like a Truck",
+    "decade": "2020s",
+    "video_id": "RKuuL_lumyQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5189e46b51a640d9655afe11b7699c89/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Bailey Zimmerman::Rock and a Hard Place": {
+    "id": "Bailey Zimmerman::Rock and a Hard Place",
+    "artist": "Bailey Zimmerman",
+    "title": "Rock and a Hard Place",
+    "decade": "2020s",
+    "video_id": "utXEac94qd0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c562de22aa0838b2bbffd5040127de5c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Jelly Roll::Save Me": {
+    "id": "Jelly Roll::Save Me",
+    "artist": "Jelly Roll",
+    "title": "Save Me",
+    "decade": "2020s",
+    "video_id": "7_eXiEbx1e0",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e105b3c2a9f54d45bffb5cc8263adcaa/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Luke Combs::Fast Car": {
+    "id": "Luke Combs::Fast Car",
+    "artist": "Luke Combs",
+    "title": "Fast Car",
+    "decade": "2020s",
+    "video_id": "vxV3tQcpZeg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/06db141cc71e2a7bb2e8616698e9425b/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "HARDY::wait in the truck": {
+    "id": "HARDY::wait in the truck",
+    "artist": "HARDY",
+    "title": "wait in the truck",
+    "decade": "2020s",
+    "video_id": "JrOpU2uwz80",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e682b269ac33ae85ef8b3eea89a38090/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kane Brown::One Mississippi": {
+    "id": "Kane Brown::One Mississippi",
+    "artist": "Kane Brown",
+    "title": "One Mississippi",
+    "decade": "2020s",
+    "video_id": "gboKyQYs1zE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5f4eebc3e9bf776911462f4317ee3a95/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "BTS::Dynamite": {
+    "id": "BTS::Dynamite",
+    "artist": "BTS",
+    "title": "Dynamite",
+    "decade": "2020s",
+    "video_id": "KhZ5DCd7m6s",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a4cd18eed9833c7d10fc7a830573bf23/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "BTS::Butter": {
+    "id": "BTS::Butter",
+    "artist": "BTS",
+    "title": "Butter",
+    "decade": "2020s",
+    "video_id": "mAv9olaNzr8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/77d3f033b5b032233eff774c9f29c4c8/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "BTS::Permission to Dance": {
+    "id": "BTS::Permission to Dance",
+    "artist": "BTS",
+    "title": "Permission to Dance",
+    "decade": "2020s",
+    "video_id": "L7NtNvytL4s",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3d08ed8d5c39bdef49a686b5e3d2613f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Jung Kook::Seven": {
+    "id": "Jung Kook::Seven",
+    "artist": "Jung Kook",
+    "title": "Seven",
+    "decade": "2020s",
+    "video_id": "lToqrE5Ludo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d1ddbc901bf7d7b43187fac1b1e6714e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Jung Kook::Standing Next to You": {
+    "id": "Jung Kook::Standing Next to You",
+    "artist": "Jung Kook",
+    "title": "Standing Next to You",
+    "decade": "2020s",
+    "video_id": "eUvQwsDWc64",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5d316d47d96b7c8f5a029dffe1f38981/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "NewJeans::Super Shy": {
+    "id": "NewJeans::Super Shy",
+    "artist": "NewJeans",
+    "title": "Super Shy",
+    "decade": "2020s",
+    "video_id": "n7ePZLn9_lQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/37e446fe36cee17b6215e5d506d18354/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "NewJeans::Attention": {
+    "id": "NewJeans::Attention",
+    "artist": "NewJeans",
+    "title": "Attention",
+    "decade": "2020s",
+    "video_id": "ma8FcJxhZnw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a87d8380756567e6bc1f65d43ac2b46d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "NewJeans::Hype Boy": {
+    "id": "NewJeans::Hype Boy",
+    "artist": "NewJeans",
+    "title": "Hype Boy",
+    "decade": "2020s",
+    "video_id": "Pp07icnTPGE",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a87d8380756567e6bc1f65d43ac2b46d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "LE SSERAFIM::Perfect Night": {
+    "id": "LE SSERAFIM::Perfect Night",
+    "artist": "LE SSERAFIM",
+    "title": "Perfect Night",
+    "decade": "2020s",
+    "video_id": "bagucl7jjiM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/19965ca3dc610543faef2d3b269f8a0c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "TWICE::The Feels": {
+    "id": "TWICE::The Feels",
+    "artist": "TWICE",
+    "title": "The Feels",
+    "decade": "2020s",
+    "video_id": "1eZRyXPwIhM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/39443bfe03b4e82da2a4f35ae423cace/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "FIFTY FIFTY::Cupid": {
+    "id": "FIFTY FIFTY::Cupid",
+    "artist": "FIFTY FIFTY",
+    "title": "Cupid",
+    "decade": "2020s",
+    "video_id": "62TrmUvQGjo",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3b6d47ed87da4116f45d0859559327c1/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Burna Boy::Last Last": {
+    "id": "Burna Boy::Last Last",
+    "artist": "Burna Boy",
+    "title": "Last Last",
+    "decade": "2020s",
+    "video_id": "p5SYBGgqVXI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7e70d7e82d5d1fd0e219d65eb1bc6025/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": true
+  },
+  "Central Cee::Doja": {
+    "id": "Central Cee::Doja",
+    "artist": "Central Cee",
+    "title": "Doja",
+    "decade": "2020s",
+    "video_id": "UzXnbBqF-YU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1360ff342ec9c0a7b8f66d5d02b3d1ec/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "GloRilla::F.N.F. (Let's Go)": {
+    "id": "GloRilla::F.N.F. (Let's Go)",
+    "artist": "GloRilla",
+    "title": "F.N.F. (Let's Go)",
+    "decade": "2020s",
+    "video_id": "hEs9-e_pXCU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1c535a1b02abc4078193570d10595069/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Latto::Big Energy": {
+    "id": "Latto::Big Energy",
+    "artist": "Latto",
+    "title": "Big Energy",
+    "decade": "2020s",
+    "video_id": "J_etjp83wwg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e173dcf39083aac228287ab4c0bb3ffc/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lil Nas X::Industry Baby": {
+    "id": "Lil Nas X::Industry Baby",
+    "artist": "Lil Nas X",
+    "title": "Industry Baby",
+    "decade": "2020s",
+    "video_id": "VkBf-TzS_Is",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a65e86966cfd34b2aa292856136ef9ac/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Lil Nas X::That's What I Want": {
+    "id": "Lil Nas X::That's What I Want",
+    "artist": "Lil Nas X",
+    "title": "That's What I Want",
+    "decade": "2020s",
+    "video_id": "LzI3I3G-_Xg",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/18e6daf0a1c70c1346c44670ff70645d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Jack Harlow::Lovin On Me": {
+    "id": "Jack Harlow::Lovin On Me",
+    "artist": "Jack Harlow",
+    "title": "Lovin On Me",
+    "decade": "2020s",
+    "video_id": "VJA43ZH4-Ak",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6d4d4cbd4990a644a184b5f64ee01ebf/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "GAYLE::abcdefu": {
+    "id": "GAYLE::abcdefu",
+    "artist": "GAYLE",
+    "title": "abcdefu",
+    "decade": "2020s",
+    "video_id": "3i_MBzr7LWs",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/137883cc0d312240318d61a1b005846f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Em Beihold::Numb Little Bug": {
+    "id": "Em Beihold::Numb Little Bug",
+    "artist": "Em Beihold",
+    "title": "Numb Little Bug",
+    "decade": "2020s",
+    "video_id": "KtdZ9ve0Qa4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d4d434efd26b4cdc784cd1cc3db7a75e/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Steve Lacy::Bad Habit": {
+    "id": "Steve Lacy::Bad Habit",
+    "artist": "Steve Lacy",
+    "title": "Bad Habit",
+    "decade": "2020s",
+    "video_id": "UGbDWUtqMsQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/61eb9d48a6d8e6d6d6742a59886fb07f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Omar Apollo::Evergreen": {
+    "id": "Omar Apollo::Evergreen",
+    "artist": "Omar Apollo",
+    "title": "Evergreen",
+    "decade": "2020s",
+    "video_id": "gk3G4SLo8k4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/25b3ef9310dc698e2a66e96fdb645a90/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Beabadoobee::Glue Song": {
+    "id": "Beabadoobee::Glue Song",
+    "artist": "Beabadoobee",
+    "title": "Glue Song",
+    "decade": "2020s",
+    "video_id": "mR4wxeZ99Fw",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8e64a61be14286be891afeef6b1aafbe/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Wet Leg::Chaise Longue": {
+    "id": "Wet Leg::Chaise Longue",
+    "artist": "Wet Leg",
+    "title": "Chaise Longue",
+    "decade": "2020s",
+    "video_id": "RCPMIzOTPHY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/f56181283dbf55f6edb6d2c5091a80bc/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "The Backseat Lovers::Kilby Girl": {
+    "id": "The Backseat Lovers::Kilby Girl",
+    "artist": "The Backseat Lovers",
+    "title": "Kilby Girl",
+    "decade": "2020s",
+    "video_id": "oTwVce9eWb4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/de7cea79658f733402900155982957df/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Mitski::My Love Mine All Mine": {
+    "id": "Mitski::My Love Mine All Mine",
+    "artist": "Mitski",
+    "title": "My Love Mine All Mine",
+    "decade": "2020s",
+    "video_id": "CwGbMYLjIpQ",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/db69f7d3ea280f1155256705735648cd/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Boygenius::Not Strong Enough": {
+    "id": "Boygenius::Not Strong Enough",
+    "artist": "Boygenius",
+    "title": "Not Strong Enough",
+    "decade": "2020s",
+    "video_id": "rTcF-tZwlXI",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c36d43e83edce2aebe1a0624c9b2bcdf/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Fred again..::Delilah (pull me out of this)": {
+    "id": "Fred again..::Delilah (pull me out of this)",
+    "artist": "Fred again..",
+    "title": "Delilah (pull me out of this)",
+    "decade": "2020s",
+    "video_id": "3U5VhRZVD4k",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4417f9908f6657064dd554e8b64bcf2d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "JVKE::golden hour": {
+    "id": "JVKE::golden hour",
+    "artist": "JVKE",
+    "title": "golden hour",
+    "decade": "2020s",
+    "video_id": "UsR08cY8k0A",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/845eff477946539849c7291510d61daf/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "David Kushner::Daylight": {
+    "id": "David Kushner::Daylight",
+    "artist": "David Kushner",
+    "title": "Daylight",
+    "decade": "2020s",
+    "video_id": "73E0BnFs7S4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/35b38dd47620817080f93a56d6da8402/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Tate McRae::exes": {
+    "id": "Tate McRae::exes",
+    "artist": "Tate McRae",
+    "title": "exes",
+    "decade": "2020s",
+    "video_id": "Fgy82WS9Fg8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6f05ad1f5ec636827d9db5683188d980/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Tate McRae::you broke me first": {
+    "id": "Tate McRae::you broke me first",
+    "artist": "Tate McRae",
+    "title": "you broke me first",
+    "decade": "2020s",
+    "video_id": "QXzC2eiHBG8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e98a0f036dce1ff55a2b1bcb9bff3dc3/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Rene\u00e9 Rapp::Not My Fault": {
+    "id": "Rene\u00e9 Rapp::Not My Fault",
+    "artist": "Rene\u00e9 Rapp",
+    "title": "Not My Fault",
+    "decade": "2020s",
+    "video_id": "xSFknXcKYY4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/13915d5c40ba254eb72c485bf83d3525/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Chappell Roan::Casual": {
+    "id": "Chappell Roan::Casual",
+    "artist": "Chappell Roan",
+    "title": "Casual",
+    "decade": "2020s",
+    "video_id": "_4BBA8y3DPc",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/71486ce8b24f612c4887efa0f79a9f66/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Katseye::Gnarly": {
+    "id": "Katseye::Gnarly",
+    "artist": "Katseye",
+    "title": "Gnarly",
+    "decade": "2020s",
+    "video_id": "_V17ZR_fzhU",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/4ac0f6eeb7811cd74057972466df48a0/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Katseye::Touch": {
+    "id": "Katseye::Touch",
+    "artist": "Katseye",
+    "title": "Touch",
+    "decade": "2020s",
+    "video_id": "hSbVyA8DC-8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/1b3bf77a6a0c57d1b61292aa5d6793c9/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Rauw Alejandro::Todo de Ti": {
+    "id": "Rauw Alejandro::Todo de Ti",
+    "artist": "Rauw Alejandro",
+    "title": "Todo de Ti",
+    "decade": "2020s",
+    "video_id": "597KKUepNM4",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/7167a61f54a62c453f4d99ee59c151a4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Feid::Classy 101": {
+    "id": "Feid::Classy 101",
+    "artist": "Feid",
+    "title": "Classy 101",
+    "decade": "2020s",
+    "video_id": "EaNvU9YvviY",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/3210cc9224ba98d1733970571e44e9a4/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Manuel Turizo::La Bachata": {
+    "id": "Manuel Turizo::La Bachata",
+    "artist": "Manuel Turizo",
+    "title": "La Bachata",
+    "decade": "2020s",
+    "video_id": "nEd7mXPQ688",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/88390e8360f6f28138ab200efd1f9a6f/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Grupo Frontera::un x100to": {
+    "id": "Grupo Frontera::un x100to",
+    "artist": "Grupo Frontera",
+    "title": "un x100to",
+    "decade": "2020s",
+    "video_id": "LxBg_ErOPMA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8d2a9be13d164862ccb9a10ade01b0cf/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kali Uchis::Moonlight": {
+    "id": "Kali Uchis::Moonlight",
+    "artist": "Kali Uchis",
+    "title": "Moonlight",
+    "decade": "2020s",
+    "video_id": "8F7Q-4PZCjA",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/76a887908b2b4491f06193cea0b4551d/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Kali Uchis::telepat\u00eda": {
+    "id": "Kali Uchis::telepat\u00eda",
+    "artist": "Kali Uchis",
+    "title": "telepat\u00eda",
+    "decade": "2020s",
+    "video_id": "Dwzk-XZxZ4k",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2fb71ab547e44554fec7a05277966daa/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "FloyyMenor::Gata Only": {
+    "id": "FloyyMenor::Gata Only",
+    "artist": "FloyyMenor",
+    "title": "Gata Only",
+    "decade": "2020s",
+    "video_id": "TVEuKyr0M58",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2b637eeb2dadc47f968313f017d2546c/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  },
+  "Xavi::La Diabla": {
+    "id": "Xavi::La Diabla",
+    "artist": "Xavi",
+    "title": "La Diabla",
+    "decade": "2020s",
+    "video_id": "Lg5B0dhzDqM",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/83d6fc387d304ee19772bf970ab7b477/250x250-000000-80-0-0.jpg",
+    "resolved": true,
+    "removed": false
+  }
+}
