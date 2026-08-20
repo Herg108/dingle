@@ -31,8 +31,161 @@ body {
 .topbar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 1rem 1.5rem;
   border-bottom: 1px solid var(--border);
+}
+
+.filters-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.filters-btn:hover {
+  color: var(--text);
+  border-color: #3a4150;
+}
+
+/* Lit up whenever a filter is actually narrowing the pool, so it's obvious at
+   a glance that the song list is restricted — otherwise it's easy to forget a
+   filter is on and think the pool is broken. */
+.filters-btn.active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: rgba(61, 220, 132, 0.08);
+}
+
+.filters-count {
+  font-size: 0.75rem;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+/* Same 0fr/1fr height trick the reveal uses, so the panel slides rather than
+   snapping the layout. */
+.filter-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  border-bottom: 1px solid transparent;
+  transition: grid-template-rows 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.3s ease;
+}
+
+.filter-panel.open {
+  grid-template-rows: 1fr;
+  border-bottom-color: var(--border);
+}
+
+.filter-panel-inner {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 420px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1.5rem;
+  opacity: 0;
+  transition: opacity 0.18s ease, padding 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-panel.open .filter-panel-inner {
+  opacity: 1;
+  padding: 1.1rem 1.5rem 1.25rem;
+  transition-delay: 0.06s;
+}
+
+.filter-group-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.filter-group-title {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.filter-all {
+  border: none;
+  background: none;
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.15s ease;
+}
+
+.filter-all:hover { color: var(--accent); }
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+/* Off state is deliberately dim and hollow; on state gets the accent border
+   and tint, so on/off reads instantly without needing a checkbox. */
+.chip {
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease,
+              color 0.15s ease, transform 0.1s ease;
+}
+
+.chip:hover { border-color: #3a4150; color: var(--text); }
+.chip:active { transform: scale(0.95); }
+
+.chip.on {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(61, 220, 132, 0.1);
+}
+
+.filter-footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border-top: 1px solid var(--border);
+  padding-top: 0.75rem;
+}
+
+.filter-summary {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.filter-note {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-align: right;
 }
 
 .brand {

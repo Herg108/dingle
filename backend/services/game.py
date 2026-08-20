@@ -24,9 +24,9 @@ def _normalize(text):
     return text.strip()
 
 
-def start_round():
+def start_round(eras=None, genres=None):
     try:
-        song = curation.random_playable_song()
+        song = curation.random_playable_song(eras=eras, genres=genres)
     except IndexError:
         raise NoPlayableTrackError()
     round_id = str(uuid.uuid4())

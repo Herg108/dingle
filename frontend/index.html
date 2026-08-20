@@ -12,7 +12,35 @@
 <body>
 <header class="topbar">
   <span class="brand">dingle</span>
+  <button id="filtersBtn" class="filters-btn" aria-expanded="false">
+    Filters<span id="filtersCount" class="filters-count hidden"></span>
+  </button>
 </header>
+
+<div id="filterPanel" class="filter-panel">
+  <div class="filter-panel-inner">
+    <div class="filter-group">
+      <div class="filter-group-head">
+        <span class="filter-group-title">Era</span>
+        <button class="filter-all" data-group="era">All</button>
+      </div>
+      <div id="eraChips" class="chip-row"></div>
+    </div>
+
+    <div class="filter-group">
+      <div class="filter-group-head">
+        <span class="filter-group-title">Genre</span>
+        <button class="filter-all" data-group="genre">All</button>
+      </div>
+      <div id="genreChips" class="chip-row"></div>
+    </div>
+
+    <div class="filter-footer">
+      <span id="filterSummary" class="filter-summary"></span>
+      <span id="filterNote" class="filter-note"></span>
+    </div>
+  </div>
+</div>
 
 <main class="card">
   <button id="playBtn" class="play-btn" aria-label="Play snippet">

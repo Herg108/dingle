@@ -58,6 +58,168 @@ if (new URLSearchParams(location.search).has("test")) {
   document.body.classList.add("dev");
 }
 
+// ---------------------------------------------------------------------------
+// Song filters (era / genre)
+//
+// A player-side preference, deliberately separate from the ✕ curation tool:
+// filters only narrow what *this* browser is served and are reversible at any
+// time, whereas removing takes a song out of the pool for everyone. Stored in
+// localStorage so a chosen mix survives a reload.
+// ---------------------------------------------------------------------------
+const FILTER_KEY = "dingle.filters";
+const filtersBtn = document.getElementById("filtersBtn");
+const filtersCountEl = document.getElementById("filtersCount");
+const filterPanel = document.getElementById("filterPanel");
+const eraChipsEl = document.getElementById("eraChips");
+const genreChipsEl = document.getElementById("genreChips");
+const filterSummaryEl = document.getElementById("filterSummary");
+const filterNoteEl = document.getElementById("filterNote");
+
+// null = "not yet loaded"; a Set = the ids currently switched on.
+let allEras = [];
+let allGenres = [];
+let selectedEras = new Set();
+let selectedGenres = new Set();
+
+function loadSavedFilters() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(FILTER_KEY) || "{}");
+    return {
+      eras: Array.isArray(raw.eras) ? raw.eras : null,
+      genres: Array.isArray(raw.genres) ? raw.genres : null,
+    };
+  } catch {
+    return { eras: null, genres: null };
+  }
+}
+
+function saveFilters() {
+  try {
+    localStorage.setItem(FILTER_KEY, JSON.stringify({
+      eras: [...selectedEras],
+      genres: [...selectedGenres],
+    }));
+  } catch {
+    /* private mode / storage full — filters just won't persist */
+  }
+}
+
+// Everything selected means "no restriction", so send nothing at all rather
+// than a list naming every option.
+function filterQuery() {
+  const params = new URLSearchParams();
+  if (selectedEras.size && selectedEras.size < allEras.length) {
+    params.set("eras", [...selectedEras].join(","));
+  }
+  if (selectedGenres.size && selectedGenres.size < allGenres.length) {
+    params.set("genres", [...selectedGenres].join(","));
+  }
+  const q = params.toString();
+  return q ? `?${q}` : "";
+}
+
+function isFiltering() {
+  return (selectedEras.size && selectedEras.size < allEras.length) ||
+         (selectedGenres.size && selectedGenres.size < allGenres.length);
+}
+
+function renderChips(container, options, selected, onToggle) {
+  container.innerHTML = "";
+  options.forEach((opt) => {
+    const chip = document.createElement("button");
+    chip.className = "chip" + (selected.has(opt.id) ? " on" : "");
+    chip.textContent = opt.label || opt.id;
+    chip.title = `${opt.count} song${opt.count === 1 ? "" : "s"}`;
+    chip.addEventListener("click", () => onToggle(opt.id));
+    container.appendChild(chip);
+  });
+}
+
+function eraLabel(id) {
+  return id === "1960s-70s" ? "60s–70s" : id.replace(/^(\d\d)(\d\ds)$/, "$2");
+}
+
+function renderFilters() {
+  renderChips(
+    eraChipsEl,
+    allEras.map((e) => ({ ...e, label: eraLabel(e.id) })),
+    selectedEras,
+    (id) => toggleFilter(selectedEras, id, allEras),
+  );
+  renderChips(genreChipsEl, allGenres, selectedGenres, (id) =>
+    toggleFilter(selectedGenres, id, allGenres));
+
+  const filtering = isFiltering();
+  filtersBtn.classList.toggle("active", !!filtering);
+  filtersCountEl.classList.toggle("hidden", !filtering);
+  refreshFilterSummary();
+}
+
+function toggleFilter(set, id, all) {
+  if (set.has(id)) set.delete(id);
+  else set.add(id);
+  // Emptying an axis means "no preference here" rather than "nothing" — the
+  // backend treats it the same way, so the game can never be filtered into
+  // having no songs at all.
+  if (set.size === 0) all.forEach((o) => set.add(o.id));
+  saveFilters();
+  renderFilters();
+}
+
+async function refreshFilterSummary() {
+  try {
+    const res = await fetch(`/api/filters${filterQuery()}`);
+    const data = await res.json();
+    allEras = data.eras;
+    allGenres = data.genres;
+    filterSummaryEl.textContent = `${data.matching} of ${data.total} songs`;
+    filtersCountEl.textContent = data.matching;
+    // A combination with no songs at all (say 60s K-Pop) still has to play
+    // something, so the backend widens rather than failing — say so plainly
+    // instead of letting it look like the filters were ignored.
+    const impossible = isFiltering() && data.matching === 0;
+    filterNoteEl.textContent = impossible
+      ? "No songs match — showing the closest set instead"
+      : "";
+  } catch {
+    filterSummaryEl.textContent = "";
+  }
+}
+
+async function initFilters() {
+  const res = await fetch("/api/filters");
+  const data = await res.json();
+  allEras = data.eras;
+  allGenres = data.genres;
+
+  const saved = loadSavedFilters();
+  const validEras = new Set(allEras.map((e) => e.id));
+  const validGenres = new Set(allGenres.map((g) => g.id));
+  // Drop anything stale (a genre that no longer exists) and default to
+  // everything on, which is the same as no filtering.
+  selectedEras = new Set((saved.eras || [...validEras]).filter((e) => validEras.has(e)));
+  selectedGenres = new Set((saved.genres || [...validGenres]).filter((g) => validGenres.has(g)));
+  if (!selectedEras.size) selectedEras = new Set(validEras);
+  if (!selectedGenres.size) selectedGenres = new Set(validGenres);
+
+  renderFilters();
+}
+
+filtersBtn.addEventListener("click", () => {
+  const open = filterPanel.classList.toggle("open");
+  filtersBtn.setAttribute("aria-expanded", String(open));
+});
+
+document.querySelectorAll(".filter-all").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const group = btn.dataset.group;
+    if (group === "era") allEras.forEach((o) => selectedEras.add(o.id));
+    else allGenres.forEach((o) => selectedGenres.add(o.id));
+    saveFilters();
+    renderFilters();
+  });
+});
+
 const RESET_BLANK_MS = 120; // a deliberate blank beat so replays feel like a real reset
 
 // Loading covers both the round fetch and the offset-priming warm-up — the
@@ -291,7 +453,7 @@ async function startRound() {
   snippetStarted = false;
   snippetPlayFrom = null;
   revealAt = 0;
-  const res = await fetch("/api/round/new");
+  const res = await fetch(`/api/round/new${filterQuery()}`);
   const round = await res.json();
   state = {
     roundId: round.round_id,
@@ -637,4 +799,6 @@ document.addEventListener("click", (e) => {
   if (!e.target.closest(".guess-field")) suggestionsEl.classList.add("hidden");
 });
 
-startRound();
+// Filters load before the first round, so a previously saved selection is
+// honoured immediately instead of serving one unfiltered song first.
+initFilters().catch(() => {}).then(startRound);

@@ -25,10 +25,26 @@ def frontend_files(filename):
     return send_from_directory(FRONTEND_DIR, filename)
 
 
+def _csv_param(name):
+    raw = request.args.get(name, "")
+    return [v for v in (p.strip() for p in raw.split(",")) if v]
+
+
+@app.get("/api/filters")
+def filters():
+    return jsonify(curation.filter_counts(
+        eras=_csv_param("eras"),
+        genres=_csv_param("genres"),
+    ))
+
+
 @app.get("/api/round/new")
 def round_new():
     try:
-        return jsonify(game.start_round())
+        return jsonify(game.start_round(
+            eras=_csv_param("eras"),
+            genres=_csv_param("genres"),
+        ))
     except game.NoPlayableTrackError:
         return jsonify({"error": "no playable track found, try again"}), 502
     except youtube.YouTubeError as e:
