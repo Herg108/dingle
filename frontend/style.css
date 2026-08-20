@@ -114,11 +114,6 @@ body {
   background: var(--border);
   border-radius: 999px;
   overflow: hidden;
-  transition: opacity 0.32s ease;
-}
-
-.progress-bar.leaving {
-  opacity: 0;
 }
 
 .progress-target {
@@ -139,6 +134,14 @@ body {
 
 .progress-fill.smooth {
   transition: width 0.15s linear;
+}
+
+/* Leaving a round: the track stays put and only the green progress animates
+   out — draining back to empty while fading, rather than the whole bar
+   blinking away. */
+.progress-fill.draining {
+  transition: width 0.32s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.32s ease;
+  opacity: 0;
 }
 
 .progress-fill.full {
@@ -164,6 +167,42 @@ body {
   width: 100%;
   display: flex;
   gap: 0.5rem;
+}
+
+/* One button carries the whole round: Skip → Give up → Next song. Once the
+   round is over the guess field is useless, so it's dropped and the button
+   takes the full width. The row is also reordered below the reveal, so you
+   read the song you got, then the action to move on — rather than being
+   offered "Next song" above the answer. */
+.card.game-over .guess-field {
+  display: none;
+}
+
+.card.game-over .guess-row {
+  order: 1;
+}
+
+/* The row changes role at the round boundary — losing the guess field, going
+   full width, jumping below the reveal. None of that is animatable, so it
+   cross-fades instead: fade out, rearrange while invisible, fade back in.
+   This is also what gives "Next song" its fade-away, now that it no longer
+   sits inside the reveal section and can't inherit that collapse. */
+.guess-row {
+  transition: opacity 0.2s ease;
+}
+
+.guess-row.swapping {
+  opacity: 0;
+}
+
+/* Skip → Give up keeps the layout identical, so only the word crossfades —
+   swapping the text outright reads as a glitch. */
+#actionLabel {
+  transition: opacity 0.12s ease;
+}
+
+#actionBtn.label-swap #actionLabel {
+  opacity: 0;
 }
 
 .guess-field {
@@ -266,7 +305,16 @@ input[type="text"]:focus {
    "auto" height in CSS. overflow:hidden clips the content while collapsed;
    min-height:0 on the inner wrapper is what lets the row actually reach 0. */
 .reveal-section {
-  width: 100%;
+  /* Widen the clip box 8px past the content on each side (and pull it back
+     with negative margins, so the content box and layout are unchanged). The
+     cover art sits flush against the left edge and its pop-in scales/rotates
+     ~5px past that — without this slack, overflow:hidden shaves the corners.
+     Horizontal only: vertical padding would stop the row collapsing to 0. */
+  width: calc(100% + 16px);
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-left: 8px;
+  padding-right: 8px;
   overflow: hidden;
   display: grid;
   grid-template-rows: 0fr;
@@ -277,6 +325,14 @@ input[type="text"]:focus {
   grid-template-rows: 1fr;
 }
 
+/* Applied once the expand has finished. The clip above is only needed while
+   the row height is animating; keeping it afterwards also clips the cover's
+   pop-in, which scales past 1 and rotates, so its corners got sliced against
+   the section edge. Released here, re-applied the moment a collapse starts. */
+.reveal-section.settled {
+  overflow: visible;
+}
+
 .reveal-section-inner {
   display: flex;
   flex-direction: column;
@@ -284,13 +340,20 @@ input[type="text"]:focus {
   min-height: 0;
   opacity: 0;
   transform: translateY(-8px);
-  transition: opacity 0.28s ease, transform 0.28s ease;
+  /* Collapse direction: fade out quickly. The wrapper's overflow:hidden clips
+     from the bottom as the row shrinks, so the content has to be invisible
+     before the clip edge reaches the artwork — otherwise you watch the cover
+     get sliced off mid-fade. At this speed it's gone well before the row is
+     short enough to touch it. */
+  transition: opacity 0.14s ease, transform 0.14s ease;
 }
 
 .reveal-section.expanded .reveal-section-inner {
   opacity: 1;
   transform: translateY(0);
-  transition-delay: 0.08s;
+  /* Expand direction keeps the slower, delayed settle — nothing is being
+     clipped on the way in, since the row grows ahead of the content. */
+  transition: opacity 0.28s ease 0.08s, transform 0.28s ease 0.08s;
 }
 
 @keyframes revealPopIn {
@@ -305,6 +368,28 @@ input[type="text"]:focus {
 .reveal-section.expanded .reveal img {
   animation: revealPopIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
   animation-delay: 0.16s;
+  /* Grow downward from the top edge rather than outward from the centre.
+     There's no vertical slack in the clip box (adding any would stop the row
+     collapsing to 0), so a centre-origin scale pushes the artwork above the
+     section and gets its top shaved off. */
+  transform-origin: top center;
+}
+
+/* Curation tools (remove song, re-find audio, snippet-offset editor) are for
+   tuning the song pool, not for players. Hidden by default and only revealed
+   when the page is opened with ?test — defaulting to hidden means a script
+   error can never leak them into the public UI. */
+.remove-btn,
+.offset-editor {
+  display: none;
+}
+
+body.dev .remove-btn {
+  display: inline-block;
+}
+
+body.dev .offset-editor {
+  display: flex;
 }
 
 .remove-btn {
@@ -324,7 +409,9 @@ input[type="text"]:focus {
 .remove-btn:disabled { opacity: 0.5; cursor: default; }
 
 .offset-editor {
-  display: flex;
+  /* display is intentionally not set here — it's `none` by default and
+     switched to flex by `body.dev` above. Declaring it here would win the
+     cascade (same specificity, later in the file) and leak the tools. */
   flex-direction: column;
   gap: 0.5rem;
   width: 100%;

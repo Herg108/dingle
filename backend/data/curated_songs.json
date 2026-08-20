@@ -679,7 +679,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/60d8f7635ead9b3c5e571aec47a8c73e/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 1.0
   },
   "TLC::No Scrubs": {
     "id": "TLC::No Scrubs",
@@ -734,7 +734,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/f685d32254a59b6162be0d1082ff8805/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.4
   },
   "Spice Girls::Wannabe": {
     "id": "Spice Girls::Wannabe",
@@ -1152,7 +1152,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/56c02d3764f5a078ceecd27b64b7d789/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.3
   },
   "Fall Out Boy::Sugar, We're Goin Down": {
     "id": "Fall Out Boy::Sugar, We're Goin Down",
@@ -2010,7 +2010,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/2bc3ee63eaf3e5515a100a4a13a64d1d/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Jack Harlow::First Class": {
     "id": "Jack Harlow::First Class",
@@ -2197,7 +2197,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a3c3b409f0d5bd781821ec0fd79d5b15/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.8
   },
   "Miley Cyrus::Flowers": {
     "id": "Miley Cyrus::Flowers",
@@ -2296,7 +2296,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a0f53e2a38f98a61301b56eed079b1b9/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Travis Scott::Sicko Mode": {
     "id": "Travis Scott::Sicko Mode",
@@ -2834,7 +2834,7 @@
     "video_id": "N11zzBlHFzA",
     "cover": "https://cdn-images.dzcdn.net/images/cover/b94f207cc1841c72ad3bc0207e24b359/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Miley Cyrus::Used To Be Young": {
@@ -3308,7 +3308,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/6f1a92db4d24a9d04f913f3ed9660168/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.8
   },
   "Halsey::Colors": {
     "id": "Halsey::Colors",
@@ -3318,7 +3318,7 @@
     "video_id": "H35TAXUIFLU",
     "cover": "https://cdn-images.dzcdn.net/images/cover/47165475d4e74cd6fa98f8b83bd90b68/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Halsey::Now or Never": {
@@ -3836,7 +3836,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/56bdb7a86a27fadb96332c0c8f1b8e81/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 2.9
   },
   "Drake::In My Feelings": {
     "id": "Drake::In My Feelings",
@@ -4023,7 +4023,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/419a4cfd05a8d4b9bcb088369b85e591/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.6
   },
   "SZA::Love Galore": {
     "id": "SZA::Love Galore",
@@ -4144,7 +4144,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/12ac2e58b173d8704718b48a0e91b349/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 2.0
   },
   "Bruno Mars::Treasure": {
     "id": "Bruno Mars::Treasure",
@@ -5177,7 +5177,7 @@
     "video_id": "O4Bjvg--_mw",
     "cover": "https://cdn-images.dzcdn.net/images/cover/3f5dd91b74257de4190a92893347bdf8/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Doja Cat::Streets": {
@@ -5243,7 +5243,7 @@
     "video_id": "qBUKfQRbzuk",
     "cover": "https://cdn-images.dzcdn.net/images/cover/b29d1070377b784384c2456093f96a66/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Bad Bunny::Me Porto Bonito": {
@@ -6817,7 +6817,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/fb8ad0c24c1a3fef50c7ec20f157923b/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.5
   },
   "Tal Bachman::She's so High": {
     "id": "Tal Bachman::She's so High",
@@ -6993,7 +6993,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/be4f08ec67000dcf53749f87eafcb292/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Iyaz::Replay": {
     "id": "Iyaz::Replay",
@@ -7660,7 +7660,7 @@
     "artist": "Neon Trees",
     "title": "Everybody Talks",
     "decade": "2010s",
-    "video_id": "H_pRyMShJ0k",
+    "video_id": "ulNS48wPZ4Q",
     "cover": "https://cdn-images.dzcdn.net/images/cover/aa71c0d064e5698ac486c5bb8005318a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
@@ -7961,7 +7961,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/f178f502c5c003276bb843e2a0cd6e2f/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.6
   },
   "Marshmello::Leave Before You Love Me": {
     "id": "Marshmello::Leave Before You Love Me",
@@ -8214,7 +8214,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/62d6f17a706ac04fdd3dccddfdb65653/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Shawn Mendes::When You're Gone": {
     "id": "Shawn Mendes::When You're Gone",
@@ -8236,7 +8236,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/1e012b5bba83edac911b09ca1ab29e1e/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Sam Smith::Unholy": {
     "id": "Sam Smith::Unholy",
@@ -8687,7 +8687,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/91276466fbc876d96be9e6926060af60/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 4.3
   },
   "Snow Patrol::Chasing Cars": {
     "id": "Snow Patrol::Chasing Cars",
@@ -8874,7 +8874,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/990e08407e928abdbb14db86e5563ed0/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.4
   },
   "The Script::Breakeven": {
     "id": "The Script::Breakeven",
@@ -9391,7 +9391,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/5765c82f04c194addfe8b5650807f624/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 3.3
   },
   "The Weeknd::Often": {
     "id": "The Weeknd::Often",
@@ -9622,7 +9622,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/5199f89d5113a83b5086463d5d0c9415/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.8
   },
   "Calvin Harris::One Kiss": {
     "id": "Calvin Harris::One Kiss",
@@ -10117,7 +10117,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/f5ea82a3db68153b5ce89c8c9d950023/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.6
   },
   "OneRepublic::West Coast": {
     "id": "OneRepublic::West Coast",
@@ -10579,7 +10579,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/b927b2457371ea79466b0590511a166a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.8
   },
   "John Newman::Love Me Again": {
     "id": "John Newman::Love Me Again",
@@ -10711,7 +10711,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/35d2c62b9a4076c221756d86e80a6cd9/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 2.6
   },
   "Bazzi::Fantasy": {
     "id": "Bazzi::Fantasy",
@@ -10755,7 +10755,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/44363e84da467d3c6d200f4c662dd7c5/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 4.1
   },
   "Jon Bellion::All Time Low": {
     "id": "Jon Bellion::All Time Low",
@@ -10766,7 +10766,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/843cf5e730bf0d541b4058c54be0d1c0/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.4
   },
   "Why Don't We::8 Letters": {
     "id": "Why Don't We::8 Letters",
@@ -12129,7 +12129,7 @@
     "video_id": "3bXEHGUvVrA",
     "cover": "https://cdn-images.dzcdn.net/images/cover/e5f59efd73219631cb268d2ed2405aed/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Simple Minds::Don't You (Forget About Me)": {
@@ -12448,7 +12448,7 @@
     "video_id": "zXafuSnq4BA",
     "cover": "https://cdn-images.dzcdn.net/images/cover/088a17bc9f452a4440e803f2fd40a209/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "SWV::Weak": {
@@ -12657,7 +12657,7 @@
     "video_id": "G-I9csAflBs",
     "cover": "https://cdn-images.dzcdn.net/images/cover/0f23ab7de2b53c5298044ef1de148c50/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "My Chemical Romance::I'm Not Okay (I Promise)": {
@@ -12723,7 +12723,7 @@
     "video_id": "95FyXUHv8hk",
     "cover": "https://cdn-images.dzcdn.net/images/cover/2af56dee5db12e4af6323afa26257ccf/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Phoenix::1901": {
@@ -12888,7 +12888,7 @@
     "video_id": "N6Z_iyd7MIQ",
     "cover": "https://cdn-images.dzcdn.net/images/cover/a2fbd2acbc648d87038d4a62cc7d34fb/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Blake Shelton::God's Country": {
@@ -12998,7 +12998,7 @@
     "video_id": "SxAvr92fRg4",
     "cover": "https://cdn-images.dzcdn.net/images/cover/ff2321f46527178fcbe09b5164450c39/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "SEVENTEEN::Very Nice": {

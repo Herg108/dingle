@@ -2,7 +2,7 @@ const playBtn = document.getElementById("playBtn");
 const playIcon = document.getElementById("playIcon");
 const guessInput = document.getElementById("guessInput");
 const suggestionsEl = document.getElementById("suggestions");
-const skipBtn = document.getElementById("skipBtn");
+const actionBtn = document.getElementById("actionBtn");
 const revealSectionEl = document.getElementById("revealSection");
 const revealEl = document.getElementById("reveal");
 const revealCover = document.getElementById("revealCover");
@@ -16,8 +16,9 @@ const offsetMinusBtn = document.getElementById("offsetMinus");
 const offsetPlusBtn = document.getElementById("offsetPlus");
 const offsetPlusBigBtn = document.getElementById("offsetPlusBig");
 const previewFirstHintBtn = document.getElementById("previewFirstHintBtn");
-const nextBtn = document.getElementById("nextBtn");
-const progressBarEl = document.getElementById("progressBar");
+const actionLabel = document.getElementById("actionLabel");
+const guessRow = document.getElementById("guessRow");
+const cardEl = document.querySelector(".card");
 const progressFill = document.getElementById("progressFill");
 const progressTicks = document.getElementById("progressTicks");
 const progressTarget = document.getElementById("progressTarget");
@@ -36,6 +37,12 @@ let snippetStarted = false;
 // the offset is 3.80) — anchoring the cutoff here instead of at the nominal
 // offset keeps the hint the same length every press, warm or cold.
 let snippetPlayFrom = null;
+// True while the deliberate drain-out animation owns the fill, so the
+// per-frame redraw doesn't fight it by writing a live width back.
+let draining = false;
+// Fires once the reveal's expand animation is done, to drop the overflow clip
+// that would otherwise slice the cover art's pop-in.
+let settleTimer = null;
 let revealAt = 0;
 let currentSongId = null;
 
@@ -45,6 +52,12 @@ let pendingVideoId = null;
 let previewTimer = null;
 let priming = false;
 
+// Curation tools stay hidden unless the page is opened with ?test, so the
+// public UI is just the player and the guess box (see style.css).
+if (new URLSearchParams(location.search).has("test")) {
+  document.body.classList.add("dev");
+}
+
 const RESET_BLANK_MS = 120; // a deliberate blank beat so replays feel like a real reset
 
 // Loading covers both the round fetch and the offset-priming warm-up — the
@@ -53,6 +66,35 @@ const RESET_BLANK_MS = 120; // a deliberate blank beat so replays feel like a re
 function setPlayLoading(loading) {
   playBtn.disabled = loading;
   playBtn.classList.toggle("loading", loading);
+}
+
+// A single button carries the round through three roles: Skip while guesses
+// remain, Give up on the final one (where skipping ends the round anyway, so
+// calling it "Skip" would undersell it), and Next song once it's over.
+function actionState() {
+  const over = !!state && state.gameOver;
+  if (over) return { label: "Next song", cls: "primary-btn", over };
+  const attemptsLeft = state ? state.maxAttempts - state.attemptsUsed : 0;
+  return { label: attemptsLeft <= 1 ? "Give up" : "Skip", cls: "secondary-btn", over };
+}
+
+// Instant — only safe while the row is faded out, since it also rearranges
+// the layout (guess field, width, order).
+function applyActionState() {
+  const s = actionState();
+  actionLabel.textContent = s.label;
+  actionBtn.className = s.cls;
+  cardEl.classList.toggle("game-over", s.over);
+}
+
+// Skip → Give up: layout is unchanged, so just crossfade the word itself.
+async function morphActionLabel() {
+  const s = actionState();
+  if (actionLabel.textContent === s.label) return;
+  actionBtn.classList.add("label-swap");
+  await new Promise((r) => setTimeout(r, 120));
+  actionLabel.textContent = s.label;
+  actionBtn.classList.remove("label-swap");
 }
 
 function isPlaying() {
@@ -70,6 +112,7 @@ function updateTargetIndicator() {
 }
 
 function updateProgressFill() {
+  if (draining) return; // the drain-out animation is driving the fill
   if (performance.now() < revealAt) {
     progressFill.style.width = "0%";
     progressFill.classList.remove("full");
@@ -242,7 +285,7 @@ async function startRound() {
   // can't fire at all — prevents playSnippet() from ever running against the
   // previous round's now-stale state while this fetch is still in flight.
   setPlayLoading(true);
-  skipBtn.disabled = true;
+  actionBtn.disabled = true;
   guessInput.disabled = true;
   snippetTarget = 0;
   snippetStarted = false;
@@ -262,7 +305,11 @@ async function startRound() {
 
   guessInput.value = "";
   guessInput.disabled = false;
-  skipBtn.disabled = false;
+  actionBtn.disabled = false;
+  // Rearrange back to the guessing layout while the row is still faded out
+  // (from the Next click), then fade it in as "Skip".
+  applyActionState();
+  guessRow.classList.remove("swapping");
 
   if (playerReady) {
     ytPlayer.cueVideoById(state.videoId);
@@ -279,13 +326,15 @@ async function startRound() {
     // enables Play once it genuinely is (see onYouTubeIframeAPIReady above).
     setPlayLoading(true);
   }
-  revealSectionEl.classList.remove("expanded");
+  clearTimeout(settleTimer);
+  revealSectionEl.classList.remove("expanded", "settled");
   suggestionsEl.classList.add("hidden");
-  progressFill.classList.remove("smooth");
+  // Drop the drain animation and hand the fill back to the live redraw. It's
+  // already at 0% by now, so clearing the class can't cause a visible jump.
+  draining = false;
+  progressFill.classList.remove("draining", "smooth", "full");
   progressFill.style.width = "0%";
-  progressFill.classList.remove("full");
   progressTarget.style.width = "0%";
-  progressBarEl.classList.remove("leaving"); // fades back in now that it's genuinely reset
   renderTicks();
 }
 
@@ -416,19 +465,21 @@ async function submitGuess(guess) {
 
   state.attemptsUsed = state.maxAttempts - result.attempts_left;
   state.gameOver = result.game_over;
+  if (result.game_over) {
+    // Role change (and layout change) — hide the row before rearranging it.
+    guessRow.classList.add("swapping");
+  } else {
+    morphActionLabel(); // Skip → Give up, layout stays put
+  }
 
   if (!result.game_over) {
     snippetTarget = state.durations[Math.min(state.attemptsUsed, state.durations.length - 1)];
     updateTargetIndicator();
-    if (!isPlaying() && playerReady) {
-      // Resuming only makes sense if playback actually started this round —
-      // e.g. skipping without ever pressing play leaves the playhead wherever
-      // priming left it (possibly still 0), so start from the offset instead.
-      if (!snippetStarted) {
-        await seekAndSettle(state.startOffset);
-        snippetStarted = true;
-      }
-      ytPlayer.playVideo(); // otherwise resume from wherever it sits, no restart
+    // Only pick up where they left off if they were actually listening.
+    // Skipping without ever pressing play shouldn't start audio unprompted —
+    // the longer hint is simply armed, and plays when they choose to.
+    if (snippetStarted && !isPlaying() && playerReady) {
+      ytPlayer.playVideo(); // resume from wherever it sits, no restart
     }
   }
 
@@ -444,9 +495,21 @@ async function submitGuess(guess) {
     // Wait for the artwork before expanding, so the card animates in with the
     // correct cover already in place rather than swapping it mid-animation.
     await preloadRevealCover(result.reveal.cover);
+    // The row has had time to fade out by now (cover preload + the 0.2s
+    // transition), so switch it to "Next song" while it's invisible, then let
+    // it fade back in — sliding down naturally as the reveal expands beneath.
+    await new Promise((r) => setTimeout(r, 200));
+    applyActionState();
     revealSectionEl.classList.add("expanded");
+    guessRow.classList.remove("swapping");
+    // Release the clip once the height animation has finished, so the cover's
+    // pop-in (which overshoots its box) isn't cut off at the section edge.
+    clearTimeout(settleTimer);
+    // Timed to land just after the 360ms row expand and before the cover's
+    // pop peaks (~485ms), so the overshoot is unclipped without releasing so
+    // early that content spills outside the card while the row is growing.
+    settleTimer = setTimeout(() => revealSectionEl.classList.add("settled"), 380);
     guessInput.disabled = true;
-    skipBtn.disabled = true;
 
     snippetTarget = Infinity; // no more cutoff — let it keep playing through the reveal
     if (!isPlaying() && playerReady) {
@@ -474,11 +537,26 @@ guessInput.addEventListener("keydown", (e) => {
   }
 });
 
-skipBtn.addEventListener("click", () => submitGuess(""));
-
-nextBtn.addEventListener("click", async () => {
+actionBtn.addEventListener("click", async () => {
+  // Mid-round this is Skip/Give up — both are just an empty guess.
+  if (!state || !state.gameOver) {
+    submitGuess("");
+    return;
+  }
+  // Round's over, so it's the Next song button. Fade the button away along
+  // with everything else, rather than leaving it sitting there through the
+  // collapse and then snapping back into "Skip".
+  guessRow.classList.add("swapping");
+  // Clip again before collapsing — the row is about to animate its height.
+  clearTimeout(settleTimer);
+  revealSectionEl.classList.remove("settled");
   revealSectionEl.classList.remove("expanded"); // collapses height + fades out together
-  progressBarEl.classList.add("leaving"); // fades out with the reveal instead of snapping to empty
+  // Drain the green progress away while the card collapses. The track itself
+  // stays put — only the fill animates out.
+  draining = true;
+  progressFill.classList.remove("smooth", "full");
+  progressFill.classList.add("draining");
+  progressFill.style.width = "0%";
   await new Promise((r) => setTimeout(r, 360)); // let the collapse play before the round swap
   startRound();
 });
