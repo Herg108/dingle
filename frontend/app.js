@@ -1,4 +1,5 @@
 const playBtn = document.getElementById("playBtn");
+const playIcon = document.getElementById("playIcon");
 const guessInput = document.getElementById("guessInput");
 const suggestionsEl = document.getElementById("suggestions");
 const skipBtn = document.getElementById("skipBtn");
@@ -24,6 +25,17 @@ const progressTarget = document.getElementById("progressTarget");
 let state = null;
 let suggestionDebounce = null;
 let snippetTarget = 0;
+// Whether real playback has actually begun for this round yet. Tracked
+// explicitly rather than inferred from currentTime: on a fresh round the
+// playhead may still be sitting at 0 (priming can be dropped or throttled by
+// the embed), and inferring "we're mid-clip, just resume" from that would
+// play the song from its true beginning instead of from its start offset.
+let snippetStarted = false;
+// Where audio genuinely began for the current hint. A cold first press has to
+// buffer, and YouTube resumes a little past where we seeked (e.g. 3.86 when
+// the offset is 3.80) — anchoring the cutoff here instead of at the nominal
+// offset keeps the hint the same length every press, warm or cold.
+let snippetPlayFrom = null;
 let revealAt = 0;
 let currentSongId = null;
 
@@ -31,8 +43,17 @@ let ytPlayer = null;
 let playerReady = false;
 let pendingVideoId = null;
 let previewTimer = null;
+let priming = false;
 
 const RESET_BLANK_MS = 120; // a deliberate blank beat so replays feel like a real reset
+
+// Loading covers both the round fetch and the offset-priming warm-up — the
+// button shows a spinner instead of just going dim/disabled for that whole
+// stretch, so it reads as "working" rather than "broken."
+function setPlayLoading(loading) {
+  playBtn.disabled = loading;
+  playBtn.classList.toggle("loading", loading);
+}
 
 function isPlaying() {
   return !!ytPlayer && playerReady && ytPlayer.getPlayerState() === YT.PlayerState.PLAYING;
@@ -55,17 +76,32 @@ function updateProgressFill() {
     return;
   }
   const max = maxDuration();
-  const startOffset = state ? state.startOffset : 0;
-  const currentTime = ytPlayer ? Math.max(0, ytPlayer.getCurrentTime() - startOffset) : 0;
-  const pct = max ? Math.min((currentTime / max) * 100, 100) : 0;
+  const elapsed = ytPlayer ? Math.max(0, ytPlayer.getCurrentTime() - snippetBase()) : 0;
+  const pct = max ? Math.min((elapsed / max) * 100, 100) : 0;
   progressFill.style.width = `${pct}%`;
   progressFill.classList.toggle("full", pct >= 100);
 }
 
+// The point the current hint is measured from. Both the cutoff and the
+// progress bar must use this same anchor — measuring the bar from the nominal
+// offset while cutting off from the real playback start makes the fill
+// overshoot the tick marks by exactly the drift between them.
+function snippetBase() {
+  return snippetPlayFrom !== null ? snippetPlayFrom : (state ? state.startOffset : 0);
+}
+
+function snippetCutoffAt() {
+  return snippetBase() + snippetTarget;
+}
+
 function enforceSnippetCutoff() {
-  const startOffset = state ? state.startOffset : 0;
-  const cutoffAt = startOffset + snippetTarget;
-  if (isPlaying() && ytPlayer.getCurrentTime() >= cutoffAt) {
+  if (!isPlaying()) return false;
+  const now = ytPlayer.getCurrentTime();
+  // First frame of real playback for this hint — anchor the cutoff here so a
+  // cold, buffered start still gets its full duration instead of a clipped one.
+  if (snippetPlayFrom === null) snippetPlayFrom = now;
+  const cutoffAt = snippetCutoffAt();
+  if (now >= cutoffAt) {
     ytPlayer.pauseVideo();
     ytPlayer.seekTo(cutoffAt, true);
     return true;
@@ -90,7 +126,7 @@ function renderTicks() {
 // YouTube's player has no per-frame "timeupdate" event, so a single
 // self-perpetuating loop drives both the cutoff check and the fill redraw.
 function tick() {
-  if (isPlaying()) {
+  if (!priming && isPlaying()) {
     enforceSnippetCutoff();
     updateProgressFill();
   }
@@ -99,12 +135,13 @@ function tick() {
 requestAnimationFrame(tick);
 
 function onPlayerStateChange(event) {
+  if (priming) return; // silent warm-up play/pause, not a real playback state
   if (event.data === YT.PlayerState.PLAYING) {
-    playBtn.textContent = "⏸";
+    playIcon.textContent = "⏸";
     playBtn.classList.add("playing");
     progressFill.classList.add("smooth"); // eases over any re-buffering stutter after a resume
   } else if (event.data === YT.PlayerState.PAUSED || event.data === YT.PlayerState.ENDED) {
-    playBtn.textContent = "▶";
+    playIcon.textContent = "▶";
     playBtn.classList.remove("playing");
     updateProgressFill();
   }
@@ -119,30 +156,97 @@ window.onYouTubeIframeAPIReady = function () {
       onReady: () => {
         playerReady = true;
         if (pendingVideoId) {
-          ytPlayer.cueVideoById(pendingVideoId);
+          const videoId = pendingVideoId;
           pendingVideoId = null;
+          ytPlayer.cueVideoById(videoId);
+          primeOffset(state ? state.startOffset : 0).then(() => {
+            if (state) setPlayLoading(false);
+          });
+          return;
         }
         // startRound() may have already finished (and left playBtn disabled
         // on purpose, since the player wasn't ready yet at that point) —
         // now that it genuinely is ready, let Play actually become clickable.
-        if (state) playBtn.disabled = false;
+        if (state) setPlayLoading(false);
       },
       onStateChange: onPlayerStateChange,
     },
   });
 };
 
+// Bumped every time a new round starts, so an in-flight primeOffset() from
+// the *previous* round can tell it's been superseded. This matters because a
+// browser tab that gets backgrounded (user alt-tabs away mid-load) throttles
+// its timers hard — the poll loop below can end up finishing seconds late,
+// long after the user has moved on. Without this guard, that stale call
+// would still land its final pause/seek/unmute on whatever the player is
+// doing *now*, yanking real playback out from under the user.
+let primeGeneration = 0;
+
+// Move the playhead to the song's real start offset as soon as it's cued, so
+// the region the hint plays from is buffered and the playhead is already in
+// position before the user's first press. Purely a warm-up: playSnippet()
+// seeks and settles again before anything actually plays, so this failing or
+// being cut short costs nothing but a little buffering on that first press.
+async function primeOffset(offset) {
+  const myGeneration = primeGeneration;
+  await waitUntilCueable();
+  offset = offset || 0;
+  if (myGeneration !== primeGeneration) {
+    return; // superseded by a newer round while we were waiting
+  }
+  // Independent of the main flow below: no matter what happens (an
+  // exception, a stalled poll, a browser tab getting backgrounded mid-await),
+  // `priming` must not get stuck true forever — that would silently disable
+  // the snippet cutoff and progress bar for the rest of the session.
+  const safety = setTimeout(() => {
+    if (myGeneration === primeGeneration) priming = false;
+  }, 2000);
+  priming = true;
+  try {
+    // Muted throughout: seekTo() on a freshly cued player can make YouTube
+    // start playing of its own accord, and unmuted that escapes as an audible
+    // blip (which the snippet cutoff then immediately chops, giving a
+    // start-stop stutter right as loading finishes).
+    ytPlayer.mute();
+    await seekAndSettle(offset, 600);
+    if (myGeneration !== primeGeneration) return;
+    // Cancel any such seek-induced playback, and only unmute once the player
+    // has actually stopped — never while sound could still be coming out.
+    ytPlayer.pauseVideo();
+    for (let i = 0; i < 15 && ytPlayer.getPlayerState() === YT.PlayerState.PLAYING; i++) {
+      await new Promise((r) => setTimeout(r, 20));
+      if (myGeneration !== primeGeneration) return;
+    }
+    ytPlayer.unMute();
+  } finally {
+    clearTimeout(safety);
+    if (myGeneration === primeGeneration) priming = false;
+  }
+}
+
 async function startRound() {
-  if (playerReady) ytPlayer.stopVideo();
-  playBtn.textContent = "▶";
+  // Invalidate any in-flight primeOffset() from the previous round (see the
+  // comment on primeGeneration) — and don't wait for it to notice on its own;
+  // reset the state it owns right now so a stale/throttled call can never
+  // leave this fresh round blocked or muted.
+  primeGeneration++;
+  priming = false;
+  if (playerReady) {
+    ytPlayer.stopVideo();
+    ytPlayer.unMute();
+  }
+  playIcon.textContent = "▶";
   playBtn.classList.remove("playing");
   // Disabled (not just logically ignored) so a click during this async gap
   // can't fire at all — prevents playSnippet() from ever running against the
   // previous round's now-stale state while this fetch is still in flight.
-  playBtn.disabled = true;
+  setPlayLoading(true);
   skipBtn.disabled = true;
   guessInput.disabled = true;
   snippetTarget = 0;
+  snippetStarted = false;
+  snippetPlayFrom = null;
   revealAt = 0;
   const res = await fetch("/api/round/new");
   const round = await res.json();
@@ -156,19 +260,25 @@ async function startRound() {
     gameOver: false,
   };
 
-  if (playerReady) {
-    ytPlayer.cueVideoById(state.videoId);
-  } else {
-    pendingVideoId = state.videoId;
-  }
-
   guessInput.value = "";
   guessInput.disabled = false;
   skipBtn.disabled = false;
-  // Only enable Play if the YouTube player has actually finished
-  // initializing — otherwise the first click would silently no-op (playSnippet
-  // bails out when !playerReady). The onReady handler enables it once truly ready.
-  playBtn.disabled = !playerReady;
+
+  if (playerReady) {
+    ytPlayer.cueVideoById(state.videoId);
+    // Keep Play disabled (spinner showing) until the offset warm-up finishes
+    // — otherwise a real click could land mid-priming and race it for the
+    // same player.
+    setPlayLoading(true);
+    primeOffset(state.startOffset).then(() => {
+      setPlayLoading(false);
+    });
+  } else {
+    pendingVideoId = state.videoId;
+    // Player isn't ready yet at all — the onReady handler cues, primes, and
+    // enables Play once it genuinely is (see onYouTubeIframeAPIReady above).
+    setPlayLoading(true);
+  }
   revealSectionEl.classList.remove("expanded");
   suggestionsEl.classList.add("hidden");
   progressFill.classList.remove("smooth");
@@ -188,6 +298,48 @@ async function waitUntilCueable() {
   }
 }
 
+// seekTo() is async, and over a region the player hasn't buffered yet YouTube
+// lands on the nearest preceding keyframe rather than the exact timestamp —
+// often all the way back at 0. Calling playVideo() straight after the seek
+// therefore starts the hint from the wrong place (and, since the cutoff is a
+// fixed video-time position, gives it the wrong length too). Wait for the
+// playhead to actually report the target before playing, so the very first
+// press on an offset song sounds identical to every later one.
+// Assigning img.src starts an async fetch — the element keeps rendering the
+// *previous* song's artwork until the new file arrives, which lands right in
+// the middle of the reveal animation. Decode it off-screen first, then swap,
+// so the card never animates in showing the wrong cover. Capped so a slow or
+// dead image URL can't hold the reveal hostage; on failure we show nothing
+// rather than something stale and misleading.
+function preloadRevealCover(url) {
+  revealCover.removeAttribute("src"); // never let the old art linger
+  if (!url) return Promise.resolve();
+  return new Promise((resolve) => {
+    let settled = false;
+    const finish = (ok) => {
+      if (settled) return;
+      settled = true;
+      if (ok) revealCover.src = url;
+      resolve();
+    };
+    const img = new Image();
+    img.onload = () => finish(true);
+    img.onerror = () => finish(false);
+    img.src = url;
+    // Already cached? Some browsers resolve complete synchronously.
+    if (img.complete && img.naturalWidth) finish(true);
+    setTimeout(() => finish(img.complete && img.naturalWidth > 0), 1200);
+  });
+}
+
+async function seekAndSettle(target, maxMs = 800) {
+  ytPlayer.seekTo(target, true);
+  for (let i = 0; i < Math.ceil(maxMs / 20); i++) {
+    if (Math.abs(ytPlayer.getCurrentTime() - target) < 0.05) return;
+    await new Promise((r) => setTimeout(r, 20));
+  }
+}
+
 async function playSnippet() {
   if (!state || !playerReady) return;
   if (isPlaying()) {
@@ -199,7 +351,10 @@ async function playSnippet() {
   // Paused mid-clip (manually) vs. paused at the cutoff mean different things:
   // mid-clip should just continue; at the cutoff there's nothing left to
   // continue toward, so it's a fresh replay of the current hint from the top.
-  if (ytPlayer.getCurrentTime() < state.startOffset + snippetTarget) {
+  // Only ever a "continue" once playback has genuinely started this round —
+  // otherwise a still-at-zero playhead looks identical to being mid-clip and
+  // we'd resume from the song's real beginning instead of its start offset.
+  if (snippetStarted && ytPlayer.getCurrentTime() < snippetCutoffAt()) {
     ytPlayer.playVideo();
     return;
   }
@@ -210,12 +365,14 @@ async function playSnippet() {
     snippetTarget = state.durations[Math.min(state.attemptsUsed, state.durations.length - 1)];
     updateTargetIndicator();
   }
-  ytPlayer.seekTo(state.startOffset, true);
+  await seekAndSettle(state.startOffset);
   revealAt = performance.now() + RESET_BLANK_MS;
   progressFill.classList.remove("smooth");
   progressFill.style.width = "0%";
   progressFill.classList.remove("full");
+  snippetPlayFrom = null; // re-anchor: this is a fresh start, not a resume
   ytPlayer.playVideo();
+  snippetStarted = true;
   setTimeout(updateProgressFill, RESET_BLANK_MS);
 }
 
@@ -264,7 +421,14 @@ async function submitGuess(guess) {
     snippetTarget = state.durations[Math.min(state.attemptsUsed, state.durations.length - 1)];
     updateTargetIndicator();
     if (!isPlaying() && playerReady) {
-      ytPlayer.playVideo(); // resume from wherever it currently sits, no restart
+      // Resuming only makes sense if playback actually started this round —
+      // e.g. skipping without ever pressing play leaves the playhead wherever
+      // priming left it (possibly still 0), so start from the offset instead.
+      if (!snippetStarted) {
+        await seekAndSettle(state.startOffset);
+        snippetStarted = true;
+      }
+      ytPlayer.playVideo(); // otherwise resume from wherever it sits, no restart
     }
   }
 
@@ -274,19 +438,22 @@ async function submitGuess(guess) {
     removeSongBtn.textContent = "✕";
     retryAudioBtn.disabled = false;
     retryAudioBtn.textContent = "🔄";
-    revealCover.src = result.reveal.cover;
     revealTitle.textContent = result.reveal.title;
     revealArtist.textContent = result.reveal.artist;
     offsetValueEl.textContent = `${state.startOffset.toFixed(1)}s`;
+    // Wait for the artwork before expanding, so the card animates in with the
+    // correct cover already in place rather than swapping it mid-animation.
+    await preloadRevealCover(result.reveal.cover);
     revealSectionEl.classList.add("expanded");
     guessInput.disabled = true;
     skipBtn.disabled = true;
 
     snippetTarget = Infinity; // no more cutoff — let it keep playing through the reveal
     if (!isPlaying() && playerReady) {
-      ytPlayer.seekTo(state.startOffset, true);
+      await seekAndSettle(state.startOffset);
       revealAt = 0;
       ytPlayer.playVideo();
+      snippetStarted = true;
     }
   } else {
     guessInput.value = "";
@@ -360,8 +527,9 @@ async function previewFirstHint() {
   updateTargetIndicator();
   revealAt = 0;
   progressFill.classList.remove("smooth");
-  ytPlayer.seekTo(state.startOffset, true);
+  await seekAndSettle(state.startOffset);
   ytPlayer.playVideo();
+  snippetStarted = true;
 }
 
 previewFirstHintBtn.addEventListener("click", previewFirstHint);

@@ -84,7 +84,7 @@
     "video_id": "ftdZ363R9kQ",
     "cover": "https://cdn-images.dzcdn.net/images/cover/dc11aaf0240dbaf1548639e1c5df8db8/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Elton John::Rocket Man": {
@@ -436,7 +436,7 @@
     "video_id": "NIML4qW8-D0",
     "cover": "https://cdn-images.dzcdn.net/images/cover/3836708e2d450cdaa61341112b972228/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Madonna::Material Girl": {
@@ -975,7 +975,7 @@
     "video_id": "JxMZPdZLehs",
     "cover": "https://cdn-images.dzcdn.net/images/cover/1ea1a631aa5235bbd0063643beb96fa8/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Beyonc\u00e9::Single Ladies (Put a Ring on It)": {
@@ -1229,7 +1229,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/53e4937e369f87b92d23d588632f81f9/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.6
   },
   "Katy Perry::Teenage Dream": {
     "id": "Katy Perry::Teenage Dream",
@@ -1328,7 +1328,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/d32a6fd648afc584be78d86dd66ed57b/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.4
   },
   "Bruno Mars::Uptown Funk": {
     "id": "Bruno Mars::Uptown Funk",
@@ -1438,7 +1438,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/fe781ecd9879a82beed80f6d3e80745b/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.4
   },
   "Pharrell Williams::Happy": {
     "id": "Pharrell Williams::Happy",
@@ -1482,7 +1482,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/247b228179aea3b083eef43522b78b45/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.2
   },
   "The Weeknd::Can't Feel My Face": {
     "id": "The Weeknd::Can't Feel My Face",
@@ -1702,7 +1702,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/6fb46005a49df7aeba49f1ca117f3710/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Post Malone::Sunflower": {
     "id": "Post Malone::Sunflower",
@@ -1724,7 +1724,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/c000a4d39f31f3716bf3f11aa5fab080/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.6
   },
   "Dua Lipa::New Rules": {
     "id": "Dua Lipa::New Rules",
@@ -1867,7 +1867,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/6b4d59645e2d1cf7a692782983cee963/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.4
   },
   "The Chainsmokers::Closer": {
     "id": "The Chainsmokers::Closer",
@@ -1955,7 +1955,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/4fd07406ef0cfa6dab31fd68d71eb2b7/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Fifth Harmony::Work from Home": {
     "id": "Fifth Harmony::Work from Home",
@@ -2186,7 +2186,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/f8364f090ba04f1b19b381ec0390f3e4/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "SZA::Kill Bill": {
     "id": "SZA::Kill Bill",
@@ -2252,7 +2252,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/e3221287a77eb262944e6528766eeba4/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Benson Boone::Beautiful Things": {
     "id": "Benson Boone::Beautiful Things",
@@ -2505,7 +2505,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/f571cb780b339ec087201b1cea53c3d9/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.2
   },
   "Taylor Swift::Karma": {
     "id": "Taylor Swift::Karma",
@@ -2680,7 +2680,7 @@
     "video_id": "RaiRdSlwsks",
     "cover": "https://cdn-images.dzcdn.net/images/cover/de9e79511cda59914de9add50946e43c/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Charli XCX::Apple": {
@@ -2702,7 +2702,7 @@
     "video_id": "O_HoOpJ60C0",
     "cover": "https://cdn-images.dzcdn.net/images/cover/de9e79511cda59914de9add50946e43c/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Gracie Abrams::I Love You, I'm Sorry": {
@@ -2757,7 +2757,7 @@
     "video_id": "oSBh6a0QJg8",
     "cover": "https://cdn-images.dzcdn.net/images/cover/30d7a963a83c00653d1fd56fe3c430b0/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Shaboozey::A Bar Song (Tipsy)": {
@@ -2845,7 +2845,7 @@
     "video_id": "oSSRolEAUMs",
     "cover": "https://cdn-images.dzcdn.net/images/cover/c024f2683137c5e81f2b2040acc6ad83/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Lana Del Rey::A&W": {
@@ -3197,7 +3197,7 @@
     "video_id": "6ksHyN0kTiE",
     "cover": "https://cdn-images.dzcdn.net/images/cover/a5859340c44432bb59958b147d2aad1d/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Selena Gomez::Same Old Love": {
@@ -3231,7 +3231,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/018f19bb66c83e0c843dddaa6d97e544/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.2
   },
   "Camila Cabello::Never Be the Same": {
     "id": "Camila Cabello::Never Be the Same",
@@ -3253,7 +3253,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/13257668a9231947a74dcbd41c6e3933/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Shawn Mendes::There's Nothing Holdin' Me Back": {
     "id": "Shawn Mendes::There's Nothing Holdin' Me Back",
@@ -3264,7 +3264,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/35d5f7dd0b398bb37287b3454f0b05b9/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.3
   },
   "Shawn Mendes::In My Blood": {
     "id": "Shawn Mendes::In My Blood",
@@ -3286,7 +3286,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/13257668a9231947a74dcbd41c6e3933/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.5
   },
   "Halsey::Bad At Love": {
     "id": "Halsey::Bad At Love",
@@ -3502,7 +3502,7 @@
     "artist": "Sia",
     "title": "Cheap Thrills",
     "decade": "2010s",
-    "video_id": "nYh-n7EOtMA",
+    "video_id": "mY9fNwGE7YA",
     "cover": "https://cdn-images.dzcdn.net/images/cover/2378d42e77860170c814bb1db400f949/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
@@ -3561,7 +3561,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/53e4937e369f87b92d23d588632f81f9/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.3
   },
   "Ed Sheeran::Photograph": {
     "id": "Ed Sheeran::Photograph",
@@ -3593,7 +3593,7 @@
     "video_id": "XjHr-6Zl5P8",
     "cover": "https://cdn-images.dzcdn.net/images/cover/000a9228cecfcc7c2093d9cd7bb66447/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Justin Bieber::What Do You Mean?": {
@@ -3616,7 +3616,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/340283aafac320864b207c420124ee46/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.6
   },
   "Charlie Puth::See You Again": {
     "id": "Charlie Puth::See You Again",
@@ -3682,7 +3682,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/b8af7ff13a47e2775307299843da9b36/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.3
   },
   "Calvin Harris::Feel So Close": {
     "id": "Calvin Harris::Feel So Close",
@@ -3726,7 +3726,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/ec97306735b46ec334e0ce562290775b/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 1.1
   },
   "Avicii::Levels": {
     "id": "Avicii::Levels",
@@ -3748,7 +3748,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/ec97306735b46ec334e0ce562290775b/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.3
   },
   "Martin Garrix::Animals": {
     "id": "Martin Garrix::Animals",
@@ -3989,7 +3989,7 @@
     "video_id": "yuRaxvv6wpM",
     "cover": "https://cdn-images.dzcdn.net/images/cover/f3f28eaf22f4aa1382b1fe83c6723961/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Migos::Bad and Boujee": {
@@ -4033,7 +4033,7 @@
     "video_id": "YJV-4IyNUfA",
     "cover": "https://cdn-images.dzcdn.net/images/cover/a1a3326c5d9176c763fc3fd847b86681/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "SZA::The Weekend": {
@@ -4232,7 +4232,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/f566c4c0a81527eb128f5976eec475b2/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 6.2
   },
   "Florida Georgia Line::H.O.L.Y.": {
     "id": "Florida Georgia Line::H.O.L.Y.",
@@ -4242,7 +4242,7 @@
     "video_id": "N8tiPeC5Oiw",
     "cover": "https://cdn-images.dzcdn.net/images/cover/1988f45f8e79bf7d528c6b17bf076413/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Sam Hunt::Body Like a Back Road": {
@@ -4353,7 +4353,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/247b228179aea3b083eef43522b78b45/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.2
   },
   "Imagine Dragons::Demons": {
     "id": "Imagine Dragons::Demons",
@@ -4408,7 +4408,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/3dfc8c9e406cf1bba8ce0695a44a9b7e/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 6.4
   },
   "Panic! At The Disco::High Hopes": {
     "id": "Panic! At The Disco::High Hopes",
@@ -4551,7 +4551,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.3
   },
   "Arctic Monkeys::R U Mine?": {
     "id": "Arctic Monkeys::R U Mine?",
@@ -4661,7 +4661,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/90989ab8998af9d5957b43bae748788d/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.4
   },
   "fun.::We Are Young": {
     "id": "fun.::We Are Young",
@@ -4683,7 +4683,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/5f7bd91e2d91ce2d308ee754d6821ff7/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.3
   },
   "Ellie Goulding::Love Me Like You Do": {
     "id": "Ellie Goulding::Love Me Like You Do",
@@ -4716,7 +4716,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/2e830d5ee10ad8654e0d8ab70a18e54a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 1.1
   },
   "Jessie J::Domino": {
     "id": "Jessie J::Domino",
@@ -4760,7 +4760,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a43e104f2ff2872df2e1bf4207b6b5e6/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 5.4
   },
   "Christina Perri::Jar of Hearts": {
     "id": "Christina Perri::Jar of Hearts",
@@ -4793,7 +4793,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/3193132d50c74a62d1cd419fa170139a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "AWOLNATION::Sail": {
     "id": "AWOLNATION::Sail",
@@ -4837,7 +4837,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/c2c09bb30073e88323ddcdb6e3311e49/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Alessia Cara::Scars to Your Beautiful": {
     "id": "Alessia Cara::Scars to Your Beautiful",
@@ -4946,7 +4946,7 @@
     "video_id": "c7qU28_tYVU",
     "cover": "https://cdn-images.dzcdn.net/images/cover/c6f0005f397386ba5ccc976455db640c/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Fetty Wap::Trap Queen": {
@@ -5211,7 +5211,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/f520bf0be2e3cfc476824e75d20a164a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "The Weeknd::Take My Breath": {
     "id": "The Weeknd::Take My Breath",
@@ -5233,7 +5233,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/fd00ebd6d30d7253f813dba3bb1c66a9/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.9
   },
   "Bad Bunny::Titi Me Pregunto": {
     "id": "Bad Bunny::Titi Me Pregunto",
@@ -5331,7 +5331,7 @@
     "video_id": "6iwX2Jl1XDM",
     "cover": "https://cdn-images.dzcdn.net/images/cover/6a02daf3cbb9ce7ee3bf1fbbb2a9e45b/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Harry Styles::Golden": {
@@ -5474,7 +5474,7 @@
     "video_id": "UpYu9FgcxKo",
     "cover": "https://cdn-images.dzcdn.net/images/cover/0db17ea377d8659c60cee8a747e2c77c/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Lainey Wilson::Watermelon Moonshine": {
@@ -5540,7 +5540,7 @@
     "video_id": "JrOpU2uwz80",
     "cover": "https://cdn-images.dzcdn.net/images/cover/e682b269ac33ae85ef8b3eea89a38090/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Kane Brown::One Mississippi": {
@@ -5563,7 +5563,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a4cd18eed9833c7d10fc7a830573bf23/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 1.0
   },
   "BTS::Butter": {
     "id": "BTS::Butter",
@@ -5618,7 +5618,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/37e446fe36cee17b6215e5d506d18354/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.2
   },
   "NewJeans::Attention": {
     "id": "NewJeans::Attention",
@@ -5717,7 +5717,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/e173dcf39083aac228287ab4c0bb3ffc/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Lil Nas X::Industry Baby": {
     "id": "Lil Nas X::Industry Baby",
@@ -5772,7 +5772,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/d4d434efd26b4cdc784cd1cc3db7a75e/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Steve Lacy::Bad Habit": {
     "id": "Steve Lacy::Bad Habit",
@@ -5893,7 +5893,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/6f05ad1f5ec636827d9db5683188d980/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.4
   },
   "Tate McRae::you broke me first": {
     "id": "Tate McRae::you broke me first",
@@ -5991,7 +5991,7 @@
     "video_id": "LxBg_ErOPMA",
     "cover": "https://cdn-images.dzcdn.net/images/cover/8d2a9be13d164862ccb9a10ade01b0cf/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Kali Uchis::Moonlight": {
@@ -6024,7 +6024,7 @@
     "video_id": "TVEuKyr0M58",
     "cover": "https://cdn-images.dzcdn.net/images/cover/2b637eeb2dadc47f968313f017d2546c/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Xavi::La Diabla": {
@@ -6102,7 +6102,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/05cb444782d333b71c3f6dab9e59d8eb/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "AC/DC::Highway to Hell": {
     "id": "AC/DC::Highway to Hell",
@@ -6531,7 +6531,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a0ad67d1beb761f2cb9f8b60e5bcf07a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 1.1
   },
   "Guns N' Roses::Welcome To The Jungle": {
     "id": "Guns N' Roses::Welcome To The Jungle",
@@ -6806,7 +6806,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/7ea8077c8193198d6639e2e5a447b36c/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 1.1
   },
   "The Goo Goo Dolls::Iris": {
     "id": "The Goo Goo Dolls::Iris",
@@ -7048,7 +7048,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/ff34117d14ea62a431e6e16f1a74fa72/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.3
   },
   "Jason Mraz::I'm Yours": {
     "id": "Jason Mraz::I'm Yours",
@@ -7213,7 +7213,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/ba1e7f3702a82b91615689daff474622/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.2
   },
   "TV Girl::Lovers Rock": {
     "id": "TV Girl::Lovers Rock",
@@ -7246,7 +7246,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/ef4ad9fe8b62e91a60886bcb6751c17d/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Coldplay::A Sky Full of Stars": {
     "id": "Coldplay::A Sky Full of Stars",
@@ -7290,7 +7290,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/6c217fb56f7f7961c634d6e9bca9ddae/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Jason Mraz::I Won't Give Up": {
     "id": "Jason Mraz::I Won't Give Up",
@@ -7345,7 +7345,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/efd66ec02dc81074e5b3e7825db4c380/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "The Weeknd::Pray For Me": {
     "id": "The Weeknd::Pray For Me",
@@ -7367,7 +7367,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/134778e4c4f19ea71c82408300925a9a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "The Neighbourhood::Sweater Weather": {
     "id": "The Neighbourhood::Sweater Weather",
@@ -7422,7 +7422,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/b1ba1c41de5dbf5ad09f0a8312f87521/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "CKay::love nwantiti (ah ah ah)": {
     "id": "CKay::love nwantiti (ah ah ah)",
@@ -7444,7 +7444,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/6389a27cf0248e86a060f22b95f7add1/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Andy Grammer::Keep Your Head Up": {
     "id": "Andy Grammer::Keep Your Head Up",
@@ -7466,7 +7466,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/87ec3acc0f82b588e795a37f0864801a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.5
   },
   "Phillip Phillips::Gone, Gone, Gone": {
     "id": "Phillip Phillips::Gone, Gone, Gone",
@@ -7521,7 +7521,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/620bcd9a3310b1bfaba639b060b54abf/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.2
   },
   "Hot Chelle Rae::Tonight Tonight": {
     "id": "Hot Chelle Rae::Tonight Tonight",
@@ -7906,7 +7906,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/c86f870a3ea8782da239a9dd10315cdc/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.3
   },
   "Post Malone::I Like You (A Happier Song)": {
     "id": "Post Malone::I Like You (A Happier Song)",
@@ -7950,7 +7950,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/cdbebf6fddc6f64aa059d41d0ab56996/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.2
   },
   "Nicki Minaj::Super Freaky Girl": {
     "id": "Nicki Minaj::Super Freaky Girl",
@@ -8115,7 +8115,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/03f5f82102d4605700e425a15af4feac/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Masked Wolf::Astronaut In The Ocean": {
     "id": "Masked Wolf::Astronaut In The Ocean",
@@ -8148,7 +8148,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/3465c53016f3f1fec0e5ceec3bf9c0d5/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.6
   },
   "Post Malone::One Right Now": {
     "id": "Post Malone::One Right Now",
@@ -8159,7 +8159,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/0600e1773adca197ea17f23d96bb87a7/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.5
   },
   "Maroon 5::Beautiful Mistakes": {
     "id": "Maroon 5::Beautiful Mistakes",
@@ -8258,7 +8258,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/8a6477b222dac17081d9b9b1729a1ca4/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.6
   },
   "Queen::Don't Stop Me Now": {
     "id": "Queen::Don't Stop Me Now",
@@ -8302,7 +8302,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/1a4229718dd780601754c5d79f612bc4/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 1.0
   },
   "Earth, Wind & Fire::Boogie Wonderland": {
     "id": "Earth, Wind & Fire::Boogie Wonderland",
@@ -8412,7 +8412,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/e1c70dcd0ef0465c4e6470332ec2289b/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.2
   },
   "Backstreet Boys::Everybody (Backstreet's Back)": {
     "id": "Backstreet Boys::Everybody (Backstreet's Back)",
@@ -8896,7 +8896,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/2253e6498268979c0ea3481f555961b2/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.3
   },
   "Alicia Keys::If I Ain't Got You": {
     "id": "Alicia Keys::If I Ain't Got You",
@@ -9028,7 +9028,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/34c0ff08b56fbc210b81f4163173ab51/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 3.5
   },
   "No Doubt::Hella Good": {
     "id": "No Doubt::Hella Good",
@@ -9072,7 +9072,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/1eeb2f2a5575f8a76e3053445ac74482/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 3.3
   },
   "JAY-Z::Empire State Of Mind": {
     "id": "JAY-Z::Empire State Of Mind",
@@ -9105,7 +9105,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/615bb58abf2e5fd86741ed5311d364b1/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Timbaland::The Way I Are": {
     "id": "Timbaland::The Way I Are",
@@ -9181,7 +9181,7 @@
     "video_id": "eXdUyo8fSc4",
     "cover": "https://cdn-images.dzcdn.net/images/cover/c10572669739cb27f50f07c601359da0/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Jason Mraz::Have It All": {
@@ -9336,7 +9336,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/64d914a39f1f5d1162d37eb18c52a72a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.5
   },
   "Lady Gaga::Born This Way": {
     "id": "Lady Gaga::Born This Way",
@@ -9347,7 +9347,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a546c6696d61a071c97a990239b50fb5/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 4.7
   },
   "Lady Gaga::Applause": {
     "id": "Lady Gaga::Applause",
@@ -9523,7 +9523,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/f26a87471422a3800e576cf18bde4184/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.8
   },
   "Ed Sheeran & Justin Bieber::I Don't Care": {
     "id": "Ed Sheeran & Justin Bieber::I Don't Care",
@@ -9864,7 +9864,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/e8a3333f8b5382b07190a415e16248b4/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 2.1
   },
   "Charlie Puth::Marvin Gaye": {
     "id": "Charlie Puth::Marvin Gaye",
@@ -10007,7 +10007,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/34b3ef738402b3f8c395d3b3514b35a7/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 1.2
   },
   "Katy Perry::Last Friday Night (T.G.I.F.)": {
     "id": "Katy Perry::Last Friday Night (T.G.I.F.)",
@@ -10073,7 +10073,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/c89849afd5e3c83f1892ba619799c59b/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.2
   },
   "Justin Timberlake::Say Something": {
     "id": "Justin Timberlake::Say Something",
@@ -10127,7 +10127,7 @@
     "video_id": "L2dC4KxQdog",
     "cover": "https://cdn-images.dzcdn.net/images/cover/13c366968f3010e4e6334eda17fb3a24/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Shawn Mendes::If I Can't Have You": {
@@ -10172,7 +10172,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/d3380b311743baf8435f616371b95194/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.2
   },
   "DNCE::Toothbrush": {
     "id": "DNCE::Toothbrush",
@@ -10293,7 +10293,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/42ac6e57cb247cb7a84595030453a86a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.8
   },
   "Taio Cruz::Break Your Heart": {
     "id": "Taio Cruz::Break Your Heart",
@@ -10326,7 +10326,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/dca15ab8325905cb9ca815a0a3e5cb3f/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Imagine Dragons::Natural": {
     "id": "Imagine Dragons::Natural",
@@ -10337,7 +10337,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/974997a0db8d1d0c2de1ebde4275997f/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.8
   },
   "Mark Ronson::Nothing Breaks Like a Heart": {
     "id": "Mark Ronson::Nothing Breaks Like a Heart",
@@ -10722,7 +10722,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/63c90e7b06d6f97d0ec3eaf7a689f0ab/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Chris Brown::No Guidance": {
     "id": "Chris Brown::No Guidance",
@@ -10799,7 +10799,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/2d0643dae51cf195717246ad9341c5b7/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.5
   },
   "The Weeknd::In The Night": {
     "id": "The Weeknd::In The Night",
@@ -10843,7 +10843,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/b58feddf14dd25f87bf82c56fdf2683c/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Future::Low Life": {
     "id": "Future::Low Life",
@@ -10920,7 +10920,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/0cc8f04dc03e02e8334c468310893ec4/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 1.8
   },
   "Mike Posner::I Took A Pill In Ibiza": {
     "id": "Mike Posner::I Took A Pill In Ibiza",
@@ -11151,7 +11151,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/258e6042338ce64bb4157c0c94b232ac/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.4
   },
   "Lady Gaga::Hold My Hand": {
     "id": "Lady Gaga::Hold My Hand",
@@ -11492,7 +11492,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/59e97030824a55b87304485e549a2451/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.3
   },
   "Imagine Dragons::Bones": {
     "id": "Imagine Dragons::Bones",
@@ -12327,7 +12327,7 @@
     "video_id": "2m9Woo6UwoI",
     "cover": "https://cdn-images.dzcdn.net/images/cover/26d59b6ce485012169dfa7174c2d0ec3/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Marcy Playground::Sex and Candy": {
@@ -12437,7 +12437,7 @@
     "video_id": "tAzVpTMsJQ8",
     "cover": "https://cdn-images.dzcdn.net/images/cover/798a04eb129a85e09ce654b336a44e9e/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "En Vogue::Don't Let Go (Love)": {
@@ -12503,7 +12503,7 @@
     "video_id": "5eRhGeIZkqY",
     "cover": "https://cdn-images.dzcdn.net/images/cover/283dbe1ebd46cc2892f75238aac2db71/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Ricky Martin::Livin' la Vida Loca": {
@@ -12525,7 +12525,7 @@
     "video_id": "UYzEfRw6zzs",
     "cover": "https://cdn-images.dzcdn.net/images/cover/2cc8a9d03c75faa3923b233e60da7e42/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Sisqo::Thong Song": {
@@ -12569,7 +12569,7 @@
     "video_id": "-k2IbLbiDdQ",
     "cover": "https://cdn-images.dzcdn.net/images/cover/3a3f0ce112070d74ab0b89dd51c08f60/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Ciara::1, 2 Step": {
@@ -12580,7 +12580,7 @@
     "video_id": "ZboXfvvxWls",
     "cover": "https://cdn-images.dzcdn.net/images/cover/e2148255e531ab91c18a5f3fc7ea0f76/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Ciara::Goodies": {
@@ -12624,7 +12624,7 @@
     "video_id": "wWeb0SRZFyI",
     "cover": "https://cdn-images.dzcdn.net/images/cover/1c933a5eb6bff76e09352be24d911a00/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Sum 41::In Too Deep": {
@@ -12668,7 +12668,7 @@
     "video_id": "53EV229jBgk",
     "cover": "https://cdn-images.dzcdn.net/images/cover/9aba5b418a311c0bbefb6699ebc58a4b/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Paramore::Misery Business": {
@@ -12855,7 +12855,7 @@
     "video_id": "jeo3an2M_Lo",
     "cover": "https://cdn-images.dzcdn.net/images/cover/a1ae7ae6e64619d922b431620d88f02a/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Chvrches::The Mother We Share": {
@@ -12866,7 +12866,7 @@
     "video_id": "mW1g1MlLDsE",
     "cover": "https://cdn-images.dzcdn.net/images/cover/abba8d024cff214f956060fcb1620f13/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Miranda Lambert::The House That Built Me": {
@@ -12910,7 +12910,7 @@
     "video_id": "vOfWjcfx_-4",
     "cover": "https://cdn-images.dzcdn.net/images/cover/c8098c7acbb4ea462bdf42ac7a34ba95/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Dan + Shay::Speechless": {
@@ -12943,7 +12943,7 @@
     "video_id": "FdLF-SJ2Zes",
     "cover": "https://cdn-images.dzcdn.net/images/cover/3d271d0e2e22a80bd0ba8284ddcb472c/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Chris Young::Aw Naw": {
@@ -12954,7 +12954,7 @@
     "video_id": "9aJL-4NpU24",
     "cover": "https://cdn-images.dzcdn.net/images/cover/a2f4d6018d189921e1492db967680d8f/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Cole Swindell::Chillin' It": {
@@ -12965,7 +12965,7 @@
     "video_id": "o6Iz-Ea8ecY",
     "cover": "https://cdn-images.dzcdn.net/images/cover/8be4407e22a4c0a8b7ed2daa8e709754/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   },
   "Jordan Davis::Singles You Up": {
@@ -13086,7 +13086,7 @@
     "video_id": "LQMoLrL52ac",
     "cover": "https://cdn-images.dzcdn.net/images/cover/71486ce8b24f612c4887efa0f79a9f66/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0
   }
 }
