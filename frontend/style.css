@@ -28,12 +28,172 @@ body {
   min-height: 100vh;
 }
 
+/* A single wide, very low-opacity wash behind everything. Without it the page
+   is one flat fill and the card has nothing to sit on; with it the card reads
+   as lit from above. Fixed so it doesn't travel when the filter drawer opens. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(58rem 30rem at 50% -6%, rgba(61, 220, 132, 0.06), transparent 68%);
+}
+
+.topbar,
+.filter-panel,
+.card {
+  position: relative;
+  z-index: 1;
+}
+
 .topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1.5rem;
   border-bottom: 1px solid var(--border);
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.volume-btn {
+  border: none;
+  background: transparent;
+  padding: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.volume-btn:hover { color: var(--text); }
+.volume-btn:active { transform: scale(0.88); }
+
+/* Drawn rather than an emoji so it inherits the type colour, stays crisp at any
+   density, and matches the flat one-weight look of the rest of the chrome. The
+   cone is solid, the waves are strokes; level classes decide how many show. */
+.volume-icon {
+  width: 17px;
+  height: 17px;
+  display: block;
+  overflow: visible;
+}
+
+.vol-cone {
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-width: 1;
+  stroke-linejoin: round;
+}
+
+.vol-wave,
+.vol-slash {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+/* Waves fade and retract toward the cone instead of blinking out, so dragging
+   the slider reads as one continuous movement. */
+.vol-wave {
+  opacity: 0;
+  transform: translateX(-2px);
+  transform-origin: 6px 10px;
+}
+
+.volume-icon.level-1 .vol-wave-1,
+.volume-icon.level-2 .vol-wave-1,
+.volume-icon.level-2 .vol-wave-2 {
+  opacity: 1;
+  transform: none;
+}
+
+/* Two crossed strokes rather than one: a single diagonal beside the cone reads
+   as a stray mark, whereas an x is unmistakably "off". */
+.vol-slash {
+  opacity: 0;
+  stroke-dasharray: 6.3;
+  stroke-dashoffset: 6.3;
+  transition: opacity 0.18s ease, stroke-dashoffset 0.22s ease;
+}
+
+.volume-icon.level-0 .vol-slash {
+  opacity: 1;
+  stroke-dashoffset: 0;
+}
+
+/* The filled portion is painted with a gradient driven by --vol (set from JS)
+   rather than a second element, so the track stays a single native input and
+   keeps its built-in drag/keyboard behaviour. */
+.volume-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 78px;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(
+    to right,
+    var(--accent) 0%,
+    var(--accent) var(--vol, 100%),
+    var(--border) var(--vol, 100%),
+    var(--border) 100%
+  );
+  cursor: pointer;
+  transition: width 0.2s ease;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--text);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.volume-slider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--text);
+  border: none;
+  cursor: pointer;
+}
+
+.volume-slider:hover::-webkit-slider-thumb { transform: scale(1.25); }
+.volume-slider:hover::-moz-range-thumb { transform: scale(1.25); }
+
+.volume-slider:active::-webkit-slider-thumb { background: var(--accent); }
+.volume-slider:active::-moz-range-thumb { background: var(--accent); }
+
+.volume-slider:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+/* Narrow phones: the slider is the only thing here that can afford to give up
+   room, so it shrinks rather than letting the row wrap. */
+@media (max-width: 400px) {
+  .volume-slider { width: 48px; }
+  .topbar-right { gap: 0.5rem; }
 }
 
 .filters-btn {
@@ -93,8 +253,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: 420px;
-  margin: 0 auto;
   width: 100%;
   padding: 0 1.5rem;
   opacity: 0;
@@ -107,10 +265,13 @@ body {
   transition-delay: 0.06s;
 }
 
+/* "All" sits beside its group label rather than pushed to the far edge: now
+   that the drawer spans the full header width, space-between would strand it
+   hundreds of pixels from the chips it actually controls. */
 .filter-group-head {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
+  gap: 0.7rem;
   margin-bottom: 0.5rem;
 }
 
@@ -196,11 +357,19 @@ body {
 
 .card {
   max-width: 420px;
-  margin: 3rem auto;
+  /* Keeps a gutter on phones — at 375px the card would otherwise run flush to
+     both edges and its rounded corners would be clipped off-screen. */
+  width: calc(100% - 2rem);
+  /* Top-anchored on purpose: the card grows downward when the answer is
+     revealed, so vertical centring would slide the play button up mid-reveal.
+     The clamp just moves it off the very top edge on tall screens. */
+  margin: clamp(2rem, 16vh, 7rem) auto 4rem;
   padding: 2rem 1.5rem;
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 16px;
+  border-radius: 18px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35),
+              0 18px 40px -22px rgba(0, 0, 0, 0.9);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -402,6 +571,7 @@ input[type="text"]:focus {
   max-height: 220px;
   overflow-y: auto;
   z-index: 10;
+  box-shadow: 0 16px 32px -16px rgba(0, 0, 0, 0.85);
 }
 
 .suggestions li {
@@ -612,3 +782,19 @@ body.dev .offset-editor {
 
 .offset-btn:hover { background: #323744; }
 .offset-btn:active { transform: scale(0.95); }
+
+/* The text input had a focus ring and nothing else did, which is exactly the
+   kind of half-finished detail that reads as unpolished. :focus-visible keeps
+   these invisible to mouse users. */
+.play-btn:focus-visible,
+.primary-btn:focus-visible,
+.secondary-btn:focus-visible,
+.filters-btn:focus-visible,
+.filter-all:focus-visible,
+.chip:focus-visible,
+.volume-btn:focus-visible,
+.offset-btn:focus-visible,
+.remove-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}

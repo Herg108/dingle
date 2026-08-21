@@ -115,7 +115,7 @@
     "video_id": "FT3D1Cu6g10",
     "cover": "https://cdn-images.dzcdn.net/images/cover/dba55570a13a8be5d20e457a75091dd5/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0,
     "genre": "Pop"
   },
@@ -667,7 +667,7 @@
     "video_id": "qlG16vQw0tc",
     "cover": "https://cdn-images.dzcdn.net/images/cover/2e5d78c5666d60054036a913a702677f/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0,
     "genre": "Rock"
   },
@@ -1568,7 +1568,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a1939a9a40dc97ed404cc4597c6a32bc/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 2.7,
     "genre": "Pop"
   },
   "Daft Punk::Get Lucky": {
@@ -1616,7 +1616,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/eea9f7fc913300e40307a0ff70dc73cf/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "R&B"
   },
   "The Weeknd::Blinding Lights": {
@@ -1772,7 +1772,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/95f254f5a4b63ed50250e64386343ec8/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Pop"
   },
   "Carly Rae Jepsen::Call Me Maybe": {
@@ -2348,7 +2348,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/1e012b5bba83edac911b09ca1ab29e1e/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Pop"
   },
   "Glass Animals::Heat Waves": {
@@ -3080,7 +3080,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/37a20b62f754b7ff5a9a29a8f2fe9d27/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "Indie"
   },
   "Alex Warren::Ordinary": {
@@ -3716,7 +3716,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/2378d42e77860170c814bb1db400f949/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 1.4,
+    "start_offset": 1.2,
     "genre": "Pop"
   },
   "Sia::Elastic Heart": {
@@ -3860,7 +3860,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/21a1daf84ded54329d0560052e985c02/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.7,
     "genre": "Pop"
   },
   "Zedd::Clarity": {
@@ -4735,7 +4735,7 @@
     "video_id": "VNsd8Yo5zvc",
     "cover": "https://cdn-images.dzcdn.net/images/cover/ed20ecb9d5df25ff97dd2132e8a4739f/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0,
     "genre": "Indie"
   },
@@ -4808,7 +4808,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/809235f53f2eacd1c5cba6d0002f903b/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "Pop"
   },
   "Train::Hey, Soul Sister": {
@@ -4976,7 +4976,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/858363862b8caef2d22cbd3302a5db66/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.3,
     "genre": "Rock"
   },
   "American Authors::Best Day of My Life": {
@@ -5072,7 +5072,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/df670d656c8cb219a1c613bd8a7a533f/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 1.2,
     "genre": "Pop"
   },
   "MAGIC!::Rude": {
@@ -5540,7 +5540,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/bad43fd5d83235591fbcb0132c5f1a35/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Indie"
   },
   "Noah Kahan::Dial Drunk": {
@@ -5900,7 +5900,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/845eff477946539849c7291510d61daf/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop"
   },
   "David Kushner::Daylight": {
@@ -6728,7 +6728,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/d50d4b9f208497bffb7cd237900aa78d/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 1.0,
     "genre": "Rock"
   },
   "Bryan Adams::Summer Of '69": {
@@ -6776,7 +6776,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/22c3b83d9c00899886508e1dffcf93ef/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.3,
     "genre": "Dance"
   },
   "The Cranberries::Linger": {
@@ -6980,7 +6980,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/970dce98eeea6729244c0ae71707a83d/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.4,
     "genre": "Rock"
   },
   "Hoobastank::The Reason": {
@@ -7256,7 +7256,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/ba1e7f3702a82b91615689daff474622/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.2,
+    "start_offset": 0.3,
     "genre": "Indie"
   },
   "TV Girl::Lovers Rock": {
@@ -8036,7 +8036,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/7eacf354715416bfc7a931baf9b32e99/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Dance"
   },
   "Doja Cat::Get Into It (Yuh)": {
@@ -8108,7 +8108,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/d632fc9cfbfc294984bdecf0dc6f9d16/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Pop"
   },
   "Megan Thee Stallion::Sweetest Pie": {
@@ -8168,7 +8168,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/82f1bc61739e54407f05674256747ae4/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 2.1,
+    "start_offset": 1.8,
     "genre": "Pop"
   },
   "DVRST::Close Eyes": {
@@ -8204,7 +8204,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/cab97fdd320e4a821ca92ab3b5dcc37c/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.2,
+    "start_offset": 0.7,
     "genre": "R&B"
   },
   "Justin Bieber::Intentions": {
@@ -8888,7 +8888,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/0690d69d27f0d718fcc95f23af702286/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 7.6,
     "genre": "Rock"
   },
   "The Killers::Somebody Told Me": {
@@ -9524,7 +9524,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/b9bc22abc42702fc1b1833f0c0b997a2/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 4.7,
     "genre": "Hip-Hop"
   },
   "Bruno Mars::Finesse": {
@@ -10100,7 +10100,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a34c120da927629e8c174d4ff3a29eed/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 2.5,
     "genre": "Pop"
   },
   "Wiz Khalifa::The Thrill": {
@@ -10196,7 +10196,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/28a68240b2a9b50a1d5e2259f7bbfdcd/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Pop"
   },
   "Selena Gomez::Back To You": {
@@ -10364,7 +10364,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/30e4c3888332f3c24fd4a9168a705272/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.3,
     "genre": "Pop"
   },
   "Justin Timberlake::CAN'T STOP THE FEELING!": {
@@ -11564,7 +11564,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/05b20985eb4af8e9e83094ed5a772f9c/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "Pop"
   },
   "yung kai::blue": {
@@ -11900,7 +11900,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/24965bc58fb4d1524b5615f9295c802c/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "R&B"
   },
   "Maroon 5::Memories": {
@@ -12823,7 +12823,7 @@
     "video_id": "esEdC0c3YI4",
     "cover": "https://cdn-images.dzcdn.net/images/cover/0e0abfc94096e6e7642b23d991086507/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0,
     "genre": "Rock"
   },
@@ -12931,7 +12931,7 @@
     "video_id": "cMb9vj2bpV0",
     "cover": "https://cdn-images.dzcdn.net/images/cover/d65259e5a4778af1813373a8f06c4d20/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0,
     "genre": "Rock"
   },
@@ -13267,7 +13267,7 @@
     "video_id": "kT6pFsVA6hA",
     "cover": "https://cdn-images.dzcdn.net/images/cover/23bedb70467da7e63ac91c5e93986a70/250x250-000000-80-0-0.jpg",
     "resolved": true,
-    "removed": false,
+    "removed": true,
     "start_offset": 0.0,
     "genre": "Indie"
   },
@@ -13809,7 +13809,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/b34cdec46420709fccc1c7b18a604501/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.3
+    "start_offset": 0.8
   },
   "Yeat::PUT IT ONG": {
     "id": "Yeat::PUT IT ONG",
@@ -13821,7 +13821,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/3e3a44df3a1130625cd47f6e92d4db79/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.1
   },
   "Yeat::LOCO": {
     "id": "Yeat::LOCO",
@@ -13941,7 +13941,7 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/78fc5cf233b24aa52561e76ecd75e9ae/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0
+    "start_offset": 0.7
   },
   "Travis Scott::sweet sweet": {
     "id": "Travis Scott::sweet sweet",

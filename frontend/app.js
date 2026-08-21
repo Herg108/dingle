@@ -37,6 +37,15 @@ let snippetStarted = false;
 // the offset is 3.80) — anchoring the cutoff here instead of at the nominal
 // offset keeps the hint the same length every press, warm or cold.
 let snippetPlayFrom = null;
+// After a hint finishes we rewind the playhead to the snippet start and leave
+// it paused there ("parked"), so the next press is a plain resume with no
+// backward seek. A backward seek costs ~300ms and lands ~55ms late, which is
+// what made replays sound different from the first press. While parked, the
+// progress bar is pinned to the hint length rather than following the
+// rewound playhead. lastCutoff remembers where the hint actually ended, so a
+// wrong guess can still continue onward instead of restarting.
+let parkedAtStart = false;
+let lastCutoff = null;
 // True while the deliberate drain-out animation owns the fill, so the
 // per-frame redraw doesn't fight it by writing a live width back.
 let draining = false;
@@ -57,6 +66,67 @@ let priming = false;
 if (new URLSearchParams(location.search).has("test")) {
   document.body.classList.add("dev");
 }
+
+// ---------------------------------------------------------------------------
+// Volume
+//
+// Deliberately implemented as setVolume(0) rather than the player's mute(),
+// because the offset priming routine mutes and unmutes around its silent
+// warm-up play — a real mute would be clobbered by that unMute(), whereas a
+// volume of 0 survives it untouched.
+// ---------------------------------------------------------------------------
+const VOLUME_KEY = "dingle.volume";
+const volumeBtn = document.getElementById("volumeBtn");
+const volumeIcon = document.getElementById("volumeIcon");
+const volumeSlider = document.getElementById("volumeSlider");
+
+let volume = loadSavedVolume();
+let volumeBeforeMute = volume || 100; // what the speaker toggle restores to
+
+function loadSavedVolume() {
+  // Guard the empty cases explicitly: getItem() returns null when nothing has
+  // been stored, and Number(null) is 0 — which is a perfectly valid volume, so
+  // a plain range check would hand a first-time visitor a silent game.
+  const raw = localStorage.getItem(VOLUME_KEY);
+  if (raw === null || raw === "") return 100;
+  const saved = Number(raw);
+  return Number.isFinite(saved) && saved >= 0 && saved <= 100 ? saved : 100;
+}
+
+function applyVolume() {
+  if (ytPlayer && playerReady && ytPlayer.setVolume) ytPlayer.setVolume(volume);
+  volumeSlider.value = String(volume);
+  volumeSlider.style.setProperty("--vol", `${volume}%`);
+  // 0 = slashed, 1 = one wave, 2 = both. The classes drive the SVG rather than
+  // swapping glyphs, so the waves can animate in and out as the slider moves.
+  const level = volume === 0 ? 0 : volume <= 50 ? 1 : 2;
+  volumeIcon.classList.remove("level-0", "level-1", "level-2");
+  volumeIcon.classList.add(`level-${level}`);
+  volumeBtn.setAttribute("aria-label", volume === 0 ? "Unmute" : "Mute");
+  try {
+    localStorage.setItem(VOLUME_KEY, String(volume));
+  } catch {
+    /* private mode / storage full — volume just won't persist */
+  }
+}
+
+function setVolume(next) {
+  volume = Math.max(0, Math.min(100, Math.round(next)));
+  applyVolume();
+}
+
+volumeSlider.addEventListener("input", () => setVolume(Number(volumeSlider.value)));
+
+volumeBtn.addEventListener("click", () => {
+  if (volume > 0) {
+    volumeBeforeMute = volume;
+    setVolume(0);
+  } else {
+    setVolume(volumeBeforeMute || 100);
+  }
+});
+
+applyVolume(); // paint the saved level right away, long before the player exists
 
 // ---------------------------------------------------------------------------
 // Song filters (era / genre)
@@ -221,6 +291,9 @@ document.querySelectorAll(".filter-all").forEach((btn) => {
 });
 
 const RESET_BLANK_MS = 120; // a deliberate blank beat so replays feel like a real reset
+// How long to wait after a +/- nudge before auditioning it, so a run of taps
+// plays the value you land on instead of every value on the way there.
+const OFFSET_PREVIEW_MS = 160;
 
 // Loading covers both the round fetch and the offset-priming warm-up — the
 // button shows a spinner instead of just going dim/disabled for that whole
@@ -263,6 +336,20 @@ function isPlaying() {
   return !!ytPlayer && playerReady && ytPlayer.getPlayerState() === YT.PlayerState.PLAYING;
 }
 
+// The playhead keeps moving while the player is BUFFERING even though the
+// state isn't PLAYING, so a cutoff that only runs while PLAYING is blind for
+// as long as the buffer takes (~130ms on a resume). At the start of a clip
+// that's harmless — the buffer happens nowhere near the cutoff. But resuming a
+// pause taken just before the cutoff spends that entire blind window past it,
+// which is audible. Gated on snippetStarted so it can't fire while a round is
+// still being cued.
+function isAdvancing() {
+  if (!ytPlayer || !playerReady) return false;
+  const st = ytPlayer.getPlayerState();
+  return st === YT.PlayerState.PLAYING ||
+    (st === YT.PlayerState.BUFFERING && snippetStarted);
+}
+
 function maxDuration() {
   return state ? Math.max(...state.durations) : 0;
 }
@@ -281,7 +368,11 @@ function updateProgressFill() {
     return;
   }
   const max = maxDuration();
-  const elapsed = ytPlayer ? Math.max(0, ytPlayer.getCurrentTime() - snippetBase()) : 0;
+  // Parked: the playhead is rewound to the start ready for a replay, but the
+  // hint has been heard — show the hint length, not the rewound position.
+  const elapsed = parkedAtStart && Number.isFinite(snippetTarget)
+    ? snippetTarget
+    : (ytPlayer ? Math.max(0, ytPlayer.getCurrentTime() - snippetBase()) : 0);
   const pct = max ? Math.min((elapsed / max) * 100, 100) : 0;
   progressFill.style.width = `${pct}%`;
   progressFill.classList.toggle("full", pct >= 100);
@@ -300,7 +391,7 @@ function snippetCutoffAt() {
 }
 
 function enforceSnippetCutoff() {
-  if (!isPlaying()) return false;
+  if (!isAdvancing()) return false;
   const now = ytPlayer.getCurrentTime();
   // First frame of real playback for this hint — anchor the cutoff here so a
   // cold, buffered start still gets its full duration instead of a clipped one.
@@ -308,7 +399,10 @@ function enforceSnippetCutoff() {
   const cutoffAt = snippetCutoffAt();
   if (now >= cutoffAt) {
     ytPlayer.pauseVideo();
-    ytPlayer.seekTo(cutoffAt, true);
+    // Rewind to the snippet start and park there, so a replay needs no seek.
+    lastCutoff = cutoffAt;
+    parkedAtStart = true;
+    ytPlayer.seekTo(state ? state.startOffset : 0, true);
     return true;
   }
   return false;
@@ -331,13 +425,22 @@ function renderTicks() {
 // YouTube's player has no per-frame "timeupdate" event, so a single
 // self-perpetuating loop drives both the cutoff check and the fill redraw.
 function tick() {
-  if (!priming && isPlaying()) {
+  if (!priming && isAdvancing()) {
     enforceSnippetCutoff();
     updateProgressFill();
   }
   requestAnimationFrame(tick);
 }
 requestAnimationFrame(tick);
+
+// The fill only needs to be redrawn once per frame, but the cutoff wants to be
+// caught as close to the exact moment as possible: at 60fps a frame is ~16.7ms,
+// which on a 0.2s hint is 8% of the whole clip, arriving at a random point in
+// the frame every press. A separate fine-grained check keeps the end tight
+// without redrawing anything.
+setInterval(() => {
+  if (!priming && isAdvancing()) enforceSnippetCutoff();
+}, 4);
 
 function onPlayerStateChange(event) {
   if (priming) return; // silent warm-up play/pause, not a real playback state
@@ -360,6 +463,7 @@ window.onYouTubeIframeAPIReady = function () {
     events: {
       onReady: () => {
         playerReady = true;
+        applyVolume(); // setVolume() only works once the player is ready
         if (pendingVideoId) {
           const videoId = pendingVideoId;
           pendingVideoId = null;
@@ -395,7 +499,7 @@ let primeGeneration = 0;
 // being cut short costs nothing but a little buffering on that first press.
 async function primeOffset(offset) {
   const myGeneration = primeGeneration;
-  await waitUntilCueable();
+  await waitUntilPlayable();
   offset = offset || 0;
   if (myGeneration !== primeGeneration) {
     return; // superseded by a newer round while we were waiting
@@ -409,20 +513,47 @@ async function primeOffset(offset) {
   }, 2000);
   priming = true;
   try {
-    // Muted throughout: seekTo() on a freshly cued player can make YouTube
-    // start playing of its own accord, and unmuted that escapes as an audible
-    // blip (which the snippet cutoff then immediately chops, giving a
-    // start-stop stutter right as loading finishes).
+    // Muted throughout. Two reasons: seekTo() on a freshly cued player can make
+    // YouTube start playing on its own, and the warm-up below plays on purpose
+    // — neither should be audible.
     ytPlayer.mute();
     await seekAndSettle(offset, 600);
     if (myGeneration !== primeGeneration) return;
-    // Cancel any such seek-induced playback, and only unmute once the player
-    // has actually stopped — never while sound could still be coming out.
-    ytPlayer.pauseVideo();
-    for (let i = 0; i < 15 && ytPlayer.getPlayerState() === YT.PlayerState.PLAYING; i++) {
+
+    // Actually play for a moment, then park. This is the part that makes the
+    // first press feel like every other press: a player sitting in UNSTARTED
+    // has to cold-start its media pipeline (~900ms before any sound), whereas
+    // one resuming from PAUSED is effectively instant. Playing briefly here
+    // pays that cost silently, up front, and leaves the player warm and
+    // parked exactly where the hint begins.
+    ytPlayer.playVideo();
+    let warmed = false;
+    for (let i = 0; i < 25; i++) {
+      const st = ytPlayer.getPlayerState();
+      if (st === YT.PlayerState.PLAYING) { warmed = true; break; }
+      // Autoplay refused (no user gesture yet) parks in CUED and never budges;
+      // don't burn the rest of the timer waiting for something that won't come.
+      if (i >= 8 && st === YT.PlayerState.CUED) break;
       await new Promise((r) => setTimeout(r, 20));
       if (myGeneration !== primeGeneration) return;
     }
+    if (warmed) {
+      await new Promise((r) => setTimeout(r, 120)); // let it genuinely decode
+      if (myGeneration !== primeGeneration) return;
+    }
+
+    // Park: stop, confirm stopped, then rewind to the offset so the next real
+    // press is a plain resume from exactly the right spot.
+    ytPlayer.pauseVideo();
+    for (let i = 0; i < 25 && ytPlayer.getPlayerState() === YT.PlayerState.PLAYING; i++) {
+      await new Promise((r) => setTimeout(r, 20));
+      if (myGeneration !== primeGeneration) return;
+    }
+    if (myGeneration !== primeGeneration) return;
+    await seekAndSettle(offset, 400);
+    if (myGeneration !== primeGeneration) return;
+    // Only ever unmute once it has genuinely stopped — unmuting while a play
+    // command is still in flight is what used to leak an audible blip.
     ytPlayer.unMute();
   } finally {
     clearTimeout(safety);
@@ -452,6 +583,8 @@ async function startRound() {
   snippetTarget = 0;
   snippetStarted = false;
   snippetPlayFrom = null;
+  parkedAtStart = false;
+  lastCutoff = null;
   revealAt = 0;
   const res = await fetch(`/api/round/new${filterQuery()}`);
   const round = await res.json();
@@ -503,9 +636,20 @@ async function startRound() {
 // cueVideoById() returns before the video has actually finished loading, so a
 // playVideo() call that lands too soon after can get silently dropped —
 // wait for a real ready state (not just UNSTARTED) before issuing play commands.
-async function waitUntilCueable() {
-  for (let i = 0; i < 100 && ytPlayer.getPlayerState() === YT.PlayerState.UNSTARTED; i++) {
-    await new Promise((r) => setTimeout(r, 30));
+// Wait until the player can actually accept a play/seek.
+//
+// This used to poll for the state leaving UNSTARTED (-1), which looks like a
+// "still loading" signal but isn't: after a cue followed by a seek, UNSTARTED
+// is the player's *resting* state, and it only leaves it once playback truly
+// begins. So the check could never be satisfied by waiting, and every first
+// press on an offset song burned the full ~3s timeout before doing anything —
+// which is exactly why that press felt different from all the ones after it.
+//
+// getDuration() is the honest readiness signal: 0 until metadata has loaded,
+// non-zero once the video is ready to play or seek.
+async function waitUntilPlayable() {
+  for (let i = 0; i < 100 && !(ytPlayer.getDuration() > 0); i++) {
+    await new Promise((r) => setTimeout(r, 20));
   }
 }
 
@@ -557,18 +701,20 @@ async function playSnippet() {
     ytPlayer.pauseVideo(); // acts like a normal player's pause — freezes in place, no seek
     return;
   }
-  await waitUntilCueable();
+  await waitUntilPlayable();
 
-  // Paused mid-clip (manually) vs. paused at the cutoff mean different things:
-  // mid-clip should just continue; at the cutoff there's nothing left to
-  // continue toward, so it's a fresh replay of the current hint from the top.
-  // Only ever a "continue" once playback has genuinely started this round —
-  // otherwise a still-at-zero playhead looks identical to being mid-clip and
-  // we'd resume from the song's real beginning instead of its start offset.
-  if (snippetStarted && ytPlayer.getCurrentTime() < snippetCutoffAt()) {
+  // Paused mid-clip (manually) vs. parked at the start after a finished hint
+  // mean different things: mid-clip should just continue, whereas parked is a
+  // fresh replay. Only ever a "continue" once playback has genuinely started
+  // this round — otherwise a still-at-zero playhead looks identical to being
+  // mid-clip and we'd resume from the song's real beginning.
+  if (snippetStarted && !parkedAtStart && ytPlayer.getCurrentTime() < snippetCutoffAt()) {
     ytPlayer.playVideo();
     return;
   }
+
+  const replayingFromPark = parkedAtStart;
+  parkedAtStart = false;
 
   if (state.gameOver) {
     snippetTarget = Infinity; // round's over — let it play through in full, no attempt cutoff
@@ -576,12 +722,21 @@ async function playSnippet() {
     snippetTarget = state.durations[Math.min(state.attemptsUsed, state.durations.length - 1)];
     updateTargetIndicator();
   }
-  await seekAndSettle(state.startOffset);
+  // Already sitting exactly at the snippet start, warm and ready — seeking
+  // again would only re-introduce the backward-seek lag this parking avoids.
+  if (!replayingFromPark) {
+    await seekAndSettle(state.startOffset);
+  }
   revealAt = performance.now() + RESET_BLANK_MS;
   progressFill.classList.remove("smooth");
   progressFill.style.width = "0%";
   progressFill.classList.remove("full");
-  snippetPlayFrom = null; // re-anchor: this is a fresh start, not a resume
+  // Re-anchor: this is a fresh start, not a resume. Anchor to the offset
+  // itself rather than letting enforceSnippetCutoff() infer it from the first
+  // frame that reports PLAYING — that report lands late by a variable 20-60ms,
+  // and since parking guarantees playback resumes from exactly the offset, an
+  // inferred anchor only ever adds jitter to where the hint ends.
+  snippetPlayFrom = state.startOffset;
   ytPlayer.playVideo();
   snippetStarted = true;
   setTimeout(updateProgressFill, RESET_BLANK_MS);
@@ -641,6 +796,14 @@ async function submitGuess(guess) {
     // Skipping without ever pressing play shouldn't start audio unprompted —
     // the longer hint is simply armed, and plays when they choose to.
     if (snippetStarted && !isPlaying() && playerReady) {
+      // The playhead was parked back at the snippet start ready for a replay,
+      // but a wrong guess should carry on into the newly revealed stretch
+      // rather than replay what's already been heard — so jump forward to
+      // where the last hint actually ended before resuming.
+      if (parkedAtStart && lastCutoff !== null) {
+        parkedAtStart = false;
+        await seekAndSettle(lastCutoff);
+      }
       ytPlayer.playVideo(); // resume from wherever it sits, no restart
     }
   }
@@ -674,6 +837,11 @@ async function submitGuess(guess) {
     guessInput.disabled = true;
 
     snippetTarget = Infinity; // no more cutoff — let it keep playing through the reveal
+    // The hint may well have finished and parked before the answer was typed.
+    // Leaving that flag set makes the bar read the parked branch below, where
+    // "elapsed" is the hint length — now Infinity — so it would snap to full
+    // and stay there instead of tracking the song playing out.
+    parkedAtStart = false;
     if (!isPlaying() && playerReady) {
       await seekAndSettle(state.startOffset);
       revealAt = 0;
@@ -739,14 +907,23 @@ async function adjustStartOffset(delta) {
     body: JSON.stringify({ offset: newOffset }),
   });
 
-  if (playerReady) {
-    clearTimeout(previewTimer);
-    ytPlayer.seekTo(newOffset, true);
-    ytPlayer.playVideo();
-    previewTimer = setTimeout(() => {
-      if (isPlaying()) ytPlayer.pauseVideo();
-    }, 1500);
-  }
+  if (!playerReady) return;
+  // Audition exactly what was just changed: the first hint, heard from the new
+  // offset. Debounced so holding +0.1 down auditions the value you land on
+  // rather than firing a clip for every value on the way there.
+  clearTimeout(previewTimer);
+  // Blank the bar the moment the offset moves and hold it blank through the
+  // debounce and the seek. Without this it keeps redrawing against the old
+  // anchor for a beat before the audition resets it, which shows up as a
+  // flick of fill at the wrong width.
+  progressFill.classList.remove("smooth", "full");
+  progressFill.style.width = "0%";
+  // Generous ceiling, not a guess at the seek time: previewFirstHint() replaces
+  // this the moment its seek lands, so the bar is never actually blank this
+  // long. Too short a window and the fill redraws at the old width for a frame
+  // before the audition resets it.
+  revealAt = performance.now() + OFFSET_PREVIEW_MS + 1500;
+  previewTimer = setTimeout(previewFirstHint, OFFSET_PREVIEW_MS);
 }
 
 offsetMinusBigBtn.addEventListener("click", () => adjustStartOffset(-0.5));
@@ -761,15 +938,28 @@ offsetPlusBigBtn.addEventListener("click", () => adjustStartOffset(0.5));
 // of precision; this is the one that actually tells you if 0.2s lands right.
 async function previewFirstHint() {
   if (!playerReady || !state) return;
-  await waitUntilCueable();
+  await waitUntilPlayable();
   clearTimeout(previewTimer);
+  if (isPlaying()) ytPlayer.pauseVideo(); // cut any clip still running
   snippetTarget = state.durations[0];
   updateTargetIndicator();
-  revealAt = 0;
-  progressFill.classList.remove("smooth");
+  parkedAtStart = false;
   await seekAndSettle(state.startOffset);
+  // Anchor only once the seek has landed. Setting it before would leave the
+  // cutoff measuring against a position the player hasn't reached yet, and the
+  // 4ms check would chop the clip before it started.
+  snippetPlayFrom = state.startOffset;
+  // Reset the bar exactly the way a real press does. Without this the fill
+  // keeps whatever it was showing — including the width the previous audition
+  // left pinned when it parked — so nudging the offset looked like the bar had
+  // stopped working rather than replaying from the top.
+  revealAt = performance.now() + RESET_BLANK_MS;
+  progressFill.classList.remove("smooth");
+  progressFill.style.width = "0%";
+  progressFill.classList.remove("full");
   ytPlayer.playVideo();
   snippetStarted = true;
+  setTimeout(updateProgressFill, RESET_BLANK_MS);
 }
 
 previewFirstHintBtn.addEventListener("click", previewFirstHint);

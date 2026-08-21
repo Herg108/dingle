@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>dingle</title>
+<meta name="theme-color" content="#0f1115">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f1115'/%3E%3Ccircle cx='16' cy='16' r='9' fill='%233ddc84'/%3E%3Cpath d='M13.6 11.8l6.2 4.2-6.2 4.2z' fill='%230f1115'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,9 +14,25 @@
 <body>
 <header class="topbar">
   <span class="brand">dingle</span>
-  <button id="filtersBtn" class="filters-btn" aria-expanded="false">
-    Filters<span id="filtersCount" class="filters-count hidden"></span>
-  </button>
+  <div class="topbar-right">
+    <div class="volume">
+      <button id="volumeBtn" class="volume-btn" aria-label="Mute">
+        <svg id="volumeIcon" class="volume-icon level-2" viewBox="0 0 20 20" aria-hidden="true">
+          <path class="vol-cone"
+                d="M9.5 4.2 L5.6 7.6 H3.2 A1.2 1.2 0 0 0 2 8.8 v2.4 A1.2 1.2 0 0 0 3.2 12.4 H5.6 L9.5 15.8 Z"/>
+          <path class="vol-wave vol-wave-1" d="M11.9 7.9 a2.6 2.6 0 0 1 0 4.2"/>
+          <path class="vol-wave vol-wave-2" d="M14.2 6 a6 6 0 0 1 0 8"/>
+          <path class="vol-slash" d="M12.6 7.8 L17 12.2"/>
+          <path class="vol-slash" d="M17 7.8 L12.6 12.2"/>
+        </svg>
+      </button>
+      <input id="volumeSlider" class="volume-slider" type="range"
+             min="0" max="100" step="1" value="100" aria-label="Volume">
+    </div>
+    <button id="filtersBtn" class="filters-btn" aria-expanded="false">
+      Filters<span id="filtersCount" class="filters-count hidden"></span>
+    </button>
+  </div>
 </header>
 
 <div id="filterPanel" class="filter-panel">
