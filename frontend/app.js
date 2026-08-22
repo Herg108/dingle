@@ -636,6 +636,173 @@ async function startRound() {
 // cueVideoById() returns before the video has actually finished loading, so a
 // playVideo() call that lands too soon after can get silently dropped —
 // wait for a real ready state (not just UNSTARTED) before issuing play commands.
+// ---------------------------------------------------------------------------
+// Review queue (dev only)
+//
+// A song joins the master list unapproved and stays out of rotation until its
+// snippet start has been checked by hand. Review mode serves that queue one
+// song at a time with the answer already on screen — there is nothing to
+// guess here, the job is to audition the first hint and nudge the offset until
+// it starts somewhere recognisable, then approve it into rotation.
+// ---------------------------------------------------------------------------
+const reviewBtn = document.getElementById("reviewBtn");
+const reviewBadge = document.getElementById("reviewBadge");
+const reviewProgressEl = document.getElementById("reviewProgress");
+const reviewApproveBtn = document.getElementById("reviewApproveBtn");
+const reviewSkipBtn = document.getElementById("reviewSkipBtn");
+
+let reviewMode = false;
+let reviewQueue = [];
+let reviewIndex = 0;
+let reviewPending = 0;
+let reviewDurations = [0.2, 1, 3, 6, 10];
+
+function updateReviewBadge() {
+  reviewBadge.textContent = reviewPending ? ` ${reviewPending}` : "";
+}
+
+async function loadReviewQueue() {
+  const res = await fetch("/api/review/queue?limit=50");
+  const data = await res.json();
+  reviewQueue = data.songs || [];
+  reviewIndex = 0;
+  reviewPending = data.pending || 0;
+  if (data.snippet_durations) reviewDurations = data.snippet_durations;
+  updateReviewBadge();
+  return data;
+}
+
+async function showReviewSong() {
+  // The batch is a window onto a longer queue — top it up when it runs out.
+  if (reviewIndex >= reviewQueue.length) {
+    await loadReviewQueue();
+    if (!reviewQueue.length) {
+      reviewProgressEl.textContent = "queue empty";
+      exitReview();
+      return;
+    }
+  }
+  const song = reviewQueue[reviewIndex];
+
+  // Same teardown a new round does, so a half-finished prime from the previous
+  // song can't leave this one blocked or muted.
+  primeGeneration++;
+  priming = false;
+  if (playerReady) {
+    ytPlayer.stopVideo();
+    ytPlayer.unMute();
+  }
+  playIcon.textContent = "\u25B6";
+  playBtn.classList.remove("playing");
+  setPlayLoading(true);
+  snippetTarget = 0;
+  snippetStarted = false;
+  snippetPlayFrom = null;
+  parkedAtStart = false;
+  lastCutoff = null;
+  revealAt = 0;
+  draining = false;
+  progressFill.classList.remove("draining", "smooth", "full");
+  progressFill.style.width = "0%";
+  progressTarget.style.width = "0%";
+
+  state = {
+    roundId: null,
+    videoId: song.youtube_video_id,
+    durations: reviewDurations,
+    maxAttempts: reviewDurations.length,
+    startOffset: song.start_offset || 0,
+    // Presented exactly as a round you've already played to the end: every
+    // attempt spent, answer on screen, Play running the song through. The
+    // "0.2s hint" button is there when you want the snippet itself.
+    attemptsUsed: reviewDurations.length,
+    gameOver: true,
+    review: true,
+  };
+  currentSongId = song.song_id;
+  renderTicks();
+
+  revealTitle.textContent = song.title;
+  revealArtist.textContent = song.artist;
+  offsetValueEl.textContent = `${state.startOffset.toFixed(1)}s`;
+  removeSongBtn.disabled = false;
+  removeSongBtn.textContent = "\u2715";
+  retryAudioBtn.disabled = false;
+  retryAudioBtn.textContent = "\u{1F504}";
+  reviewProgressEl.textContent = `${reviewPending} left`;
+  reviewApproveBtn.disabled = false;
+  reviewSkipBtn.disabled = false;
+  guessInput.value = "";
+
+  await preloadRevealCover(song.cover);
+  revealSectionEl.classList.add("expanded");
+  clearTimeout(settleTimer);
+  settleTimer = setTimeout(() => revealSectionEl.classList.add("settled"), 380);
+
+  if (playerReady) {
+    ytPlayer.cueVideoById(state.videoId);
+    primeOffset(state.startOffset).then(() => setPlayLoading(false));
+  } else {
+    pendingVideoId = state.videoId;
+  }
+}
+
+async function enterReview() {
+  await loadReviewQueue();
+  if (!reviewQueue.length) {
+    reviewBadge.textContent = " 0";
+    return; // nothing waiting — stay in the normal game
+  }
+  reviewMode = true;
+  document.body.classList.add("reviewing");
+  await showReviewSong();
+}
+
+function exitReview() {
+  reviewMode = false;
+  document.body.classList.remove("reviewing");
+  revealSectionEl.classList.remove("expanded", "settled");
+  startRound();
+}
+
+async function approveCurrentReview() {
+  const song = reviewQueue[reviewIndex];
+  // Outside a review session the queue cursor points at some other song than
+  // the one on screen, so approving would sign off the wrong track.
+  if (!reviewMode || !song || song.song_id !== currentSongId) return;
+  reviewApproveBtn.disabled = true;
+  const res = await fetch(`/api/songs/${encodeURIComponent(song.song_id)}/approve`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ approved: true }),
+  });
+  const data = await res.json();
+  if (typeof data.pending === "number") {
+    reviewPending = data.pending;
+    updateReviewBadge();
+  }
+  reviewIndex++;
+  await showReviewSong();
+}
+
+reviewBtn.addEventListener("click", () => {
+  if (reviewMode) exitReview();
+  else enterReview();
+});
+
+reviewApproveBtn.addEventListener("click", approveCurrentReview);
+
+reviewSkipBtn.addEventListener("click", async () => {
+  if (!reviewMode) return;
+  reviewSkipBtn.disabled = true;
+  reviewIndex++;
+  await showReviewSong();
+});
+
+if (document.body.classList.contains("dev")) {
+  loadReviewQueue(); // just to populate the badge
+}
+
 // Wait until the player can actually accept a play/seek.
 //
 // This used to poll for the state leaving UNSTARTED (-1), which looks like a
@@ -968,8 +1135,17 @@ removeSongBtn.addEventListener("click", async () => {
   if (!currentSongId) return;
   removeSongBtn.disabled = true;
   removeSongBtn.textContent = "…";
-  await fetch(`/api/songs/${encodeURIComponent(currentSongId)}/remove`, { method: "POST" });
+  const res = await fetch(`/api/songs/${encodeURIComponent(currentSongId)}/remove`, { method: "POST" });
   removeSongBtn.textContent = "✓";
+  // A removed song leaves the queue as surely as an approved one does, so the
+  // remaining count has to follow — otherwise it reads one too many until the
+  // next batch is fetched.
+  const data = await res.json().catch(() => ({}));
+  if (typeof data.pending === "number") {
+    reviewPending = data.pending;
+    updateReviewBadge();
+    if (reviewMode) reviewProgressEl.textContent = `${reviewPending} left`;
+  }
 });
 
 retryAudioBtn.addEventListener("click", async () => {

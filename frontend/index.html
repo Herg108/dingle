@@ -29,6 +29,9 @@
       <input id="volumeSlider" class="volume-slider" type="range"
              min="0" max="100" step="1" value="100" aria-label="Volume">
     </div>
+    <button id="reviewBtn" class="filters-btn review-btn">
+      Review<span id="reviewBadge" class="filters-count"></span>
+    </button>
     <button id="filtersBtn" class="filters-btn" aria-expanded="false">
       Filters<span id="filtersCount" class="filters-count hidden"></span>
     </button>
@@ -102,6 +105,12 @@
           <button id="offsetMinus" class="offset-btn" title="-0.1s">−0.1</button>
           <button id="offsetPlus" class="offset-btn" title="+0.1s">+0.1</button>
           <button id="offsetPlusBig" class="offset-btn" title="+0.5s">+0.5</button>
+        </div>
+
+        <div class="review-controls">
+          <span id="reviewProgress" class="review-progress"></span>
+          <button id="reviewSkipBtn" class="offset-btn" title="Leave it queued and move on">Skip</button>
+          <button id="reviewApproveBtn" class="review-approve" title="Mark checked and put it into rotation">Approve →</button>
         </div>
       </div>
     </div>

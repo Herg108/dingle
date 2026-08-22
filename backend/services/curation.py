@@ -553,7 +553,7 @@ SEED_SONGS_2020S = [
     ("OneRepublic", "I Ain't Worried"), ("Post Malone", "I Like You (A Happier Song)"),
     ("NEIKED", "Better Days"), ("Doja Cat", "Get Into It (Yuh)"),
     ("Lil Nas X", "STAR WALKIN'"), ("Nicki Minaj", "Super Freaky Girl"),
-    ("Marshmello", "Leave Before You Love Me"), ("Lil Nas X", "THATS WHAT I WANT"),
+    ("Marshmello", "Leave Before You Love Me"),
     ("Charlie Puth", "Light Switch"), ("Megan Thee Stallion", "Sweetest Pie"),
     ("Charlie Puth", "Left and Right"), ("Marshmello", "Numb"),
     ("The Kid LAROI", "THOUSAND MILES"), ("Ed Sheeran", "2step"),
@@ -569,7 +569,7 @@ SEED_SONGS_2020S = [
     ("Stephen Sanchez", "Until I Found You"), ("Elton John", "Cold Heart"),
     ("ROSÉ", "APT."), ("Lady Gaga", "Hold My Hand"),
     ("yung kai", "blue"), ("The Weeknd", "Timeless"),
-    ("The Weeknd", "One Of The Girls"), ("The Weeknd", "Save Your Tears (Remix)"),
+    ("The Weeknd", "One Of The Girls"),
     ("The Weeknd", "Dancing In The Flames"), ("The Weeknd", "Popular"),
     ("Swedish House Mafia", "Moth To A Flame"), ("The Weeknd", "Sacrifice"),
     ("The Weeknd", "Out of Time"), ("Travis Scott", "FE!N"),
@@ -831,6 +831,10 @@ def _sync_seed_songs(data):
                 "resolved": False,
                 "removed": False,
                 "start_offset": 0.0,
+                # Every new song lands in the review queue rather than straight
+                # into rotation: its snippet start has to be checked by hand
+                # before players can be asked to guess it.
+                "approved": False,
             }
             changed = True
         else:
@@ -839,6 +843,12 @@ def _sync_seed_songs(data):
                 changed = True
             if "start_offset" not in data[key]:
                 data[key]["start_offset"] = 0.0  # backfill for entries saved before offsets existed
+                changed = True
+            # Backfilled once, then left alone — a song approved at offset 0.0
+            # (because 0.0 genuinely was the right start) must not get pushed
+            # back into the queue on the next sync.
+            if "approved" not in data[key]:
+                data[key]["approved"] = data[key].get("start_offset", 0.0) > 0
                 changed = True
             # Re-derived every sync rather than only backfilled once, so
             # corrections to the artist→genre table propagate to songs that
@@ -906,11 +916,48 @@ def get_all_songs():
     return sorted(data.values(), key=lambda e: (e["artist"], e["title"]))
 
 
+def live_songs():
+    """Songs eligible for rotation: resolved to a video, not removed, and
+    signed off in the review queue."""
+    return [s for s in get_all_songs()
+            if s["video_id"] and not s.get("removed") and s.get("approved")]
+
+
+def review_queue(limit=None):
+    """Songs waiting to be checked, most-played decades first — reviewing a
+    2020s song pays off sooner than a 1960s one, since the decade weighting
+    means it comes up more often once it's live."""
+    pending = [s for s in get_all_songs()
+               if s["video_id"] and not s.get("removed") and not s.get("approved")]
+    pending.sort(key=lambda s: (-DECADE_WEIGHTS.get(s.get("decade"), 1.0),
+                                s["artist"], s["title"]))
+    return pending if limit is None else pending[:limit]
+
+
+def review_counts():
+    playable = [s for s in get_all_songs() if s["video_id"] and not s.get("removed")]
+    approved = sum(1 for s in playable if s.get("approved"))
+    return {
+        "pending": len(playable) - approved,
+        "approved": approved,
+        "playable": len(playable),
+    }
+
+
+def set_approved(song_id, approved=True):
+    data = _load()
+    if song_id not in data:
+        raise KeyError(song_id)
+    data[song_id]["approved"] = bool(approved)
+    _save(data)
+    return data[song_id]
+
+
 def filter_counts(eras=None, genres=None):
     """Per-era/genre song counts for the filter UI, plus how many songs the
     caller's current selection actually matches (so the UI can show the
     effect of a combination, which per-axis counts alone can't express)."""
-    songs = [s for s in get_all_songs() if s["video_id"] and not s.get("removed")]
+    songs = live_songs()
     era_counts = {e: 0 for e in ERAS}
     genre_counts = {g: 0 for g in GENRES}
     for s in songs:
@@ -941,7 +988,7 @@ def random_playable_song(eras=None, genres=None):
     "match nothing" — a player who has toggled everything off on one axis
     clearly wants it ignored, not an unplayable game.
     """
-    songs = [s for s in get_all_songs() if s["video_id"] and not s.get("removed")]
+    songs = live_songs()
 
     if eras:
         wanted = set(eras)

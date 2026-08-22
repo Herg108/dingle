@@ -798,3 +798,83 @@ body.dev .offset-editor {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
 }
+
+/* ---------------------------------------------------------------------------
+   Review queue (dev only)
+
+   Songs enter the pool unapproved and have to have their snippet start checked
+   by hand before they go into rotation. These controls sit inside the offset
+   editor, since that's already where the tuning lives.
+   --------------------------------------------------------------------------- */
+
+/* Both hidden by default and switched on by body.dev, same as the other dev
+   tools — display is deliberately not set on the base rules below, or it would
+   win the cascade and leak them into the public UI. */
+.review-btn,
+.review-controls {
+  display: none;
+}
+
+body.dev .review-btn {
+  display: inline-flex;
+}
+
+/* Scoped to an actual review session, not to dev mode at large. A song reached
+   by playing a normal round is already in rotation and has nothing to approve —
+   and worse, the buttons act on the queue cursor, which is a different song
+   entirely from the one the reveal is showing. */
+body.reviewing .review-controls {
+  display: flex;
+}
+
+.review-controls {
+  align-items: center;
+  gap: 0.4rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.review-progress {
+  flex: 1;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.review-approve {
+  padding: 0.3rem 0.7rem;
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+  background: rgba(61, 220, 132, 0.12);
+  color: var(--accent);
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.12s ease;
+}
+
+.review-approve:hover { background: rgba(61, 220, 132, 0.22); }
+.review-approve:active { transform: scale(0.96); }
+.review-approve:disabled { opacity: 0.5; cursor: default; }
+
+.review-approve:focus-visible,
+.review-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* Nothing to guess while reviewing — the answer is already on screen, and a
+   "Next song" button beside Approve/Skip would just be a third, ambiguous way
+   to move on. */
+body.reviewing .guess-row {
+  display: none;
+}
+
+/* Lit while a review session is actually running, so it's obvious the game is
+   serving queued songs rather than the live pool. */
+body.reviewing .review-btn {
+  color: var(--accent);
+  border-color: var(--accent);
+}
