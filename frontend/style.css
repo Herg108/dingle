@@ -878,3 +878,72 @@ body.reviewing .review-btn {
   color: var(--accent);
   border-color: var(--accent);
 }
+
+/* ---------------------------------------------------------------------------
+   Touch handling
+
+   A quick double tap on a control was being read as the browser's
+   double-tap-to-zoom gesture rather than as two presses — easy to trigger when
+   replaying a hint. `manipulation` keeps panning and pinch-zoom (so the page is
+   still accessible to anyone who needs to zoom) and drops only the double-tap
+   gesture, which also removes the ~300ms delay browsers add while waiting to
+   see whether a second tap is coming.
+   --------------------------------------------------------------------------- */
+html {
+  touch-action: manipulation;
+}
+
+/* Also set on the targets themselves: the gesture is resolved against the
+   element under the finger, and some engines don't inherit this the way you'd
+   expect from the root alone. */
+button,
+input,
+.chip,
+.suggestions li,
+.volume-slider {
+  touch-action: manipulation;
+}
+
+/* No grey flash on tap, and a fast second tap can't start selecting a button's
+   label instead of pressing it. Confined to buttons so the guess field keeps
+   normal text selection. */
+button {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.suggestions li {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Touch devices only: the topbar controls are sized for a mouse pointer and
+   are 24-31px tall, well under the ~44px that's reliably hittable with a
+   thumb. The hit area is grown with a pseudo-element so nothing moves
+   visually, and only vertically — widening them would overlap the volume
+   slider and each other, which trades a small target for an ambiguous one. */
+@media (pointer: coarse) {
+  .volume-btn,
+  .filters-btn,
+  .review-btn {
+    position: relative;
+  }
+
+  .volume-btn::after,
+  .filters-btn::after,
+  .review-btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -50%;
+    bottom: -50%;
+  }
+
+  /* The mute toggle is the narrowest thing on screen; a little more width
+     costs nothing in a row that has room. */
+  .volume-btn {
+    width: 2rem;
+  }
+}

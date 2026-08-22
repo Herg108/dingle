@@ -1856,7 +1856,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Justin Bieber::Sorry": {
     "id": "Justin Bieber::Sorry",
@@ -4209,7 +4209,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "Calvin Harris::Summer": {
     "id": "Calvin Harris::Summer",
@@ -4339,7 +4339,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "Major Lazer::Lean On": {
     "id": "Major Lazer::Lean On",
@@ -4352,7 +4352,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "DJ Snake::Turn Down for What": {
     "id": "DJ Snake::Turn Down for What",
@@ -4571,9 +4571,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/fc456b76e9ce22a1ec5ec1cdb3f25721/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "Hip-Hop",
-    "approved": false
+    "approved": true
   },
   "Nicki Minaj::Anaconda": {
     "id": "Nicki Minaj::Anaconda",
@@ -4586,7 +4586,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Hip-Hop",
-    "approved": false
+    "approved": true
   },
   "Nicki Minaj::Super Bass": {
     "id": "Nicki Minaj::Super Bass",
@@ -4937,7 +4937,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Rock",
-    "approved": false
+    "approved": true
   },
   "Fall Out Boy::Centuries": {
     "id": "Fall Out Boy::Centuries",
@@ -5197,7 +5197,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Maroon 5::One More Night": {
     "id": "Maroon 5::One More Night",
@@ -5325,9 +5325,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a43e104f2ff2872df2e1bf4207b6b5e6/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "P!nk::Try": {
     "id": "P!nk::Try",
@@ -5468,9 +5468,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/14f6b5d6ab06d3bc46b15c67c15305f1/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Silento::Watch Me (Whip/Nae Nae)": {
     "id": "Silento::Watch Me (Whip/Nae Nae)",
@@ -5624,9 +5624,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/280f054262ce5c2b534150d79f694350/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Anne-Marie::2002": {
     "id": "Anne-Marie::2002",
@@ -5702,9 +5702,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/addb9bec62269eed82d35c2bebfb1c03/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Passenger::Let Her Go": {
     "id": "Passenger::Let Her Go",
@@ -5715,9 +5715,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/e2572836fe2d7ce6283349014dca01c8/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.3,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Kodaline::All I Want": {
     "id": "Kodaline::All I Want",
@@ -8005,7 +8005,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Hip-Hop",
-    "approved": false
+    "approved": true
   },
   "Post Malone::White Iverson": {
     "id": "Post Malone::White Iverson",
@@ -8291,7 +8291,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Travie McCoy::Billionaire": {
     "id": "Travie McCoy::Billionaire",
@@ -8367,9 +8367,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/f5ea82a3db68153b5ce89c8c9d950023/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Bruno Mars::Count on Me": {
     "id": "Bruno Mars::Count on Me",
@@ -8393,9 +8393,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/aa71c0d064e5698ac486c5bb8005318a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 4.5,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Nico & Vinz::Am I Wrong": {
     "id": "Nico & Vinz::Am I Wrong",
@@ -8406,9 +8406,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/e351fc0509a96a598ae8c89fb0d0d530/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "MKTO::Classic": {
     "id": "MKTO::Classic",
@@ -8497,9 +8497,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/5087588ed15d7446d4befdad2bd48652/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 2.0,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "girl in red::we fell in love in october": {
     "id": "girl in red::we fell in love in october",
@@ -10551,9 +10551,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/ff20b6fb8bab210ad1d2869b3cb01f17/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 2.6,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "DJ Khaled::I'm the One": {
     "id": "DJ Khaled::I'm the One",
@@ -11253,9 +11253,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/decf0088dc47c3c7b84a1adc1c7468c1/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 1.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "OneRepublic::All The Right Moves": {
     "id": "OneRepublic::All The Right Moves",
@@ -11266,9 +11266,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/bca306047da0bdc7af52ea3436d706c8/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.6,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "OneRepublic::Love Runs Out": {
     "id": "OneRepublic::Love Runs Out",
@@ -11515,7 +11515,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Maroon 5::Moves Like Jagger": {
     "id": "Maroon 5::Moves Like Jagger",
@@ -11591,9 +11591,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/44d6c40a5d127528c991b1923948d4bd/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "One Direction::Drag Me Down": {
     "id": "One Direction::Drag Me Down",
@@ -11632,7 +11632,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Hip-Hop",
-    "approved": false
+    "approved": true
   },
   "5 Seconds of Summer::Youngblood": {
     "id": "5 Seconds of Summer::Youngblood",
@@ -11710,7 +11710,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Macklemore & Ryan Lewis::Thrift Shop": {
     "id": "Macklemore & Ryan Lewis::Thrift Shop",
@@ -11721,9 +11721,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/90a8ca339d764deaf0f51fa02bb3c0e2/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Macklemore::Glorious": {
     "id": "Macklemore::Glorious",
@@ -11736,7 +11736,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Macklemore::Good Old Days": {
     "id": "Macklemore::Good Old Days",
@@ -11749,7 +11749,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Maroon 5::Cold": {
     "id": "Maroon 5::Cold",
@@ -11760,9 +11760,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/f233b9e558d32b69b5c04a0cd6dd7823/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 3.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "USHER::DJ Got Us Fallin' In Love": {
     "id": "USHER::DJ Got Us Fallin' In Love",
@@ -12126,7 +12126,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Hip-Hop",
-    "approved": false
+    "approved": true
   },
   "Drake::Jumpman": {
     "id": "Drake::Jumpman",
@@ -12215,9 +12215,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/23f94611c678b0c16b2a8336fa420e3f/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "Tove Lo::Habits (Stay High)": {
     "id": "Tove Lo::Habits (Stay High)",
@@ -12241,9 +12241,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/0c33e334175aa036276374ebe76de8f9/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "A$AP Rocky::Praise The Lord (Da Shine)": {
     "id": "A$AP Rocky::Praise The Lord (Da Shine)",
@@ -12371,9 +12371,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/2477bab843ebeee51ab1fea2a278cabd/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 2.8,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Black Eyed Peas::Just Can't Get Enough": {
     "id": "Black Eyed Peas::Just Can't Get Enough",
@@ -12477,7 +12477,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "Elton John::Cold Heart": {
     "id": "Elton John::Cold Heart",
@@ -14334,9 +14334,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/485d7cab7695e48f1420182647273de4/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 11.3,
     "genre": "Rock",
-    "approved": false
+    "approved": true
   },
   "Alt-J::Breezeblocks": {
     "id": "Alt-J::Breezeblocks",
@@ -14477,9 +14477,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/f116f20199e075247ab0e531f9bf61ba/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.3,
     "genre": "K-Pop",
-    "approved": false
+    "approved": true
   },
   "Hozier::Work Song": {
     "id": "Hozier::Work Song",
