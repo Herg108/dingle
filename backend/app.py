@@ -61,7 +61,7 @@ def round_guess():
     return jsonify(result)
 
 
-@app.post("/api/songs/<song_id>/remove")
+@app.post("/api/songs/<path:song_id>/remove")
 def remove_song(song_id):
     try:
         curation.remove_song(song_id)
@@ -72,7 +72,7 @@ def remove_song(song_id):
     return jsonify({"ok": True, **curation.review_counts()})
 
 
-@app.post("/api/songs/<song_id>/retry-video")
+@app.post("/api/songs/<path:song_id>/retry-video")
 def retry_song_video(song_id):
     try:
         entry = curation.retry_video(song_id)
@@ -109,7 +109,7 @@ def review_queue():
     })
 
 
-@app.post("/api/songs/<song_id>/approve")
+@app.post("/api/songs/<path:song_id>/approve")
 def approve_song(song_id):
     payload = request.get_json(silent=True) or {}
     try:
@@ -119,7 +119,7 @@ def approve_song(song_id):
     return jsonify({"approved": entry["approved"], **curation.review_counts()})
 
 
-@app.post("/api/songs/<song_id>/start-offset")
+@app.post("/api/songs/<path:song_id>/start-offset")
 def set_song_start_offset(song_id):
     payload = request.get_json(force=True)
     try:

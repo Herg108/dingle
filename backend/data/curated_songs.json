@@ -1659,9 +1659,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/5aad85c12f4c5370d3bbb2e3549d07d9/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Taylor Swift::Blank Space": {
     "id": "Taylor Swift::Blank Space",
@@ -1672,9 +1672,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/5aad85c12f4c5370d3bbb2e3549d07d9/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.3,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Katy Perry::Roar": {
     "id": "Katy Perry::Roar",
@@ -1763,9 +1763,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/fd00ebd6d30d7253f813dba3bb1c66a9/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.7,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "Sia::Chandelier": {
     "id": "Sia::Chandelier",
@@ -1789,9 +1789,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a1b2457fcd12bb9ed5488e4bbd01ec25/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.4,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Rihanna::Work": {
     "id": "Rihanna::Work",
@@ -1802,9 +1802,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/4fc5f387624c25de0ec96b4719e3a36d/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Rihanna::Needed Me": {
     "id": "Rihanna::Needed Me",
@@ -1828,9 +1828,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/231c66c0ed260c708163eff3bb8458da/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Lorde::Royals": {
     "id": "Lorde::Royals",
@@ -1945,9 +1945,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/45e4493fcc15997085491debddcf049e/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.4,
     "genre": "K-Pop",
-    "approved": false
+    "approved": true
   },
   "Robin Thicke::Blurred Lines": {
     "id": "Robin Thicke::Blurred Lines",
@@ -1958,9 +1958,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/3479d5d0a070eae22f7b67ddb715f49e/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 5.5,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "Drake::Hotline Bling": {
     "id": "Drake::Hotline Bling",
@@ -2010,9 +2010,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/1aa3dfe91b3e5d3bc71eca6b6e9c8d39/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Post Malone::rockstar": {
     "id": "Post Malone::rockstar",
@@ -2153,9 +2153,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/46fab8006e0da286831fe157ccc4f31c/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Charlie Puth::Attention": {
     "id": "Charlie Puth::Attention",
@@ -2205,9 +2205,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/0a7b86a0e2f2bd3e41515adb83e3322b/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.6,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "Zedd::The Middle": {
     "id": "Zedd::The Middle",
@@ -2218,9 +2218,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/332ddd083bf04f856dcd8775fa3a3dd1/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 3.1,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "Marshmello::Happier": {
     "id": "Marshmello::Happier",
@@ -2402,7 +2402,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Hip-Hop",
-    "approved": false
+    "approved": true
   },
   "Olivia Rodrigo::Drivers License": {
     "id": "Olivia Rodrigo::Drivers License",
@@ -3440,9 +3440,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/cce4e99be496acc9dc2e4365c5b288fc/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Taylor Swift::22": {
     "id": "Taylor Swift::22",
@@ -3453,9 +3453,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a98df7a584f8a3f50d4bb312bdbc44ff/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Taylor Swift::Bad Blood": {
     "id": "Taylor Swift::Bad Blood",
@@ -3466,9 +3466,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/de7addba2b3b6effb8ea517fe5edff02/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.6,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Taylor Swift::Look What You Made Me Do": {
     "id": "Taylor Swift::Look What You Made Me Do",
@@ -3479,9 +3479,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/e6f3afd8a5c3d8ea797f458694166e47/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Taylor Swift::Delicate": {
     "id": "Taylor Swift::Delicate",
@@ -3492,9 +3492,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/e6f3afd8a5c3d8ea797f458694166e47/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 3.6,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Taylor Swift::Style": {
     "id": "Taylor Swift::Style",
@@ -3518,9 +3518,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/5aad85c12f4c5370d3bbb2e3549d07d9/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.3,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Taylor Swift::I Knew You Were Trouble": {
     "id": "Taylor Swift::I Knew You Were Trouble",
@@ -3531,9 +3531,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a98df7a584f8a3f50d4bb312bdbc44ff/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Ariana Grande::No Tears Left To Cry": {
     "id": "Ariana Grande::No Tears Left To Cry",
@@ -3687,9 +3687,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a2ecffe63ad4434d6158ab1cee72ccf3/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Selena Gomez::Wolves": {
     "id": "Selena Gomez::Wolves",
@@ -3949,7 +3949,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Flo Rida::Whistle": {
     "id": "Flo Rida::Whistle",
@@ -4038,9 +4038,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/8dd70cbed260cb5a4feabdcd6726756d/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.8,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Sia::Titanium": {
     "id": "Sia::Titanium",
@@ -4051,9 +4051,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/52330286cb5008805253fd77c7111d3f/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Sam Smith::I'm Not the Only One": {
     "id": "Sam Smith::I'm Not the Only One",
@@ -4066,7 +4066,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Sam Smith::Too Good at Goodbyes": {
     "id": "Sam Smith::Too Good at Goodbyes",
@@ -4194,9 +4194,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/6b8a51cd4d5e2a277c8a1c4f88d59489/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 2.1,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "Marshmello::Alone": {
     "id": "Marshmello::Alone",
@@ -4378,7 +4378,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "The Chainsmokers::Something Just Like This": {
     "id": "The Chainsmokers::Something Just Like This",
@@ -4389,9 +4389,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/2ae6c01a51296a7ec6d89c96a4fac32c/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "The Chainsmokers::Paris": {
     "id": "The Chainsmokers::Paris",
@@ -4508,7 +4508,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Hip-Hop",
-    "approved": false
+    "approved": true
   },
   "Travis Scott::Antidote": {
     "id": "Travis Scott::Antidote",
@@ -4521,7 +4521,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Hip-Hop",
-    "approved": false
+    "approved": true
   },
   "Future::Mask Off": {
     "id": "Future::Mask Off",
@@ -4701,9 +4701,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/134778e4c4f19ea71c82408300925a9a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 1.5,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "The Weeknd::The Hills": {
     "id": "The Weeknd::The Hills",
@@ -4714,9 +4714,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/eea9f7fc913300e40307a0ff70dc73cf/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "The Weeknd::Earned It": {
     "id": "The Weeknd::Earned It",
@@ -4727,9 +4727,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/7c5999407b612875c906d7ded6358664/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "Frank Ocean::Thinking Bout You": {
     "id": "Frank Ocean::Thinking Bout You",
@@ -4896,9 +4896,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/dbbde1014cda9b101412a8e27add0ad2/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Twenty One Pilots::Ride": {
     "id": "Twenty One Pilots::Ride",
@@ -4909,9 +4909,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/dbbde1014cda9b101412a8e27add0ad2/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Twenty One Pilots::Heathens": {
     "id": "Twenty One Pilots::Heathens",
@@ -5234,9 +5234,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/5f7bd91e2d91ce2d308ee754d6821ff7/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "fun.::Some Nights": {
     "id": "fun.::Some Nights",
@@ -5455,9 +5455,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/1474e2802a6983f4e0fc74ebe104b2c2/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Meghan Trainor::Lips Are Movin": {
     "id": "Meghan Trainor::Lips Are Movin",
@@ -5483,7 +5483,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "OMI::Cheerleader": {
     "id": "OMI::Cheerleader",
@@ -5587,7 +5587,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Lauv::I Like Me Better": {
     "id": "Lauv::I Like Me Better",
@@ -5691,7 +5691,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Milky Chance::Stolen Dance": {
     "id": "Milky Chance::Stolen Dance",
@@ -7836,7 +7836,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Cigarettes After Sex::Apocalypse": {
     "id": "Cigarettes After Sex::Apocalypse",
@@ -7886,9 +7886,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/de5b9b704cd4ec36f8bf49beb3e17ba2/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.7,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Fitz and The Tantrums::Out of My League": {
     "id": "Fitz and The Tantrums::Out of My League",
@@ -8029,9 +8029,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/13869a0eae29bc107b9bf5f545c14095/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.6,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "The Weeknd::I Feel It Coming": {
     "id": "The Weeknd::I Feel It Coming",
@@ -8057,7 +8057,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Kodak Black::ZEZE": {
     "id": "Kodak Black::ZEZE",
@@ -8081,9 +8081,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/315804a0b7db8ec7dbe0f68413eb2cb5/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "Lil Nas X::Panini": {
     "id": "Lil Nas X::Panini",
@@ -8198,9 +8198,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/c088c1cf616f8fb50439cb3eab11f795/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Christina Perri::a thousand years": {
     "id": "Christina Perri::a thousand years",
@@ -8276,9 +8276,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/2aebdbe7a58f37e6085f6419886e59b6/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Owl City::Good Time": {
     "id": "Owl City::Good Time",
@@ -8302,9 +8302,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/12caf219559ac479b9f7ead9de3d43e5/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "CeeLo Green::Forget You": {
     "id": "CeeLo Green::Forget You",
@@ -8432,9 +8432,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a6e59fada64940a751de6eaa01229e8b/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "Duck Sauce::Barbra Streisand": {
     "id": "Duck Sauce::Barbra Streisand",
@@ -10410,7 +10410,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "Ariana Grande::Love Me Harder": {
     "id": "Ariana Grande::Love Me Harder",
@@ -10434,9 +10434,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/eea9f7fc913300e40307a0ff70dc73cf/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "Playboi Carti::Magnolia": {
     "id": "Playboi Carti::Magnolia",
@@ -10449,7 +10449,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Hip-Hop",
-    "approved": false
+    "approved": true
   },
   "Ariana Grande::Santa Tell Me": {
     "id": "Ariana Grande::Santa Tell Me",
@@ -10670,7 +10670,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Khalid::Love Lies": {
     "id": "Khalid::Love Lies",
@@ -10761,7 +10761,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Taylor Swift::ME!": {
     "id": "Taylor Swift::ME!",
@@ -10772,9 +10772,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/6111c5ab9729c8eac47883e4e50e9cf8/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Taylor Swift::Lover": {
     "id": "Taylor Swift::Lover",
@@ -10785,9 +10785,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/6111c5ab9729c8eac47883e4e50e9cf8/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Taylor Swift::Don't Blame Me": {
     "id": "Taylor Swift::Don't Blame Me",
@@ -10824,9 +10824,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/6111c5ab9729c8eac47883e4e50e9cf8/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.7,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Taylor Swift::We Are Never Ever Getting Back Together": {
     "id": "Taylor Swift::We Are Never Ever Getting Back Together",
@@ -10837,9 +10837,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a98df7a584f8a3f50d4bb312bdbc44ff/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "SHAED::Trampoline": {
     "id": "SHAED::Trampoline",
@@ -10850,9 +10850,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/cf79d9db203db5d2c53a3bb8349efef5/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Post Malone::Congratulations": {
     "id": "Post Malone::Congratulations",
@@ -10863,9 +10863,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/efd66ec02dc81074e5b3e7825db4c380/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Post Malone::Better Now": {
     "id": "Post Malone::Better Now",
@@ -10878,7 +10878,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Post Malone::Wow.": {
     "id": "Post Malone::Wow.",
@@ -10889,9 +10889,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/a604e16926e62e4158a2a60e779892d1/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Post Malone::Psycho": {
     "id": "Post Malone::Psycho",
@@ -10902,9 +10902,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/c000a4d39f31f3716bf3f11aa5fab080/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 12.1,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Post Malone::I Fall Apart": {
     "id": "Post Malone::I Fall Apart",
@@ -10917,7 +10917,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Post Malone::Goodbyes": {
     "id": "Post Malone::Goodbyes",
@@ -10943,7 +10943,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Hip-Hop",
-    "approved": false
+    "approved": true
   },
   "Wiz Khalifa::Black and Yellow": {
     "id": "Wiz Khalifa::Black and Yellow",
@@ -10956,7 +10956,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Hip-Hop",
-    "approved": false
+    "approved": true
   },
   "Charlie Puth::One Call Away": {
     "id": "Charlie Puth::One Call Away",
@@ -11084,9 +11084,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/d4c2f0a30382a7f62ccdde4a2d96d5fe/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "The Chainsmokers::Call You Mine": {
     "id": "The Chainsmokers::Call You Mine",
@@ -11110,9 +11110,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/838c1725d9559e1e89da8968e0850165/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.4,
     "genre": "Dance",
-    "approved": false
+    "approved": true
   },
   "Panic! At The Disco::House of Memories": {
     "id": "Panic! At The Disco::House of Memories",
@@ -11331,9 +11331,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/46fab8006e0da286831fe157ccc4f31c/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "DNCE::Cake By The Ocean": {
     "id": "DNCE::Cake By The Ocean",
@@ -11396,9 +11396,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/3a12c64bb52a167944783878ffe41f02/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Eminem::Love The Way You Lie": {
     "id": "Eminem::Love The Way You Lie",
@@ -11500,9 +11500,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/093915a9a544193d2bcaa78287cee34d/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Maroon 5::Maps": {
     "id": "Maroon 5::Maps",
@@ -11565,9 +11565,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/5a86a131864e4bfdda6c45c31fdbee3d/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Sia::Snowman": {
     "id": "Sia::Snowman",
@@ -11578,9 +11578,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/41213c7f0cc443663830556afdfda846/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.5,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "One Direction::Night Changes": {
     "id": "One Direction::Night Changes",
@@ -11682,9 +11682,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/049dca48d45587b1bc5d2c47d7b875e8/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "The Script::Superheroes": {
     "id": "The Script::Superheroes",
@@ -11695,9 +11695,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/6d24da0bc4efe717ada303b38b4f2d93/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Macklemore::Can't Hold Us": {
     "id": "Macklemore::Can't Hold Us",
@@ -11773,9 +11773,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/b5df072f3a995bb40c2f78f6c3e0fac7/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "Alicia Keys::Girl on Fire": {
     "id": "Alicia Keys::Girl on Fire",
@@ -11892,7 +11892,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Owl City::When Can I See You Again?": {
     "id": "Owl City::When Can I See You Again?",
@@ -11918,7 +11918,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "James Arthur::Say You Won't Let Go": {
     "id": "James Arthur::Say You Won't Let Go",
@@ -12020,9 +12020,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/134778e4c4f19ea71c82408300925a9a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "Marshmello::Silence": {
     "id": "Marshmello::Silence",
@@ -12059,9 +12059,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/edddc40c91d06941f2f6e618a4ebdf8f/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.4,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "XXXTENTACION::SAD!": {
     "id": "XXXTENTACION::SAD!",
@@ -12098,9 +12098,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/eea9f7fc913300e40307a0ff70dc73cf/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 4.2,
     "genre": "R&B",
-    "approved": false
+    "approved": true
   },
   "Juice WRLD::All Girls Are The Same": {
     "id": "Juice WRLD::All Girls Are The Same",
@@ -12165,7 +12165,7 @@
     "removed": false,
     "start_offset": 0.0,
     "genre": "Hip-Hop",
-    "approved": false
+    "approved": true
   },
   "Big Sean::I Don't Fuck With You": {
     "id": "Big Sean::I Don't Fuck With You",
@@ -12410,9 +12410,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/25559212a0f00dabf99735fb002c2c3e/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.1,
     "genre": "Rock",
-    "approved": false
+    "approved": true
   },
   "Colbie Caillat::Brighter Than The Sun": {
     "id": "Colbie Caillat::Brighter Than The Sun",
@@ -14386,9 +14386,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/7fc54eedf6752146ea59e7570b48ad3e/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.2,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "The Neighbourhood::Daddy Issues": {
     "id": "The Neighbourhood::Daddy Issues",
@@ -14399,9 +14399,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/20c662d4e0f3a15d5cd8ebecb69c8181/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.3,
     "genre": "Indie",
-    "approved": false
+    "approved": true
   },
   "Wolf Alice::Don't Delete the Kisses": {
     "id": "Wolf Alice::Don't Delete the Kisses",
@@ -14620,9 +14620,9 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/e5f3faf34a31ae0a4552e7f86c819170/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
+    "start_offset": 0.6,
     "genre": "Pop",
-    "approved": false
+    "approved": true
   },
   "Luke Combs::Fast Car": {
     "id": "Luke Combs::Fast Car",
@@ -14648,7 +14648,7 @@
     "resolved": true,
     "removed": false,
     "start_offset": 0.0,
-    "approved": false
+    "approved": true
   },
   "Travis Scott::sdp interlude": {
     "id": "Travis Scott::sdp interlude",
@@ -14661,7 +14661,7 @@
     "resolved": true,
     "removed": false,
     "start_offset": 0.0,
-    "approved": false
+    "approved": true
   },
   "Travis Scott::Don't Play": {
     "id": "Travis Scott::Don't Play",
@@ -14673,8 +14673,8 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/b8be81921aa5990f1cd3b7499d4d6501/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
-    "approved": false
+    "start_offset": 0.8,
+    "approved": true
   },
   "Travis Scott::5% TINT": {
     "id": "Travis Scott::5% TINT",
@@ -14687,7 +14687,7 @@
     "resolved": true,
     "removed": false,
     "start_offset": 0.0,
-    "approved": false
+    "approved": true
   },
   "Travis Scott::90210": {
     "id": "Travis Scott::90210",
@@ -14700,7 +14700,7 @@
     "resolved": true,
     "removed": false,
     "start_offset": 0.0,
-    "approved": false
+    "approved": true
   },
   "Travis Scott::SKELETONS": {
     "id": "Travis Scott::SKELETONS",
@@ -14713,7 +14713,7 @@
     "resolved": true,
     "removed": false,
     "start_offset": 0.0,
-    "approved": false
+    "approved": true
   },
   "Travis Scott::Nightcrawler": {
     "id": "Travis Scott::Nightcrawler",
@@ -14726,7 +14726,7 @@
     "resolved": true,
     "removed": false,
     "start_offset": 0.0,
-    "approved": false
+    "approved": true
   },
   "Travis Scott::Quintana Pt. 2": {
     "id": "Travis Scott::Quintana Pt. 2",
@@ -14738,8 +14738,8 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/b8be81921aa5990f1cd3b7499d4d6501/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
-    "approved": false
+    "start_offset": 0.6,
+    "approved": true
   },
   "Travis Scott::STARGAZING": {
     "id": "Travis Scott::STARGAZING",
@@ -14751,8 +14751,8 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/75bfbbb2e58d5bc3d701416a3744aa7f/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
-    "approved": false
+    "start_offset": 0.8,
+    "approved": true
   },
   "Sheck Wes::ILMB": {
     "id": "Sheck Wes::ILMB",
@@ -14764,8 +14764,8 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/2a622e01fb9b1c4717c63ae3caca9826/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
-    "approved": false
+    "start_offset": 0.7,
+    "approved": true
   },
   "The Weeknd::I Was Never There": {
     "id": "The Weeknd::I Was Never There",
@@ -14778,7 +14778,7 @@
     "resolved": true,
     "removed": false,
     "start_offset": 0.0,
-    "approved": false
+    "approved": true
   },
   "The Weeknd::Secrets": {
     "id": "The Weeknd::Secrets",
@@ -14790,8 +14790,8 @@
     "cover": "https://cdn-images.dzcdn.net/images/cover/134778e4c4f19ea71c82408300925a9a/250x250-000000-80-0-0.jpg",
     "resolved": true,
     "removed": false,
-    "start_offset": 0.0,
-    "approved": false
+    "start_offset": 0.1,
+    "approved": true
   },
   "Kanye West::Heartless": {
     "id": "Kanye West::Heartless",
@@ -14830,7 +14830,7 @@
     "resolved": true,
     "removed": false,
     "start_offset": 0.0,
-    "approved": false
+    "approved": true
   },
   "Don Toliver::FWU": {
     "id": "Don Toliver::FWU",
